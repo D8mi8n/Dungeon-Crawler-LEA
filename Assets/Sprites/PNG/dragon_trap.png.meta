@@ -1,0 +1,1781 @@
+fileFormatVersion: 2
+guid: 40e55ee90c07cd54fac13554d41daa6e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5193463601210512922
+    second: dragon_trap_0
+  - first:
+      213: 2561692192110249278
+    second: dragon_trap_1
+  - first:
+      213: -170792565277413966
+    second: dragon_trap_2
+  - first:
+      213: 4259634445889352822
+    second: dragon_trap_3
+  - first:
+      213: -6058149246404016490
+    second: dragon_trap_4
+  - first:
+      213: 6050179051550498547
+    second: dragon_trap_5
+  - first:
+      213: -2601637427145032396
+    second: dragon_trap_6
+  - first:
+      213: -3565005020053100424
+    second: dragon_trap_7
+  - first:
+      213: -4935633858459123159
+    second: dragon_trap_8
+  - first:
+      213: 9074083440750145523
+    second: dragon_trap_9
+  - first:
+      213: -8583352616314880732
+    second: dragon_trap_10
+  - first:
+      213: -5172435338639498786
+    second: dragon_trap_11
+  - first:
+      213: 9090217018357409734
+    second: dragon_trap_12
+  - first:
+      213: 7776771556242464165
+    second: dragon_trap_13
+  - first:
+      213: -7634120990277339777
+    second: dragon_trap_14
+  - first:
+      213: -2332405671239175195
+    second: dragon_trap_15
+  - first:
+      213: 4553536009149651812
+    second: dragon_trap_16
+  - first:
+      213: 8074699618925694506
+    second: dragon_trap_17
+  - first:
+      213: 2459237423799085149
+    second: dragon_trap_18
+  - first:
+      213: -1915862918101400606
+    second: dragon_trap_19
+  - first:
+      213: 1148502441186159244
+    second: dragon_trap_20
+  - first:
+      213: -8567127308147930024
+    second: dragon_trap_21
+  - first:
+      213: 8324270946913760959
+    second: dragon_trap_22
+  - first:
+      213: -7162941497833612125
+    second: dragon_trap_23
+  - first:
+      213: 6350947689979422370
+    second: dragon_trap_24
+  - first:
+      213: -4027126771931474483
+    second: dragon_trap_25
+  - first:
+      213: 2253798424599972887
+    second: dragon_trap_26
+  - first:
+      213: 2812175129843965733
+    second: dragon_trap_27
+  - first:
+      213: 5135139027772444671
+    second: dragon_trap_28
+  - first:
+      213: 5498102356687806994
+    second: dragon_trap_29
+  - first:
+      213: -7329864475827176111
+    second: dragon_trap_30
+  - first:
+      213: -4559386096687330708
+    second: dragon_trap_31
+  - first:
+      213: 9093814561479350774
+    second: dragon_trap_32
+  - first:
+      213: 8735477616534960233
+    second: dragon_trap_33
+  - first:
+      213: -6726775590144856796
+    second: dragon_trap_34
+  - first:
+      213: -8880987946136918297
+    second: dragon_trap_35
+  - first:
+      213: 5184221280676602259
+    second: dragon_trap_36
+  - first:
+      213: -5327616213374280120
+    second: dragon_trap_37
+  - first:
+      213: 1229154716941816036
+    second: dragon_trap_38
+  - first:
+      213: -2893559069845268441
+    second: dragon_trap_39
+  - first:
+      213: 6495451416673301004
+    second: dragon_trap_40
+  - first:
+      213: -8459624624765414843
+    second: dragon_trap_41
+  - first:
+      213: 1453393720832556858
+    second: dragon_trap_42
+  - first:
+      213: -8163499916503212545
+    second: dragon_trap_43
+  - first:
+      213: 5996863331497768483
+    second: dragon_trap_44
+  - first:
+      213: 5168116413957138135
+    second: dragon_trap_45
+  - first:
+      213: 6112013370292074535
+    second: dragon_trap_46
+  - first:
+      213: -1177177408057639157
+    second: dragon_trap_47
+  - first:
+      213: 4213467057561978153
+    second: dragon_trap_48
+  - first:
+      213: -5521323459185208335
+    second: dragon_trap_49
+  - first:
+      213: -4607757397497161480
+    second: dragon_trap_50
+  - first:
+      213: 5814364255881787498
+    second: dragon_trap_51
+  - first:
+      213: 6806321082123315695
+    second: dragon_trap_52
+  - first:
+      213: -1502813148462867744
+    second: dragon_trap_53
+  - first:
+      213: 2980887537740016472
+    second: dragon_trap_54
+  - first:
+      213: 3428089114207741809
+    second: dragon_trap_55
+  - first:
+      213: 836615878614987816
+    second: dragon_trap_56
+  - first:
+      213: -7927442402423060573
+    second: dragon_trap_57
+  - first:
+      213: 4860862532109052233
+    second: dragon_trap_58
+  - first:
+      213: -5620732056805570482
+    second: dragon_trap_59
+  - first:
+      213: 5381515751338867003
+    second: dragon_trap_60
+  - first:
+      213: -1416159848655124082
+    second: dragon_trap_61
+  - first:
+      213: 828791986059700754
+    second: dragon_trap_62
+  - first:
+      213: 7178005544397347304
+    second: dragon_trap_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dragon_trap_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 470
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16d21011a3e21840800000000000000
+      internalID: 5193463601210512922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 470
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e358f9ee975fc8320800000000000000
+      internalID: 2561692192110249278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 463
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdac58111931adf0800000000000000
+      internalID: -170792565277413966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 450
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674b044c5f24d1b30800000000000000
+      internalID: 4259634445889352822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 445
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696c9cb9b512deba0800000000000000
+      internalID: -6058149246404016490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 437
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe5d2bcacd86f350800000000000000
+      internalID: 6050179051550498547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 428
+        width: 30
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43db8a84b8025ebd0800000000000000
+      internalID: -2601637427145032396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 421
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878204d82de868ec0800000000000000
+      internalID: -3565005020053100424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 470
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9224725e72b118bb0800000000000000
+      internalID: -4935633858459123159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 470
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffaa2410de9ded70800000000000000
+      internalID: 9074083440750145523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_10
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 455
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42db1a2a54ec1e880800000000000000
+      internalID: -8583352616314880732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_11
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 443
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed127b8d671d738b0800000000000000
+      internalID: -5172435338639498786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_12
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 419
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c767665730f62e70800000000000000
+      internalID: 9090217018357409734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 436
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad913df684aceb60800000000000000
+      internalID: 7776771556242464165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_14
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 431
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f757a2a18672e0690800000000000000
+      internalID: -7634120990277339777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_15
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 419
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3bead4661a1afd0800000000000000
+      internalID: -2332405671239175195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 379
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b9059efd8613f30800000000000000
+      internalID: 4553536009149651812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 379
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e4c0695881f0070800000000000000
+      internalID: 8074699618925694506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_18
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 372
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5824e74867f02220800000000000000
+      internalID: 2459237423799085149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_19
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 359
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e30930a3dc7965e0800000000000000
+      internalID: -1915862918101400606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_20
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 354
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ae19e92ec40ff00800000000000000
+      internalID: 1148502441186159244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_21
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 346
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c4b449a137b1980800000000000000
+      internalID: -8567127308147930024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_22
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 337
+        width: 30
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb636e48250c58370800000000000000
+      internalID: 8324270946913760959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_23
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 330
+        width: 27
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac19ba98ae189c90800000000000000
+      internalID: -7162941497833612125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_24
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 379
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6af487649132850800000000000000
+      internalID: 6350947689979422370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_25
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 379
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc51f8d9985cc18c0800000000000000
+      internalID: -4027126771931474483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_26
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 364
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ccd9dd9b9174f10800000000000000
+      internalID: 2253798424599972887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_27
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 352
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f998c816ad60720800000000000000
+      internalID: 2812175129843965733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_28
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 328
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff0f961dbda34740800000000000000
+      internalID: 5135139027772444671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_29
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 345
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2126d1596fe2d4c40800000000000000
+      internalID: 5498102356687806994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_30
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 340
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15df0923817174a90800000000000000
+      internalID: -7329864475827176111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_31
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 328
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ac811708ec9b0c0800000000000000
+      internalID: -4559386096687330708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_32
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 295
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9504e9928b33e70800000000000000
+      internalID: 9093814561479350774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_33
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 295
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96831f41c96aa3970800000000000000
+      internalID: 8735477616534960233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_34
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 295
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42da5a1ad31b5a2a0800000000000000
+      internalID: -6726775590144856796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_35
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 259
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6abf7348460c480800000000000000
+      internalID: -8880987946136918297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_36
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 256
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391efbf99cd02f740800000000000000
+      internalID: 5184221280676602259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_37
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 256
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ed636e7418016b0800000000000000
+      internalID: -5327616213374280120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_38
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 223
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e01055e3b5de0110800000000000000
+      internalID: 1229154716941816036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_39
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 223
+        width: 65
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72853415b5308d7d0800000000000000
+      internalID: -2893559069845268441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_40
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 231
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02be9a26aa742a50800000000000000
+      internalID: 6495451416673301004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_41
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 231
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542d5bb8930699a80800000000000000
+      internalID: -8459624624765414843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_42
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 238
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ff10183ed7b2410800000000000000
+      internalID: 1453393720832556858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_43
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 224
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd15e8f31c65be80800000000000000
+      internalID: -8163499916503212545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_44
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 199
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3267d706d63293350800000000000000
+      internalID: 5996863331497768483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_45
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 195
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6e7c32f76d8b740800000000000000
+      internalID: 5168116413957138135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_46
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 201
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72872b607cb32d450800000000000000
+      internalID: 6112013370292074535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_47
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 201
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ffb136263d9afe0800000000000000
+      internalID: -1177177408057639157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_48
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 156
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925cac607fd397a30800000000000000
+      internalID: 4213467057561978153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_49
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 156
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f31c3d21915063b0800000000000000
+      internalID: -5521323459185208335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_50
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 156
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8d0075f05fd00c0800000000000000
+      internalID: -4607757397497161480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_51
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 104
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68ff822c75c0b050800000000000000
+      internalID: 5814364255881787498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_52
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 101
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9663776f8e47e50800000000000000
+      internalID: 6806321082123315695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_53
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 101
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea951a576fe42be0800000000000000
+      internalID: -1502813148462867744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_54
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 52
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85be1621c6d3e5920800000000000000
+      internalID: 2980887537740016472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_55
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 52
+        width: 65
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1776cb6f2e4039f20800000000000000
+      internalID: 3428089114207741809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_56
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 60
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8243c4285b14c9b00800000000000000
+      internalID: 836615878614987816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_57
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 60
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7443ae2211cf190800000000000000
+      internalID: -7927442402423060573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_58
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 67
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949ad5018b0457340800000000000000
+      internalID: 4860862532109052233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_59
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 53
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48047869f52ff1b0800000000000000
+      internalID: -5620732056805570482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_60
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 12
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39f8b7301cfeaa40800000000000000
+      internalID: 5381515751338867003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 8
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e898dbbee1ac85ce0800000000000000
+      internalID: -1416159848655124082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_62
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 14
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a67c19be5708b00800000000000000
+      internalID: 828791986059700754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_63
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 14
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9969d03066d9360800000000000000
+      internalID: 7178005544397347304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dragon_trap_0: 5193463601210512922
+      dragon_trap_1: 2561692192110249278
+      dragon_trap_10: -8583352616314880732
+      dragon_trap_11: -5172435338639498786
+      dragon_trap_12: 9090217018357409734
+      dragon_trap_13: 7776771556242464165
+      dragon_trap_14: -7634120990277339777
+      dragon_trap_15: -2332405671239175195
+      dragon_trap_16: 4553536009149651812
+      dragon_trap_17: 8074699618925694506
+      dragon_trap_18: 2459237423799085149
+      dragon_trap_19: -1915862918101400606
+      dragon_trap_2: -170792565277413966
+      dragon_trap_20: 1148502441186159244
+      dragon_trap_21: -8567127308147930024
+      dragon_trap_22: 8324270946913760959
+      dragon_trap_23: -7162941497833612125
+      dragon_trap_24: 6350947689979422370
+      dragon_trap_25: -4027126771931474483
+      dragon_trap_26: 2253798424599972887
+      dragon_trap_27: 2812175129843965733
+      dragon_trap_28: 5135139027772444671
+      dragon_trap_29: 5498102356687806994
+      dragon_trap_3: 4259634445889352822
+      dragon_trap_30: -7329864475827176111
+      dragon_trap_31: -4559386096687330708
+      dragon_trap_32: 9093814561479350774
+      dragon_trap_33: 8735477616534960233
+      dragon_trap_34: -6726775590144856796
+      dragon_trap_35: -8880987946136918297
+      dragon_trap_36: 5184221280676602259
+      dragon_trap_37: -5327616213374280120
+      dragon_trap_38: 1229154716941816036
+      dragon_trap_39: -2893559069845268441
+      dragon_trap_4: -6058149246404016490
+      dragon_trap_40: 6495451416673301004
+      dragon_trap_41: -8459624624765414843
+      dragon_trap_42: 1453393720832556858
+      dragon_trap_43: -8163499916503212545
+      dragon_trap_44: 5996863331497768483
+      dragon_trap_45: 5168116413957138135
+      dragon_trap_46: 6112013370292074535
+      dragon_trap_47: -1177177408057639157
+      dragon_trap_48: 4213467057561978153
+      dragon_trap_49: -5521323459185208335
+      dragon_trap_5: 6050179051550498547
+      dragon_trap_50: -4607757397497161480
+      dragon_trap_51: 5814364255881787498
+      dragon_trap_52: 6806321082123315695
+      dragon_trap_53: -1502813148462867744
+      dragon_trap_54: 2980887537740016472
+      dragon_trap_55: 3428089114207741809
+      dragon_trap_56: 836615878614987816
+      dragon_trap_57: -7927442402423060573
+      dragon_trap_58: 4860862532109052233
+      dragon_trap_59: -5620732056805570482
+      dragon_trap_6: -2601637427145032396
+      dragon_trap_60: 5381515751338867003
+      dragon_trap_61: -1416159848655124082
+      dragon_trap_62: 828791986059700754
+      dragon_trap_63: 7178005544397347304
+      dragon_trap_7: -3565005020053100424
+      dragon_trap_8: -4935633858459123159
+      dragon_trap_9: 9074083440750145523
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
