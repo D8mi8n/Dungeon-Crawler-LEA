@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 01ce5abded67c5b4ab4fd90d3c020fda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4405880170768818263
+    second: Skeleton2_Hurt_head_0
+  - first:
+      213: -7910912363013599494
+    second: Skeleton2_Hurt_head_1
+  - first:
+      213: -5138463827899049225
+    second: Skeleton2_Hurt_head_2
+  - first:
+      213: 657247818519940644
+    second: Skeleton2_Hurt_head_3
+  - first:
+      213: 708948838856525419
+    second: Skeleton2_Hurt_head_4
+  - first:
+      213: 6440605678222586366
+    second: Skeleton2_Hurt_head_5
+  - first:
+      213: 2917251400066634999
+    second: Skeleton2_Hurt_head_6
+  - first:
+      213: -2777962678738559778
+    second: Skeleton2_Hurt_head_7
+  - first:
+      213: 1154760053361352298
+    second: Skeleton2_Hurt_head_8
+  - first:
+      213: 4466846334973344965
+    second: Skeleton2_Hurt_head_9
+  - first:
+      213: 3072542233854776253
+    second: Skeleton2_Hurt_head_10
+  - first:
+      213: -637493636059061173
+    second: Skeleton2_Hurt_head_11
+  - first:
+      213: 2864159892279402208
+    second: Skeleton2_Hurt_head_12
+  - first:
+      213: 4434587613375628589
+    second: Skeleton2_Hurt_head_13
+  - first:
+      213: 5177422633727224284
+    second: Skeleton2_Hurt_head_14
+  - first:
+      213: 4885782245467358455
+    second: Skeleton2_Hurt_head_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 224
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af136af35b2bd2c0800000000000000
+      internalID: -4405880170768818263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 223
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe0451ae1bc63290800000000000000
+      internalID: -7910912363013599494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 222
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa12ee8f5280b8b0800000000000000
+      internalID: -5138463827899049225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 223
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e0840a8630f1900800000000000000
+      internalID: 657247818519940644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 160
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6608f77631b6d900800000000000000
+      internalID: 708948838856525419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 159
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef132d49db0a16950800000000000000
+      internalID: 6440605678222586366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_6
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 158
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f49b7d21b82c7820800000000000000
+      internalID: 2917251400066634999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_7
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 159
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcde7679a1b279d0800000000000000
+      internalID: -2777962678738559778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 96
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e1a6d7628860010800000000000000
+      internalID: 1154760053361352298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 95
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc7756431d6dfd30800000000000000
+      internalID: 4466846334973344965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_10
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 94
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db39c46f1ecd3aa20800000000000000
+      internalID: 3072542233854776253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_11
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 95
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44a0246aea2727f0800000000000000
+      internalID: -637493636059061173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee1c3f3f3a8fb720800000000000000
+      internalID: 2864159892279402208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 31
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d250a9c50f1da8d30800000000000000
+      internalID: 4434587613375628589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_14
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 30
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9e0674476e9d740800000000000000
+      internalID: 5177422633727224284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Hurt_head_15
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 31
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f40ef6f019cdc340800000000000000
+      internalID: 4885782245467358455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton2_Hurt_head_0: -4405880170768818263
+      Skeleton2_Hurt_head_1: -7910912363013599494
+      Skeleton2_Hurt_head_10: 3072542233854776253
+      Skeleton2_Hurt_head_11: -637493636059061173
+      Skeleton2_Hurt_head_12: 2864159892279402208
+      Skeleton2_Hurt_head_13: 4434587613375628589
+      Skeleton2_Hurt_head_14: 5177422633727224284
+      Skeleton2_Hurt_head_15: 4885782245467358455
+      Skeleton2_Hurt_head_2: -5138463827899049225
+      Skeleton2_Hurt_head_3: 657247818519940644
+      Skeleton2_Hurt_head_4: 708948838856525419
+      Skeleton2_Hurt_head_5: 6440605678222586366
+      Skeleton2_Hurt_head_6: 2917251400066634999
+      Skeleton2_Hurt_head_7: -2777962678738559778
+      Skeleton2_Hurt_head_8: 1154760053361352298
+      Skeleton2_Hurt_head_9: 4466846334973344965
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

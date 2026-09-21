@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 0f962910096cdd2429a362bd40cf0ff1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8108210217806769651
+    second: Skeleton3_Run_shadow_0
+  - first:
+      213: -4870356921848212645
+    second: Skeleton3_Run_shadow_1
+  - first:
+      213: 8025134702659525423
+    second: Skeleton3_Run_shadow_2
+  - first:
+      213: 2383280326410818712
+    second: Skeleton3_Run_shadow_3
+  - first:
+      213: -2652863919961157945
+    second: Skeleton3_Run_shadow_4
+  - first:
+      213: 7047989806537670307
+    second: Skeleton3_Run_shadow_5
+  - first:
+      213: -1251600267512146456
+    second: Skeleton3_Run_shadow_6
+  - first:
+      213: -7700916934173508838
+    second: Skeleton3_Run_shadow_7
+  - first:
+      213: 6822077822357635834
+    second: Skeleton3_Run_shadow_8
+  - first:
+      213: 3200807409486966104
+    second: Skeleton3_Run_shadow_9
+  - first:
+      213: -1572961345152237467
+    second: Skeleton3_Run_shadow_10
+  - first:
+      213: 815284180146517193
+    second: Skeleton3_Run_shadow_11
+  - first:
+      213: 124692013538305279
+    second: Skeleton3_Run_shadow_12
+  - first:
+      213: 2702679821146739727
+    second: Skeleton3_Run_shadow_13
+  - first:
+      213: 9203861861071374780
+    second: Skeleton3_Run_shadow_14
+  - first:
+      213: -295719200411864184
+    second: Skeleton3_Run_shadow_15
+  - first:
+      213: 7900378797898388420
+    second: Skeleton3_Run_shadow_16
+  - first:
+      213: -3018381632059896894
+    second: Skeleton3_Run_shadow_17
+  - first:
+      213: 848905907671483773
+    second: Skeleton3_Run_shadow_18
+  - first:
+      213: 5434896935602549505
+    second: Skeleton3_Run_shadow_19
+  - first:
+      213: 7283862357522970874
+    second: Skeleton3_Run_shadow_20
+  - first:
+      213: 2776392938256841009
+    second: Skeleton3_Run_shadow_21
+  - first:
+      213: -5580692328238570898
+    second: Skeleton3_Run_shadow_22
+  - first:
+      213: -4613139564848818596
+    second: Skeleton3_Run_shadow_23
+  - first:
+      213: 7892524012119499064
+    second: Skeleton3_Run_shadow_24
+  - first:
+      213: 5847627541871537943
+    second: Skeleton3_Run_shadow_25
+  - first:
+      213: 4126571329989749470
+    second: Skeleton3_Run_shadow_26
+  - first:
+      213: 1843232559093412562
+    second: Skeleton3_Run_shadow_27
+  - first:
+      213: -4448236365029053392
+    second: Skeleton3_Run_shadow_28
+  - first:
+      213: 5993424286348318306
+    second: Skeleton3_Run_shadow_29
+  - first:
+      213: 9170678566900972232
+    second: Skeleton3_Run_shadow_30
+  - first:
+      213: 5719257113253752241
+    second: Skeleton3_Run_shadow_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d025f6b14c9d97f80800000000000000
+      internalID: -8108210217806769651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b535fdf0f24096cb0800000000000000
+      internalID: -4870356921848212645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b5eaa3e710f5f60800000000000000
+      internalID: 8025134702659525423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894d4e764dc131120800000000000000
+      internalID: 2383280326410818712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cec34df1522f2bd0800000000000000
+      internalID: -2652863919961157945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae704f136d7fc160800000000000000
+      internalID: 7047989806537670307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5972e103c61aee0800000000000000
+      internalID: -1251600267512146456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b3ccd79d8d02590800000000000000
+      internalID: -7700916934173508838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 147
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af282bf62a3ecae50800000000000000
+      internalID: 6822077822357635834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 147
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85da8ec516d8b6c20800000000000000
+      internalID: 3200807409486966104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 147
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560c7c09df7bb2ae0800000000000000
+      internalID: -1572961345152237467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 147
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4f0ac64a8705b00800000000000000
+      internalID: 815284180146517193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 147
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff46745c9befab100800000000000000
+      internalID: 124692013538305279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 147
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0451195af8d18520800000000000000
+      internalID: 2702679821146739727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 147
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9cce6399faabf70800000000000000
+      internalID: 9203861861071374780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 147
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883303a34f465ebf0800000000000000
+      internalID: -295719200411864184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 83
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3d2cf98a8c3ad60800000000000000
+      internalID: 7900378797898388420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 83
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb8180d5ed8c16d0800000000000000
+      internalID: -3018381632059896894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 83
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d754d72ec6be7cb00800000000000000
+      internalID: 848905907671483773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 83
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103f275b7f1ac6b40800000000000000
+      internalID: 5434896935602549505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 83
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8fefcf83a751560800000000000000
+      internalID: 7283862357522970874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 83
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139b3b9daaab78620800000000000000
+      internalID: 2776392938256841009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 83
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62a79e25e56d82b0800000000000000
+      internalID: -5580692328238570898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 83
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56d2e9d106daffb0800000000000000
+      internalID: -4613139564848818596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831af9bc5c0e78d60800000000000000
+      internalID: 7892524012119499064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f2b0c6442f62150800000000000000
+      internalID: 5847627541871537943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edaa958d2c6844930800000000000000
+      internalID: 4126571329989749470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d272332f3a749910800000000000000
+      internalID: 1843232559093412562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ce7710890b442c0800000000000000
+      internalID: -4448236365029053392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2669df742abec2350800000000000000
+      internalID: 5993424286348318306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cabb69719bc44f70800000000000000
+      internalID: 9170678566900972232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdad96ea02ee5f40800000000000000
+      internalID: 5719257113253752241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton3_Run_shadow_0: -8108210217806769651
+      Skeleton3_Run_shadow_1: -4870356921848212645
+      Skeleton3_Run_shadow_10: -1572961345152237467
+      Skeleton3_Run_shadow_11: 815284180146517193
+      Skeleton3_Run_shadow_12: 124692013538305279
+      Skeleton3_Run_shadow_13: 2702679821146739727
+      Skeleton3_Run_shadow_14: 9203861861071374780
+      Skeleton3_Run_shadow_15: -295719200411864184
+      Skeleton3_Run_shadow_16: 7900378797898388420
+      Skeleton3_Run_shadow_17: -3018381632059896894
+      Skeleton3_Run_shadow_18: 848905907671483773
+      Skeleton3_Run_shadow_19: 5434896935602549505
+      Skeleton3_Run_shadow_2: 8025134702659525423
+      Skeleton3_Run_shadow_20: 7283862357522970874
+      Skeleton3_Run_shadow_21: 2776392938256841009
+      Skeleton3_Run_shadow_22: -5580692328238570898
+      Skeleton3_Run_shadow_23: -4613139564848818596
+      Skeleton3_Run_shadow_24: 7892524012119499064
+      Skeleton3_Run_shadow_25: 5847627541871537943
+      Skeleton3_Run_shadow_26: 4126571329989749470
+      Skeleton3_Run_shadow_27: 1843232559093412562
+      Skeleton3_Run_shadow_28: -4448236365029053392
+      Skeleton3_Run_shadow_29: 5993424286348318306
+      Skeleton3_Run_shadow_3: 2383280326410818712
+      Skeleton3_Run_shadow_30: 9170678566900972232
+      Skeleton3_Run_shadow_31: 5719257113253752241
+      Skeleton3_Run_shadow_4: -2652863919961157945
+      Skeleton3_Run_shadow_5: 7047989806537670307
+      Skeleton3_Run_shadow_6: -1251600267512146456
+      Skeleton3_Run_shadow_7: -7700916934173508838
+      Skeleton3_Run_shadow_8: 6822077822357635834
+      Skeleton3_Run_shadow_9: 3200807409486966104
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

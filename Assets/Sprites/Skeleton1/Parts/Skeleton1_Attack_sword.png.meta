@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: dc195a893fb4c5445894b79206601eb3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4056093553751195651
+    second: Skeleton1_Attack_sword_0
+  - first:
+      213: -7123554261332827054
+    second: Skeleton1_Attack_sword_1
+  - first:
+      213: 3799019686564632043
+    second: Skeleton1_Attack_sword_2
+  - first:
+      213: 2457917103814216886
+    second: Skeleton1_Attack_sword_3
+  - first:
+      213: -4479493890389053689
+    second: Skeleton1_Attack_sword_4
+  - first:
+      213: 2612990358875308588
+    second: Skeleton1_Attack_sword_5
+  - first:
+      213: -1030255631304508303
+    second: Skeleton1_Attack_sword_6
+  - first:
+      213: -3124832547088909177
+    second: Skeleton1_Attack_sword_7
+  - first:
+      213: 2769549829543879046
+    second: Skeleton1_Attack_sword_8
+  - first:
+      213: -1778430062198715134
+    second: Skeleton1_Attack_sword_9
+  - first:
+      213: -6944079428993774001
+    second: Skeleton1_Attack_sword_10
+  - first:
+      213: -7936180514644899543
+    second: Skeleton1_Attack_sword_11
+  - first:
+      213: 4200403059317977342
+    second: Skeleton1_Attack_sword_12
+  - first:
+      213: 1609581835321890755
+    second: Skeleton1_Attack_sword_13
+  - first:
+      213: -6332846774441680734
+    second: Skeleton1_Attack_sword_14
+  - first:
+      213: 4853348999674167023
+    second: Skeleton1_Attack_sword_15
+  - first:
+      213: 8801443933543452106
+    second: Skeleton1_Attack_sword_16
+  - first:
+      213: 2733034104914654875
+    second: Skeleton1_Attack_sword_17
+  - first:
+      213: 2258067178575234462
+    second: Skeleton1_Attack_sword_18
+  - first:
+      213: -4340176829939090237
+    second: Skeleton1_Attack_sword_19
+  - first:
+      213: -1404599431374331278
+    second: Skeleton1_Attack_sword_20
+  - first:
+      213: 733643956955344569
+    second: Skeleton1_Attack_sword_21
+  - first:
+      213: 3141821079256189118
+    second: Skeleton1_Attack_sword_22
+  - first:
+      213: 8785895135716608342
+    second: Skeleton1_Attack_sword_23
+  - first:
+      213: 1777890585702386656
+    second: Skeleton1_Attack_sword_24
+  - first:
+      213: 8917191102651184956
+    second: Skeleton1_Attack_sword_25
+  - first:
+      213: 5518502455826160551
+    second: Skeleton1_Attack_sword_26
+  - first:
+      213: 6339056668561754052
+    second: Skeleton1_Attack_sword_27
+  - first:
+      213: 1027112126798343321
+    second: Skeleton1_Attack_sword_28
+  - first:
+      213: -114694160310580674
+    second: Skeleton1_Attack_sword_29
+  - first:
+      213: -1701237015415413453
+    second: Skeleton1_Attack_sword_30
+  - first:
+      213: 1953594578883590435
+    second: Skeleton1_Attack_sword_31
+  - first:
+      213: 7946047907739826197
+    second: Skeleton1_Attack_sword_32
+  - first:
+      213: -5429653936929778081
+    second: Skeleton1_Attack_sword_33
+  - first:
+      213: -3009590802399733624
+    second: Skeleton1_Attack_sword_34
+  - first:
+      213: 106938428640592358
+    second: Skeleton1_Attack_sword_35
+  - first:
+      213: -4541842709819093383
+    second: Skeleton1_Attack_sword_36
+  - first:
+      213: 3500697470344625305
+    second: Skeleton1_Attack_sword_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff78e8276cd5b7c0800000000000000
+      internalID: -4056093553751195651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 218
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254690b342d042d90800000000000000
+      internalID: -7123554261332827054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 217
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be59660e644d8b430800000000000000
+      internalID: 3799019686564632043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 213
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc043455964c1220800000000000000
+      internalID: 2457917103814216886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 215
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fe3d14a04a5d1c0800000000000000
+      internalID: -4479493890389053689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 202
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22884e13e4334420800000000000000
+      internalID: 2612990358875308588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 200
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17cbf3c36fbc3b1f0800000000000000
+      internalID: -1030255631304508303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_7
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 215
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cbf20ca5d52a4d0800000000000000
+      internalID: -3124832547088909177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 219
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681e4b175ea6f6620800000000000000
+      internalID: 2769549829543879046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d05cce74fb157e0800000000000000
+      internalID: -1778430062198715134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 154
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e8ab6fc8ca1af90800000000000000
+      internalID: -6944079428993774001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_11
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 153
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929c63f9ed50dd190800000000000000
+      internalID: -7936180514644899543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_12
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 164
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0bc18e354da4a30800000000000000
+      internalID: 4200403059317977342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_13
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 151
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7584bb622665610800000000000000
+      internalID: 1609581835321890755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_14
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 150
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0ec6859653d18a0800000000000000
+      internalID: -6332846774441680734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_15
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 155
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee7398733f8a5340800000000000000
+      internalID: 4853348999674167023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_16
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 154
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdcf5120a2052a70800000000000000
+      internalID: 8801443933543452106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 148
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b963776c900bde520800000000000000
+      internalID: 2733034104914654875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_18
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 153
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9502f99224465f10800000000000000
+      internalID: 2258067178575234462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_19
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 150
+        width: 27
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc791d1b2894c3c0800000000000000
+      internalID: -4340176829939090237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272a731524cd18ce0800000000000000
+      internalID: -1404599431374331278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 91
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be6fe5ba4d6e2a00800000000000000
+      internalID: 733643956955344569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 89
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb846e020adf99b20800000000000000
+      internalID: 3141821079256189118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_23
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 84
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65988368315cde970800000000000000
+      internalID: 8785895135716608342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_24
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 74
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb4d4a61165ca810800000000000000
+      internalID: 1777890585702386656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_25
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 73
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c373cc3001a30cb70800000000000000
+      internalID: 8917191102651184956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_26
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 72
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab93abceb8a59c40800000000000000
+      internalID: 5518502455826160551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_27
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 87
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7c1bc447ad8f750800000000000000
+      internalID: 6339056668561754052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_28
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 92
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99caf469909014e00800000000000000
+      internalID: 1027112126798343321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 26
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a40e4d446886ef0800000000000000
+      internalID: -114694160310580674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_30
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 27
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3352b61b2fdf368e0800000000000000
+      internalID: -1701237015415413453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_31
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 25
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3293c7d3bef8c1b10800000000000000
+      internalID: 1953594578883590435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_32
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 20
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518711dd878064e60800000000000000
+      internalID: 7946047907739826197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_33
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 10
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56dffb038ef5a4b0800000000000000
+      internalID: -5429653936929778081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_34
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 9
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8885ea75c19cb36d0800000000000000
+      internalID: -3009590802399733624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_35
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 8
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e106fb2febeb7100800000000000000
+      internalID: 106938428640592358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_36
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 23
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e098f7e1228f0c0800000000000000
+      internalID: -4541842709819093383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Attack_sword_37
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 28
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cfff14dc9f49030800000000000000
+      internalID: 3500697470344625305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton1_Attack_sword_0: -4056093553751195651
+      Skeleton1_Attack_sword_1: -7123554261332827054
+      Skeleton1_Attack_sword_10: -6944079428993774001
+      Skeleton1_Attack_sword_11: -7936180514644899543
+      Skeleton1_Attack_sword_12: 4200403059317977342
+      Skeleton1_Attack_sword_13: 1609581835321890755
+      Skeleton1_Attack_sword_14: -6332846774441680734
+      Skeleton1_Attack_sword_15: 4853348999674167023
+      Skeleton1_Attack_sword_16: 8801443933543452106
+      Skeleton1_Attack_sword_17: 2733034104914654875
+      Skeleton1_Attack_sword_18: 2258067178575234462
+      Skeleton1_Attack_sword_19: -4340176829939090237
+      Skeleton1_Attack_sword_2: 3799019686564632043
+      Skeleton1_Attack_sword_20: -1404599431374331278
+      Skeleton1_Attack_sword_21: 733643956955344569
+      Skeleton1_Attack_sword_22: 3141821079256189118
+      Skeleton1_Attack_sword_23: 8785895135716608342
+      Skeleton1_Attack_sword_24: 1777890585702386656
+      Skeleton1_Attack_sword_25: 8917191102651184956
+      Skeleton1_Attack_sword_26: 5518502455826160551
+      Skeleton1_Attack_sword_27: 6339056668561754052
+      Skeleton1_Attack_sword_28: 1027112126798343321
+      Skeleton1_Attack_sword_29: -114694160310580674
+      Skeleton1_Attack_sword_3: 2457917103814216886
+      Skeleton1_Attack_sword_30: -1701237015415413453
+      Skeleton1_Attack_sword_31: 1953594578883590435
+      Skeleton1_Attack_sword_32: 7946047907739826197
+      Skeleton1_Attack_sword_33: -5429653936929778081
+      Skeleton1_Attack_sword_34: -3009590802399733624
+      Skeleton1_Attack_sword_35: 106938428640592358
+      Skeleton1_Attack_sword_36: -4541842709819093383
+      Skeleton1_Attack_sword_37: 3500697470344625305
+      Skeleton1_Attack_sword_4: -4479493890389053689
+      Skeleton1_Attack_sword_5: 2612990358875308588
+      Skeleton1_Attack_sword_6: -1030255631304508303
+      Skeleton1_Attack_sword_7: -3124832547088909177
+      Skeleton1_Attack_sword_8: 2769549829543879046
+      Skeleton1_Attack_sword_9: -1778430062198715134
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

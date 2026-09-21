@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 9e87e686dc83e8c4ab8c009c1b827fab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1368988699430867811
+    second: Skeleton1_Walk_body_0
+  - first:
+      213: -5743819036907470658
+    second: Skeleton1_Walk_body_1
+  - first:
+      213: 7806497847594262767
+    second: Skeleton1_Walk_body_2
+  - first:
+      213: 3523356973650574769
+    second: Skeleton1_Walk_body_3
+  - first:
+      213: -1507621497599534003
+    second: Skeleton1_Walk_body_4
+  - first:
+      213: -5174462818969229096
+    second: Skeleton1_Walk_body_5
+  - first:
+      213: 5566241145611501909
+    second: Skeleton1_Walk_body_6
+  - first:
+      213: 8134797898578975918
+    second: Skeleton1_Walk_body_7
+  - first:
+      213: 7878751716598367411
+    second: Skeleton1_Walk_body_8
+  - first:
+      213: 3850835608496161290
+    second: Skeleton1_Walk_body_9
+  - first:
+      213: -6444223129968661562
+    second: Skeleton1_Walk_body_10
+  - first:
+      213: 8119734610364536073
+    second: Skeleton1_Walk_body_11
+  - first:
+      213: 527451265076146768
+    second: Skeleton1_Walk_body_12
+  - first:
+      213: -2375412065060706858
+    second: Skeleton1_Walk_body_13
+  - first:
+      213: -334227969857173971
+    second: Skeleton1_Walk_body_14
+  - first:
+      213: 5271089423712139100
+    second: Skeleton1_Walk_body_15
+  - first:
+      213: -8579829903091693834
+    second: Skeleton1_Walk_body_16
+  - first:
+      213: -1968920304130018823
+    second: Skeleton1_Walk_body_17
+  - first:
+      213: 3133424663531875145
+    second: Skeleton1_Walk_body_18
+  - first:
+      213: 7241993478960893487
+    second: Skeleton1_Walk_body_19
+  - first:
+      213: 8428996156585899769
+    second: Skeleton1_Walk_body_20
+  - first:
+      213: 6842235691372771307
+    second: Skeleton1_Walk_body_21
+  - first:
+      213: 7503268073444854967
+    second: Skeleton1_Walk_body_22
+  - first:
+      213: 7119344233106999745
+    second: Skeleton1_Walk_body_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 214
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363d91b08ff9ff210800000000000000
+      internalID: 1368988699430867811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 214
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0010b940bd940b0800000000000000
+      internalID: -5743819036907470658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 214
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe025b98e60465c60800000000000000
+      internalID: 7806497847594262767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 214
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd765fff7a75e030800000000000000
+      internalID: 3523356973650574769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 214
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c56d35c3ad31be0800000000000000
+      internalID: -1507621497599534003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_5
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 214
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d86fdb4b7d9038b0800000000000000
+      internalID: -5174462818969229096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 150
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551465aa4d24f3d40800000000000000
+      internalID: 5566241145611501909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacd468b69b94e070800000000000000
+      internalID: 8134797898578975918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 150
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4485d51f2f65d60800000000000000
+      internalID: 7878751716598367411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 150
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02c6d4559ae07530800000000000000
+      internalID: 3850835608496161290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_10
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbacdcc4358196a0800000000000000
+      internalID: -6444223129968661562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_11
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 150
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9051931ab971fa070800000000000000
+      internalID: 8119734610364536073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 86
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052b13b8122e15700800000000000000
+      internalID: 527451265076146768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 86
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d521e2ff47d80fd0800000000000000
+      internalID: -2375412065060706858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_14
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 86
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26c9a6ae659c5bf0800000000000000
+      internalID: -334227969857173971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_15
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 86
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c573ea747eba62940800000000000000
+      internalID: 5271089423712139100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_16
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 86
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f602f839225ee880800000000000000
+      internalID: -8579829903091693834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_17
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 86
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1b6494a6dfca4e0800000000000000
+      internalID: -1968920304130018823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 22
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94be34041292c7b20800000000000000
+      internalID: 3133424663531875145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_19
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 22
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ec82b03bab08460800000000000000
+      internalID: 7241993478960893487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_20
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 22
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f67f6e785fc9f470800000000000000
+      internalID: 8428996156585899769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_21
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 22
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7f5cd0c1184fe50800000000000000
+      internalID: 6842235691372771307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_22
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 22
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcc53c0f86f02860800000000000000
+      internalID: 7503268073444854967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_body_23
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 22
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c981103cddfcc260800000000000000
+      internalID: 7119344233106999745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton1_Walk_body_0: 1368988699430867811
+      Skeleton1_Walk_body_1: -5743819036907470658
+      Skeleton1_Walk_body_10: -6444223129968661562
+      Skeleton1_Walk_body_11: 8119734610364536073
+      Skeleton1_Walk_body_12: 527451265076146768
+      Skeleton1_Walk_body_13: -2375412065060706858
+      Skeleton1_Walk_body_14: -334227969857173971
+      Skeleton1_Walk_body_15: 5271089423712139100
+      Skeleton1_Walk_body_16: -8579829903091693834
+      Skeleton1_Walk_body_17: -1968920304130018823
+      Skeleton1_Walk_body_18: 3133424663531875145
+      Skeleton1_Walk_body_19: 7241993478960893487
+      Skeleton1_Walk_body_2: 7806497847594262767
+      Skeleton1_Walk_body_20: 8428996156585899769
+      Skeleton1_Walk_body_21: 6842235691372771307
+      Skeleton1_Walk_body_22: 7503268073444854967
+      Skeleton1_Walk_body_23: 7119344233106999745
+      Skeleton1_Walk_body_3: 3523356973650574769
+      Skeleton1_Walk_body_4: -1507621497599534003
+      Skeleton1_Walk_body_5: -5174462818969229096
+      Skeleton1_Walk_body_6: 5566241145611501909
+      Skeleton1_Walk_body_7: 8134797898578975918
+      Skeleton1_Walk_body_8: 7878751716598367411
+      Skeleton1_Walk_body_9: 3850835608496161290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

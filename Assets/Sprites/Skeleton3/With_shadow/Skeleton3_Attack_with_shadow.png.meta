@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 229139c749e09a8469d277ff3e8d45ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7697405605160453844
+    second: Skeleton3_Attack_with_shadow_0
+  - first:
+      213: -7579353998886379291
+    second: Skeleton3_Attack_with_shadow_1
+  - first:
+      213: 8632633428925141904
+    second: Skeleton3_Attack_with_shadow_2
+  - first:
+      213: -5714515425633008921
+    second: Skeleton3_Attack_with_shadow_3
+  - first:
+      213: -6378655173171347846
+    second: Skeleton3_Attack_with_shadow_4
+  - first:
+      213: 3357338127206979317
+    second: Skeleton3_Attack_with_shadow_5
+  - first:
+      213: -5435789877611732419
+    second: Skeleton3_Attack_with_shadow_6
+  - first:
+      213: -6721194593410299954
+    second: Skeleton3_Attack_with_shadow_7
+  - first:
+      213: 1029731376182061694
+    second: Skeleton3_Attack_with_shadow_8
+  - first:
+      213: -6402275280634590797
+    second: Skeleton3_Attack_with_shadow_9
+  - first:
+      213: -6911193463449604445
+    second: Skeleton3_Attack_with_shadow_10
+  - first:
+      213: -958756154734341892
+    second: Skeleton3_Attack_with_shadow_11
+  - first:
+      213: -182628690677306709
+    second: Skeleton3_Attack_with_shadow_12
+  - first:
+      213: -7278536744134395793
+    second: Skeleton3_Attack_with_shadow_13
+  - first:
+      213: 450116176799669313
+    second: Skeleton3_Attack_with_shadow_14
+  - first:
+      213: -9149010525434743807
+    second: Skeleton3_Attack_with_shadow_15
+  - first:
+      213: -7553046113753794703
+    second: Skeleton3_Attack_with_shadow_16
+  - first:
+      213: -7758018970484401924
+    second: Skeleton3_Attack_with_shadow_17
+  - first:
+      213: 3188012972421902912
+    second: Skeleton3_Attack_with_shadow_18
+  - first:
+      213: -5013493054742889246
+    second: Skeleton3_Attack_with_shadow_19
+  - first:
+      213: -8047079067880408698
+    second: Skeleton3_Attack_with_shadow_20
+  - first:
+      213: 7240424788435359754
+    second: Skeleton3_Attack_with_shadow_21
+  - first:
+      213: -5178793796200230762
+    second: Skeleton3_Attack_with_shadow_22
+  - first:
+      213: 8406904813434957649
+    second: Skeleton3_Attack_with_shadow_23
+  - first:
+      213: -6565269666168738915
+    second: Skeleton3_Attack_with_shadow_24
+  - first:
+      213: 6024919818403003031
+    second: Skeleton3_Attack_with_shadow_25
+  - first:
+      213: 6041663023927490717
+    second: Skeleton3_Attack_with_shadow_26
+  - first:
+      213: 8820900889571428611
+    second: Skeleton3_Attack_with_shadow_27
+  - first:
+      213: -759292044624666505
+    second: Skeleton3_Attack_with_shadow_28
+  - first:
+      213: 2830539469316384011
+    second: Skeleton3_Attack_with_shadow_29
+  - first:
+      213: 8981252431015216735
+    second: Skeleton3_Attack_with_shadow_30
+  - first:
+      213: 2354195041163814437
+    second: Skeleton3_Attack_with_shadow_31
+  - first:
+      213: -7853017064387497916
+    second: Skeleton3_Attack_with_shadow_32
+  - first:
+      213: -842303189432057648
+    second: Skeleton3_Attack_with_shadow_33
+  - first:
+      213: 4080870453326973828
+    second: Skeleton3_Attack_with_shadow_34
+  - first:
+      213: -8245531138775507776
+    second: Skeleton3_Attack_with_shadow_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 211
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d680b38d9da2da60800000000000000
+      internalID: 7697405605160453844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 211
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0e075f1b9b0d690800000000000000
+      internalID: -7579353998886379291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 211
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093de3fad564dc770800000000000000
+      internalID: 8632633428925141904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 211
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e287a74f76f1b0b0800000000000000
+      internalID: -5714515425633008921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 211
+        width: 55
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ef9626ae67a77a0800000000000000
+      internalID: -6378655173171347846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 202
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f61c0f1d39a79e20800000000000000
+      internalID: 3357338127206979317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 200
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32e94708e13094b0800000000000000
+      internalID: -5435789877611732419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 208
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7c081b02589b2a0800000000000000
+      internalID: -6721194593410299954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 211
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ae76b1b375a4e00800000000000000
+      internalID: 1029731376182061694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 147
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9c28f8d8c8627a0800000000000000
+      internalID: -6402275280634590797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 147
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aea51d79228610a0800000000000000
+      internalID: -6911193463449604445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 147
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf017d26b50d1b2f0800000000000000
+      internalID: -958756154734341892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 147
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa62666c2c277df0800000000000000
+      internalID: -182628690677306709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 147
+        width: 55
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68bd3105617dfa90800000000000000
+      internalID: -7278536744134395793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 147
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c1dc927422f3600800000000000000
+      internalID: 450116176799669313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 147
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104f621966f280180800000000000000
+      internalID: -9149010525434743807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 147
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1777f89c3903e2790800000000000000
+      internalID: -7553046113753794703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 147
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8198f99daf55490800000000000000
+      internalID: -7758018970484401924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 83
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0427b8858e81e3c20800000000000000
+      internalID: 3188012972421902912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 83
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec792c11ae7c6ab0800000000000000
+      internalID: -5013493054742889246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 83
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689b1871938035090800000000000000
+      internalID: -8047079067880408698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 83
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a085f91dbf72b7460800000000000000
+      internalID: 7240424788435359754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 74
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6901d741b7a3128b0800000000000000
+      internalID: -5178793796200230762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 73
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fef49d2635ba470800000000000000
+      internalID: 8406904813434957649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 72
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b6d5dd50a73e4a0800000000000000
+      internalID: -6565269666168738915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 80
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a3f1847a0dc9350800000000000000
+      internalID: 6024919818403003031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 83
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d987fc9928c48d350800000000000000
+      internalID: 6041663023927490717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 19
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30905d9bf922a6a70800000000000000
+      internalID: 8820900889571428611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 19
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770ed5788e37675f0800000000000000
+      internalID: -759292044624666505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 19
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05635786a8184720800000000000000
+      internalID: 2830539469316384011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 19
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5686c45081d3ac70800000000000000
+      internalID: 8981252431015216735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 10
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5262e88bae7cba020800000000000000
+      internalID: 2354195041163814437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 9
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4403a16469a740390800000000000000
+      internalID: -7853017064387497916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_33
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 8
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d049b046b98f44f0800000000000000
+      internalID: -842303189432057648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_34
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 16
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b01f05e0a22a830800000000000000
+      internalID: 4080870453326973828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Attack_with_shadow_35
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 19
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc1dd0bd1df19d80800000000000000
+      internalID: -8245531138775507776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton3_Attack_with_shadow_0: 7697405605160453844
+      Skeleton3_Attack_with_shadow_1: -7579353998886379291
+      Skeleton3_Attack_with_shadow_10: -6911193463449604445
+      Skeleton3_Attack_with_shadow_11: -958756154734341892
+      Skeleton3_Attack_with_shadow_12: -182628690677306709
+      Skeleton3_Attack_with_shadow_13: -7278536744134395793
+      Skeleton3_Attack_with_shadow_14: 450116176799669313
+      Skeleton3_Attack_with_shadow_15: -9149010525434743807
+      Skeleton3_Attack_with_shadow_16: -7553046113753794703
+      Skeleton3_Attack_with_shadow_17: -7758018970484401924
+      Skeleton3_Attack_with_shadow_18: 3188012972421902912
+      Skeleton3_Attack_with_shadow_19: -5013493054742889246
+      Skeleton3_Attack_with_shadow_2: 8632633428925141904
+      Skeleton3_Attack_with_shadow_20: -8047079067880408698
+      Skeleton3_Attack_with_shadow_21: 7240424788435359754
+      Skeleton3_Attack_with_shadow_22: -5178793796200230762
+      Skeleton3_Attack_with_shadow_23: 8406904813434957649
+      Skeleton3_Attack_with_shadow_24: -6565269666168738915
+      Skeleton3_Attack_with_shadow_25: 6024919818403003031
+      Skeleton3_Attack_with_shadow_26: 6041663023927490717
+      Skeleton3_Attack_with_shadow_27: 8820900889571428611
+      Skeleton3_Attack_with_shadow_28: -759292044624666505
+      Skeleton3_Attack_with_shadow_29: 2830539469316384011
+      Skeleton3_Attack_with_shadow_3: -5714515425633008921
+      Skeleton3_Attack_with_shadow_30: 8981252431015216735
+      Skeleton3_Attack_with_shadow_31: 2354195041163814437
+      Skeleton3_Attack_with_shadow_32: -7853017064387497916
+      Skeleton3_Attack_with_shadow_33: -842303189432057648
+      Skeleton3_Attack_with_shadow_34: 4080870453326973828
+      Skeleton3_Attack_with_shadow_35: -8245531138775507776
+      Skeleton3_Attack_with_shadow_4: -6378655173171347846
+      Skeleton3_Attack_with_shadow_5: 3357338127206979317
+      Skeleton3_Attack_with_shadow_6: -5435789877611732419
+      Skeleton3_Attack_with_shadow_7: -6721194593410299954
+      Skeleton3_Attack_with_shadow_8: 1029731376182061694
+      Skeleton3_Attack_with_shadow_9: -6402275280634590797
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: efb297dbbddb2074d835cd1f932d9ac4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4931234957414753479
+    second: Skeleton2_Idle_sword_0
+  - first:
+      213: -6944008878460165528
+    second: Skeleton2_Idle_sword_1
+  - first:
+      213: 5671550624739792303
+    second: Skeleton2_Idle_sword_2
+  - first:
+      213: -4873832562918850916
+    second: Skeleton2_Idle_sword_3
+  - first:
+      213: 8778716196741249972
+    second: Skeleton2_Idle_sword_4
+  - first:
+      213: 1633246200566654181
+    second: Skeleton2_Idle_sword_5
+  - first:
+      213: -3897311785334592178
+    second: Skeleton2_Idle_sword_6
+  - first:
+      213: -8458166347302841016
+    second: Skeleton2_Idle_sword_7
+  - first:
+      213: -4084144587280168048
+    second: Skeleton2_Idle_sword_8
+  - first:
+      213: 7344871187307300357
+    second: Skeleton2_Idle_sword_9
+  - first:
+      213: -1919068537361021798
+    second: Skeleton2_Idle_sword_10
+  - first:
+      213: 2481695759449329758
+    second: Skeleton2_Idle_sword_11
+  - first:
+      213: -4595253924919316410
+    second: Skeleton2_Idle_sword_12
+  - first:
+      213: -4508507955395521674
+    second: Skeleton2_Idle_sword_13
+  - first:
+      213: -9197383906928764605
+    second: Skeleton2_Idle_sword_14
+  - first:
+      213: 1350624295936237525
+    second: Skeleton2_Idle_sword_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 218
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b1e4bdeebb09bb0800000000000000
+      internalID: -4931234957414753479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 217
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862293a47bce1af90800000000000000
+      internalID: -6944008878460165528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 218
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa592497e3565be40800000000000000
+      internalID: 5671550624739792303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 217
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e7d705b1bac5cb0800000000000000
+      internalID: -4873832562918850916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 154
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbfaba8ed344d970800000000000000
+      internalID: 8778716196741249972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 153
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4288f14c47aa610800000000000000
+      internalID: 1633246200566654181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 154
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d20308497f9e9c0800000000000000
+      internalID: -3897311785334592178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_7
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 154
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845d9d9358e8e9a80800000000000000
+      internalID: -8458166347302841016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 90
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09bc4d7f2243257c0800000000000000
+      internalID: -4084144587280168048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 89
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50604781e693ee560800000000000000
+      internalID: 7344871187307300357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 90
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94c7fa35591e55e0800000000000000
+      internalID: -1919068537361021798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 91
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5012960521c07220800000000000000
+      internalID: 2481695759449329758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 26
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640f678e6e06a30c0800000000000000
+      internalID: -4595253924919316410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 25
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67390a3d6ef8e61c0800000000000000
+      internalID: -4508507955395521674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 26
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349dd9401145c5080800000000000000
+      internalID: -9197383906928764605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Idle_sword_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 27
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df9a4824a16eb210800000000000000
+      internalID: 1350624295936237525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton2_Idle_sword_0: -4931234957414753479
+      Skeleton2_Idle_sword_1: -6944008878460165528
+      Skeleton2_Idle_sword_10: -1919068537361021798
+      Skeleton2_Idle_sword_11: 2481695759449329758
+      Skeleton2_Idle_sword_12: -4595253924919316410
+      Skeleton2_Idle_sword_13: -4508507955395521674
+      Skeleton2_Idle_sword_14: -9197383906928764605
+      Skeleton2_Idle_sword_15: 1350624295936237525
+      Skeleton2_Idle_sword_2: 5671550624739792303
+      Skeleton2_Idle_sword_3: -4873832562918850916
+      Skeleton2_Idle_sword_4: 8778716196741249972
+      Skeleton2_Idle_sword_5: 1633246200566654181
+      Skeleton2_Idle_sword_6: -3897311785334592178
+      Skeleton2_Idle_sword_7: -8458166347302841016
+      Skeleton2_Idle_sword_8: -4084144587280168048
+      Skeleton2_Idle_sword_9: 7344871187307300357
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

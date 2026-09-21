@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 675fed602fe7f2b44bda3ea95dd7b586
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1842630745655378646
+    second: Skeleton2_Death_shadow_0
+  - first:
+      213: -2270995485760612942
+    second: Skeleton2_Death_shadow_1
+  - first:
+      213: 1296644142750433008
+    second: Skeleton2_Death_shadow_2
+  - first:
+      213: 8658358061293230976
+    second: Skeleton2_Death_shadow_3
+  - first:
+      213: -4018733407599183457
+    second: Skeleton2_Death_shadow_4
+  - first:
+      213: -7774718942138979569
+    second: Skeleton2_Death_shadow_5
+  - first:
+      213: 1516635606218519799
+    second: Skeleton2_Death_shadow_6
+  - first:
+      213: 9033841716654357105
+    second: Skeleton2_Death_shadow_7
+  - first:
+      213: -6777666934803370005
+    second: Skeleton2_Death_shadow_8
+  - first:
+      213: 2403270773017650476
+    second: Skeleton2_Death_shadow_9
+  - first:
+      213: 3067742181949523588
+    second: Skeleton2_Death_shadow_10
+  - first:
+      213: -5941413322665993026
+    second: Skeleton2_Death_shadow_11
+  - first:
+      213: 2166962408329813711
+    second: Skeleton2_Death_shadow_12
+  - first:
+      213: 2781461744248925275
+    second: Skeleton2_Death_shadow_13
+  - first:
+      213: -9193151828155690512
+    second: Skeleton2_Death_shadow_14
+  - first:
+      213: 8760722765092520893
+    second: Skeleton2_Death_shadow_15
+  - first:
+      213: -6124039139529447620
+    second: Skeleton2_Death_shadow_16
+  - first:
+      213: 3470669157397885779
+    second: Skeleton2_Death_shadow_17
+  - first:
+      213: -785712113584008379
+    second: Skeleton2_Death_shadow_18
+  - first:
+      213: -3172562747864797404
+    second: Skeleton2_Death_shadow_19
+  - first:
+      213: -6845349777130234757
+    second: Skeleton2_Death_shadow_20
+  - first:
+      213: 4593081484759865716
+    second: Skeleton2_Death_shadow_21
+  - first:
+      213: -1359798178604351202
+    second: Skeleton2_Death_shadow_22
+  - first:
+      213: 3049125956021946965
+    second: Skeleton2_Death_shadow_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d7ff87919ad66e0800000000000000
+      internalID: -1842630745655378646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b519b053adcb70e0800000000000000
+      internalID: -2270995485760612942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fefab85afa9ef110800000000000000
+      internalID: 1296644142750433008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08bd58568caa82870800000000000000
+      internalID: 8658358061293230976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f993e0902479a38c0800000000000000
+      internalID: -4018733407599183457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b2e497056aa1490800000000000000
+      internalID: -7774718942138979569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 147
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f43d526c0c2c0510800000000000000
+      internalID: 1516635606218519799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 147
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ab94e8d27ae5d70800000000000000
+      internalID: 9033841716654357105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 147
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef622915d3e0f1a0800000000000000
+      internalID: -6777666934803370005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 147
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25abc4f8022a5120800000000000000
+      internalID: 2403270773017650476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 147
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4864599c24fc29a20800000000000000
+      internalID: 3067742181949523588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 147
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc58bedf0cdb8da0800000000000000
+      internalID: -5941413322665993026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 83
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce9f1e44d8921e10800000000000000
+      internalID: 2166962408329813711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 83
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5cab4638bcb99620800000000000000
+      internalID: 2781461744248925275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 83
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f11c84ae1d5b6080800000000000000
+      internalID: -9193151828155690512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 83
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3840540f6549970800000000000000
+      internalID: 8760722765092520893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 83
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3722c169da030ba0800000000000000
+      internalID: -6124039139529447620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 83
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353fa93d53b4a2030800000000000000
+      internalID: 3470669157397885779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5439a1edef69815f0800000000000000
+      internalID: -785712113584008379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fa1e16dfac8f3d0800000000000000
+      internalID: -3172562747864797404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c5ada55ae6001a0800000000000000
+      internalID: -6845349777130234757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47919837647edbf30800000000000000
+      internalID: 4593081484759865716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e118016d2c6012de0800000000000000
+      internalID: -1359798178604351202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2_Death_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a8c1ce6eba05a20800000000000000
+      internalID: 3049125956021946965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton2_Death_shadow_0: -1842630745655378646
+      Skeleton2_Death_shadow_1: -2270995485760612942
+      Skeleton2_Death_shadow_10: 3067742181949523588
+      Skeleton2_Death_shadow_11: -5941413322665993026
+      Skeleton2_Death_shadow_12: 2166962408329813711
+      Skeleton2_Death_shadow_13: 2781461744248925275
+      Skeleton2_Death_shadow_14: -9193151828155690512
+      Skeleton2_Death_shadow_15: 8760722765092520893
+      Skeleton2_Death_shadow_16: -6124039139529447620
+      Skeleton2_Death_shadow_17: 3470669157397885779
+      Skeleton2_Death_shadow_18: -785712113584008379
+      Skeleton2_Death_shadow_19: -3172562747864797404
+      Skeleton2_Death_shadow_2: 1296644142750433008
+      Skeleton2_Death_shadow_20: -6845349777130234757
+      Skeleton2_Death_shadow_21: 4593081484759865716
+      Skeleton2_Death_shadow_22: -1359798178604351202
+      Skeleton2_Death_shadow_23: 3049125956021946965
+      Skeleton2_Death_shadow_3: 8658358061293230976
+      Skeleton2_Death_shadow_4: -4018733407599183457
+      Skeleton2_Death_shadow_5: -7774718942138979569
+      Skeleton2_Death_shadow_6: 1516635606218519799
+      Skeleton2_Death_shadow_7: 9033841716654357105
+      Skeleton2_Death_shadow_8: -6777666934803370005
+      Skeleton2_Death_shadow_9: 2403270773017650476
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

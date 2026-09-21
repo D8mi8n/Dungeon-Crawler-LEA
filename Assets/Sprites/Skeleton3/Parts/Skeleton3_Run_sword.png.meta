@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: f87a943aca48f954d9fb4d5bf458aaeb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -832844685797415170
+    second: Skeleton3_Run_sword_0
+  - first:
+      213: 7920520059616171496
+    second: Skeleton3_Run_sword_1
+  - first:
+      213: 3806825941213130394
+    second: Skeleton3_Run_sword_2
+  - first:
+      213: 8817973888818110849
+    second: Skeleton3_Run_sword_3
+  - first:
+      213: 1517107225350633003
+    second: Skeleton3_Run_sword_4
+  - first:
+      213: 8609626162190864246
+    second: Skeleton3_Run_sword_5
+  - first:
+      213: -6480492276148624378
+    second: Skeleton3_Run_sword_6
+  - first:
+      213: 2458709713977970071
+    second: Skeleton3_Run_sword_7
+  - first:
+      213: 2269541331080307824
+    second: Skeleton3_Run_sword_8
+  - first:
+      213: 595029071887947712
+    second: Skeleton3_Run_sword_9
+  - first:
+      213: 4056519032156035020
+    second: Skeleton3_Run_sword_10
+  - first:
+      213: 1783247282052634384
+    second: Skeleton3_Run_sword_11
+  - first:
+      213: 6703476018715057771
+    second: Skeleton3_Run_sword_12
+  - first:
+      213: 34332600699572779
+    second: Skeleton3_Run_sword_13
+  - first:
+      213: -1467213031911024066
+    second: Skeleton3_Run_sword_14
+  - first:
+      213: 6384313703591782994
+    second: Skeleton3_Run_sword_15
+  - first:
+      213: -9018024516683454304
+    second: Skeleton3_Run_sword_16
+  - first:
+      213: 7443336590380854898
+    second: Skeleton3_Run_sword_17
+  - first:
+      213: 8346478011747339947
+    second: Skeleton3_Run_sword_18
+  - first:
+      213: 2021539376542275769
+    second: Skeleton3_Run_sword_19
+  - first:
+      213: -8671613626966887097
+    second: Skeleton3_Run_sword_20
+  - first:
+      213: -2400509417468410121
+    second: Skeleton3_Run_sword_21
+  - first:
+      213: -6676279591961090968
+    second: Skeleton3_Run_sword_22
+  - first:
+      213: 5104736796608537943
+    second: Skeleton3_Run_sword_23
+  - first:
+      213: -5618807175689094827
+    second: Skeleton3_Run_sword_24
+  - first:
+      213: -2788975737779502797
+    second: Skeleton3_Run_sword_25
+  - first:
+      213: 5849743313341013481
+    second: Skeleton3_Run_sword_26
+  - first:
+      213: 2343690123446794137
+    second: Skeleton3_Run_sword_27
+  - first:
+      213: -8253260968014929273
+    second: Skeleton3_Run_sword_28
+  - first:
+      213: -1572610049867200840
+    second: Skeleton3_Run_sword_29
+  - first:
+      213: 8120075858872757120
+    second: Skeleton3_Run_sword_30
+  - first:
+      213: 9211617374942447964
+    second: Skeleton3_Run_sword_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef629fdbb242174f0800000000000000
+      internalID: -832844685797415170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e517cd87075bed60800000000000000
+      internalID: 7920520059616171496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e20cb260094d430800000000000000
+      internalID: 3806825941213130394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 220
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1816ca1488cbf5a70800000000000000
+      internalID: 8817973888818110849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_4
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26f335cbf8dd0510800000000000000
+      internalID: 1517107225350633003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fcb46f0698b7770800000000000000
+      internalID: 8609626162190864246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604af762c9aa016a0800000000000000
+      internalID: -6480492276148624378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_7
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d857345771f1220800000000000000
+      internalID: 2458709713977970071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074eb1ae0d70f7f10800000000000000
+      internalID: 2269541331080307824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_9
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c759ecc9c7f14800800000000000000
+      internalID: 595029071887947712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc795404196ab4830800000000000000
+      internalID: 4056519032156035020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0179d6974fd5fb810800000000000000
+      internalID: 1783247282052634384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_12
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e5cd72ce7870d50800000000000000
+      internalID: 6703476018715057771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_13
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22d9e48159f97000800000000000000
+      internalID: 34332600699572779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_14
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a9e17658963abe0800000000000000
+      internalID: -1467213031911024066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_15
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a2f35ec73a99850800000000000000
+      internalID: 6384313703591782994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8a15b4b7a89d280800000000000000
+      internalID: -9018024516683454304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e6155413b0c4760800000000000000
+      internalID: 7443336590380854898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae0fc7b785a4d370800000000000000
+      internalID: 8346478011747339947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 92
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b854463a53fd0c10800000000000000
+      internalID: 2021539376542275769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_20
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745b337b95d38a780800000000000000
+      internalID: -8671613626966887097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_21
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6c0db376dafaed0800000000000000
+      internalID: -2400509417468410121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_22
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86428f365171953a0800000000000000
+      internalID: -6676279591961090968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_23
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 92
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755a7b9021ba7d640800000000000000
+      internalID: 5104736796608537943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 26
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559b2a7b4acf502b0800000000000000
+      internalID: -5618807175689094827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_25
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 27
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3314876d7519b49d0800000000000000
+      internalID: -2788975737779502797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 27
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed58eadc867e2150800000000000000
+      internalID: 5849743313341013481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 29
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99733a7ffb5768020800000000000000
+      internalID: 2343690123446794137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_28
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 27
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782afd290e6867d80800000000000000
+      internalID: -8253260968014929273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_29
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 27
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6c47fdd77fc2ae0800000000000000
+      internalID: -1572610049867200840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_30
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 29
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08be55db8fd40b070800000000000000
+      internalID: 8120075858872757120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton3_Run_sword_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 29
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59c240823d36df70800000000000000
+      internalID: 9211617374942447964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton3_Run_sword_0: -832844685797415170
+      Skeleton3_Run_sword_1: 7920520059616171496
+      Skeleton3_Run_sword_10: 4056519032156035020
+      Skeleton3_Run_sword_11: 1783247282052634384
+      Skeleton3_Run_sword_12: 6703476018715057771
+      Skeleton3_Run_sword_13: 34332600699572779
+      Skeleton3_Run_sword_14: -1467213031911024066
+      Skeleton3_Run_sword_15: 6384313703591782994
+      Skeleton3_Run_sword_16: -9018024516683454304
+      Skeleton3_Run_sword_17: 7443336590380854898
+      Skeleton3_Run_sword_18: 8346478011747339947
+      Skeleton3_Run_sword_19: 2021539376542275769
+      Skeleton3_Run_sword_2: 3806825941213130394
+      Skeleton3_Run_sword_20: -8671613626966887097
+      Skeleton3_Run_sword_21: -2400509417468410121
+      Skeleton3_Run_sword_22: -6676279591961090968
+      Skeleton3_Run_sword_23: 5104736796608537943
+      Skeleton3_Run_sword_24: -5618807175689094827
+      Skeleton3_Run_sword_25: -2788975737779502797
+      Skeleton3_Run_sword_26: 5849743313341013481
+      Skeleton3_Run_sword_27: 2343690123446794137
+      Skeleton3_Run_sword_28: -8253260968014929273
+      Skeleton3_Run_sword_29: -1572610049867200840
+      Skeleton3_Run_sword_3: 8817973888818110849
+      Skeleton3_Run_sword_30: 8120075858872757120
+      Skeleton3_Run_sword_31: 9211617374942447964
+      Skeleton3_Run_sword_4: 1517107225350633003
+      Skeleton3_Run_sword_5: 8609626162190864246
+      Skeleton3_Run_sword_6: -6480492276148624378
+      Skeleton3_Run_sword_7: 2458709713977970071
+      Skeleton3_Run_sword_8: 2269541331080307824
+      Skeleton3_Run_sword_9: 595029071887947712
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

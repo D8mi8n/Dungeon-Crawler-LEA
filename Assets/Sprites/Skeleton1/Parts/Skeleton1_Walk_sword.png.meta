@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 1f07581595b2a31499a31b22abbc449d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8118821796723697676
+    second: Skeleton1_Walk_sword_0
+  - first:
+      213: -780678764530815416
+    second: Skeleton1_Walk_sword_1
+  - first:
+      213: -7291580910164147871
+    second: Skeleton1_Walk_sword_2
+  - first:
+      213: -5944262654635142265
+    second: Skeleton1_Walk_sword_3
+  - first:
+      213: 6379458878619048723
+    second: Skeleton1_Walk_sword_4
+  - first:
+      213: 7018101845059573490
+    second: Skeleton1_Walk_sword_5
+  - first:
+      213: 2635212933441007349
+    second: Skeleton1_Walk_sword_6
+  - first:
+      213: 7807428947918520072
+    second: Skeleton1_Walk_sword_7
+  - first:
+      213: 7156568794176426015
+    second: Skeleton1_Walk_sword_8
+  - first:
+      213: -3102370220795514298
+    second: Skeleton1_Walk_sword_9
+  - first:
+      213: -8739712726467770024
+    second: Skeleton1_Walk_sword_10
+  - first:
+      213: -3417682835954427175
+    second: Skeleton1_Walk_sword_11
+  - first:
+      213: -7705880465985938281
+    second: Skeleton1_Walk_sword_12
+  - first:
+      213: -602370887507420658
+    second: Skeleton1_Walk_sword_13
+  - first:
+      213: -6327052701870119510
+    second: Skeleton1_Walk_sword_14
+  - first:
+      213: -6810703371254072484
+    second: Skeleton1_Walk_sword_15
+  - first:
+      213: 7222595716546810866
+    second: Skeleton1_Walk_sword_16
+  - first:
+      213: -6772497405850488169
+    second: Skeleton1_Walk_sword_17
+  - first:
+      213: 4906740368185168087
+    second: Skeleton1_Walk_sword_18
+  - first:
+      213: -1864157985125846460
+    second: Skeleton1_Walk_sword_19
+  - first:
+      213: -8129648675585302743
+    second: Skeleton1_Walk_sword_20
+  - first:
+      213: -1297198335357514793
+    second: Skeleton1_Walk_sword_21
+  - first:
+      213: 6511251962984997004
+    second: Skeleton1_Walk_sword_22
+  - first:
+      213: 3196373971804615572
+    second: Skeleton1_Walk_sword_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7d59b5796245f80800000000000000
+      internalID: -8118821796723697676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e2374ccc87a25f0800000000000000
+      internalID: -780678764530815416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16185ae6bc91fca90800000000000000
+      internalID: -7291580910164147871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7831ad21c9cb18da0800000000000000
+      internalID: -5944262654635142265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bdc4fdc04688850800000000000000
+      internalID: 6379458878619048723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f61a40d17e456160800000000000000
+      internalID: 7018101845059573490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe24457338229420800000000000000
+      internalID: 2635212933441007349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_7
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ff8c9334f895c60800000000000000
+      internalID: 7807428947918520072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_8
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f101883b66d315360800000000000000
+      internalID: 7156568794176426015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642bbb3a8ba22f4d0800000000000000
+      internalID: -3102370220795514298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8598deb849d46b680800000000000000
+      internalID: -8739712726467770024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_11
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da9cff7193f190d0800000000000000
+      internalID: -3417682835954427175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c594f2b863f0590800000000000000
+      internalID: -7705880465985938281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a551b8ed2f3a7f0800000000000000
+      internalID: -602370887507420658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa52bddf61bc138a0800000000000000
+      internalID: -6327052701870119510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b78d55e558b71a0800000000000000
+      internalID: -6810703371254072484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_16
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3d7098980db3460800000000000000
+      internalID: 7222595716546810866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792f60add714302a0800000000000000
+      internalID: -6772497405850488169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 26
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d01fba2e5e381440800000000000000
+      internalID: 4906740368185168087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 27
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442bd53703e2126e0800000000000000
+      internalID: -1864157985125846460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 26
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f530f2a9fad2f80800000000000000
+      internalID: -8129648675585302743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_21
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 25
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db89c1acfc6ffde0800000000000000
+      internalID: -1297198335357514793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_22
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 27
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8029c8892d9c5a50800000000000000
+      internalID: 6511251962984997004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Walk_sword_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 26
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493f7b6313dcb5c20800000000000000
+      internalID: 3196373971804615572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton1_Walk_sword_0: -8118821796723697676
+      Skeleton1_Walk_sword_1: -780678764530815416
+      Skeleton1_Walk_sword_10: -8739712726467770024
+      Skeleton1_Walk_sword_11: -3417682835954427175
+      Skeleton1_Walk_sword_12: -7705880465985938281
+      Skeleton1_Walk_sword_13: -602370887507420658
+      Skeleton1_Walk_sword_14: -6327052701870119510
+      Skeleton1_Walk_sword_15: -6810703371254072484
+      Skeleton1_Walk_sword_16: 7222595716546810866
+      Skeleton1_Walk_sword_17: -6772497405850488169
+      Skeleton1_Walk_sword_18: 4906740368185168087
+      Skeleton1_Walk_sword_19: -1864157985125846460
+      Skeleton1_Walk_sword_2: -7291580910164147871
+      Skeleton1_Walk_sword_20: -8129648675585302743
+      Skeleton1_Walk_sword_21: -1297198335357514793
+      Skeleton1_Walk_sword_22: 6511251962984997004
+      Skeleton1_Walk_sword_23: 3196373971804615572
+      Skeleton1_Walk_sword_3: -5944262654635142265
+      Skeleton1_Walk_sword_4: 6379458878619048723
+      Skeleton1_Walk_sword_5: 7018101845059573490
+      Skeleton1_Walk_sword_6: 2635212933441007349
+      Skeleton1_Walk_sword_7: 7807428947918520072
+      Skeleton1_Walk_sword_8: 7156568794176426015
+      Skeleton1_Walk_sword_9: -3102370220795514298
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

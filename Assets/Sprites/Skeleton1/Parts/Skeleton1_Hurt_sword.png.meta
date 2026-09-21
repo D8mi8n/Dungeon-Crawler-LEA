@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 4ba518f0aeaa22244afb6418cb5265d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2656732276748536954
+    second: Skeleton1_Hurt_sword_0
+  - first:
+      213: -5771013964736924159
+    second: Skeleton1_Hurt_sword_1
+  - first:
+      213: 6735381813698173211
+    second: Skeleton1_Hurt_sword_2
+  - first:
+      213: -983353054515498987
+    second: Skeleton1_Hurt_sword_3
+  - first:
+      213: 5745601519279619548
+    second: Skeleton1_Hurt_sword_4
+  - first:
+      213: -220133727893644814
+    second: Skeleton1_Hurt_sword_5
+  - first:
+      213: -3800010171727340526
+    second: Skeleton1_Hurt_sword_6
+  - first:
+      213: -6458055430648310780
+    second: Skeleton1_Hurt_sword_7
+  - first:
+      213: -6740735010579608770
+    second: Skeleton1_Hurt_sword_8
+  - first:
+      213: -7573501221279873927
+    second: Skeleton1_Hurt_sword_9
+  - first:
+      213: 692452789346462273
+    second: Skeleton1_Hurt_sword_10
+  - first:
+      213: 8183433450550559550
+    second: Skeleton1_Hurt_sword_11
+  - first:
+      213: -4284636862257601056
+    second: Skeleton1_Hurt_sword_12
+  - first:
+      213: -7887211579043310784
+    second: Skeleton1_Hurt_sword_13
+  - first:
+      213: -5195610831121847043
+    second: Skeleton1_Hurt_sword_14
+  - first:
+      213: -3304955288015967255
+    second: Skeleton1_Hurt_sword_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c49e20eeb9ed420800000000000000
+      internalID: 2656732276748536954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106790e006d39efa0800000000000000
+      internalID: -5771013964736924159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_2
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b191b10f212e87d50800000000000000
+      internalID: 6735381813698173211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510fec06b9d6a52f0800000000000000
+      internalID: -983353054515498987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd3b99e32a7cbf40800000000000000
+      internalID: 5745601519279619548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f911d17a8de1fcf0800000000000000
+      internalID: -220133727893644814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_6
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c1253d1e6a34bc0800000000000000
+      internalID: -3800010171727340526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404dc645dc06066a0800000000000000
+      internalID: -6458055430648310780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b0d59c8391472a0800000000000000
+      internalID: -6740735010579608770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97440afe3c485e690800000000000000
+      internalID: -7573501221279873927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a69b4a4261c9900800000000000000
+      internalID: 692452789346462273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e338d179d55619170800000000000000
+      internalID: 8183433450550559550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 26
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e567998979e984c0800000000000000
+      internalID: -4284636862257601056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 25
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04396ca6bdefa8290800000000000000
+      internalID: -7887211579043310784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 24
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc6fc30a7b75e7b0800000000000000
+      internalID: -5195610831121847043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_sword_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 25
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb624b0da07222d0800000000000000
+      internalID: -3304955288015967255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton1_Hurt_sword_0: 2656732276748536954
+      Skeleton1_Hurt_sword_1: -5771013964736924159
+      Skeleton1_Hurt_sword_10: 692452789346462273
+      Skeleton1_Hurt_sword_11: 8183433450550559550
+      Skeleton1_Hurt_sword_12: -4284636862257601056
+      Skeleton1_Hurt_sword_13: -7887211579043310784
+      Skeleton1_Hurt_sword_14: -5195610831121847043
+      Skeleton1_Hurt_sword_15: -3304955288015967255
+      Skeleton1_Hurt_sword_2: 6735381813698173211
+      Skeleton1_Hurt_sword_3: -983353054515498987
+      Skeleton1_Hurt_sword_4: 5745601519279619548
+      Skeleton1_Hurt_sword_5: -220133727893644814
+      Skeleton1_Hurt_sword_6: -3800010171727340526
+      Skeleton1_Hurt_sword_7: -6458055430648310780
+      Skeleton1_Hurt_sword_8: -6740735010579608770
+      Skeleton1_Hurt_sword_9: -7573501221279873927
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
