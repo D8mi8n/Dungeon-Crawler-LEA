@@ -152,11 +152,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 376
-        width: 49
-        height: 72
+        y: 377
+        width: 48
+        height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -170,15 +170,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water_coasts_animation_1
+      name: Wave_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 0
-        width: 130
-        height: 448
+        x: 64
+        y: 393
+        width: 96
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -195,12 +195,12 @@ TextureImporter:
       name: Water_coasts_animation_2
       rect:
         serializedVersion: 2
-        x: 207
-        y: 376
-        width: 50
-        height: 72
+        x: 208
+        y: 377
+        width: 48
+        height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,15 +214,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water_coasts_animation_3
+      name: Wave_2
       rect:
         serializedVersion: 2
-        x: 271
-        y: 15
-        width: 129
-        height: 433
+        x: 272
+        y: 393
+        width: 96
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,11 +240,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 312
-        width: 49
-        height: 56
+        y: 313
+        width: 48
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -261,12 +261,12 @@ TextureImporter:
       name: Water_coasts_animation_5
       rect:
         serializedVersion: 2
-        x: 207
-        y: 312
-        width: 50
-        height: 56
+        x: 208
+        y: 313
+        width: 48
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,11 +284,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 232
-        width: 49
-        height: 73
+        y: 233
+        width: 48
+        height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -305,12 +305,12 @@ TextureImporter:
       name: Water_coasts_animation_7
       rect:
         serializedVersion: 2
-        x: 207
-        y: 232
-        width: 50
-        height: 73
+        x: 208
+        y: 233
+        width: 48
+        height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -328,11 +328,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 168
-        width: 49
-        height: 56
+        y: 169
+        width: 48
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -349,12 +349,12 @@ TextureImporter:
       name: Water_coasts_animation_9
       rect:
         serializedVersion: 2
-        x: 207
-        y: 168
-        width: 50
-        height: 56
+        x: 208
+        y: 169
+        width: 48
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -372,11 +372,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 88
-        width: 49
-        height: 73
+        y: 89
+        width: 48
+        height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -393,12 +393,12 @@ TextureImporter:
       name: Water_coasts_animation_11
       rect:
         serializedVersion: 2
-        x: 207
-        y: 88
-        width: 50
-        height: 73
+        x: 208
+        y: 89
+        width: 48
+        height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -416,11 +416,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 24
-        width: 49
-        height: 56
+        y: 25
+        width: 48
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -437,12 +437,12 @@ TextureImporter:
       name: Water_coasts_animation_13
       rect:
         serializedVersion: 2
-        x: 207
-        y: 24
-        width: 50
-        height: 56
+        x: 208
+        y: 25
+        width: 48
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -464,7 +464,7 @@ TextureImporter:
         width: 17
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -486,7 +486,7 @@ TextureImporter:
         width: 48
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -508,7 +508,7 @@ TextureImporter:
         width: 18
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -521,11 +521,121 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Water_coasts_animation_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 368
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b718ca13b08e524d8168942a4c118d2
+      internalID: -1542724824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 249
+        width: 96
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9776026b33b8bf4f863cb1ec89e7053
+      internalID: -1513486125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 249
+        width: 96
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5570a48561b574e9f66ef3d7dc36a6
+      internalID: -17411216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 105
+        width: 96
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7340bed68493b41a628027b00ee432
+      internalID: 1290996020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave_6
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 105
+        width: 96
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5804eeaf063cd468d91f9fc85a80ef
+      internalID: -1374682962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 796b12d9400980d468526ebf01b8500b
     internalID: 0
     vertices: []
     indices: 
@@ -536,7 +646,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Water_coasts_animation_0: 6463628117186900801
-      Water_coasts_animation_1: 9154509051843531895
       Water_coasts_animation_10: 3527088806668918740
       Water_coasts_animation_11: 3502505397015447601
       Water_coasts_animation_12: -6593487144863505913
@@ -544,14 +653,20 @@ TextureImporter:
       Water_coasts_animation_14: -9083167071873627529
       Water_coasts_animation_15: -629177898921397695
       Water_coasts_animation_16: -4512588912511727668
+      Water_coasts_animation_17: -1542724824
       Water_coasts_animation_2: 5187109691184453635
-      Water_coasts_animation_3: -839442798595913834
       Water_coasts_animation_4: -8020466262886027264
       Water_coasts_animation_5: 696317478344156484
       Water_coasts_animation_6: 5092512924022132279
       Water_coasts_animation_7: 4922075210084870994
       Water_coasts_animation_8: -33895815086992327
       Water_coasts_animation_9: 4099491349124030171
+      Wave_1: 9154509051843531895
+      Wave_2: -839442798595913834
+      Wave_3: -1513486125
+      Wave_4: -17411216
+      Wave_5: 1290996020
+      Wave_6: -1374682962
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
