@@ -297,7 +297,7 @@ TextureImporter:
         width: 21
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,7 +319,7 @@ TextureImporter:
         width: 21
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,7 +341,7 @@ TextureImporter:
         width: 21
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,7 +363,7 @@ TextureImporter:
         width: 22
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -385,7 +385,7 @@ TextureImporter:
         width: 26
         height: 51
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -407,7 +407,7 @@ TextureImporter:
         width: 28
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -429,7 +429,7 @@ TextureImporter:
         width: 30
         height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -451,7 +451,7 @@ TextureImporter:
         width: 27
         height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -473,7 +473,7 @@ TextureImporter:
         width: 21
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -495,7 +495,7 @@ TextureImporter:
         width: 21
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -517,7 +517,7 @@ TextureImporter:
         width: 9
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -539,7 +539,7 @@ TextureImporter:
         width: 9
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -561,7 +561,7 @@ TextureImporter:
         width: 18
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -583,7 +583,7 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -605,7 +605,7 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -627,7 +627,7 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -641,15 +641,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_trap_16
+      name: Dragon_Trap_2_1
       rect:
         serializedVersion: 2
-        x: 5
-        y: 379
-        width: 21
-        height: 27
+        x: 2
+        y: 329
+        width: 27
+        height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -663,15 +663,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_trap_17
+      name: Dragon_Trap_2_2
       rect:
         serializedVersion: 2
-        x: 37
-        y: 379
-        width: 21
-        height: 27
+        x: 34
+        y: 329
+        width: 27
+        height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -685,15 +685,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_trap_18
+      name: Dragon_Trap_2_3
       rect:
         serializedVersion: 2
-        x: 69
-        y: 372
-        width: 21
-        height: 34
+        x: 66
+        y: 329
+        width: 27
+        height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -707,15 +707,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_trap_19
+      name: Dragon_Trap_2_4
       rect:
         serializedVersion: 2
-        x: 101
-        y: 359
-        width: 22
-        height: 47
+        x: 98
+        y: 329
+        width: 27
+        height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -729,15 +729,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_trap_20
+      name: Dragon_Trap_2_5
       rect:
         serializedVersion: 2
-        x: 132
-        y: 354
-        width: 26
-        height: 52
+        x: 130
+        y: 329
+        width: 27
+        height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -751,15 +751,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_trap_21
+      name: Dragon_Trap_2_6
       rect:
         serializedVersion: 2
-        x: 163
-        y: 346
-        width: 28
-        height: 60
+        x: 162
+        y: 329
+        width: 27
+        height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -773,15 +773,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_trap_22
+      name: Dragon_Trap_2_7
       rect:
         serializedVersion: 2
-        x: 193
-        y: 337
-        width: 30
-        height: 69
+        x: 194
+        y: 329
+        width: 27
+        height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -795,15 +795,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_trap_23
+      name: Dragon_Trap_2_8
       rect:
         serializedVersion: 2
-        x: 227
-        y: 330
+        x: 226
+        y: 329
         width: 27
         height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -817,15 +817,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_trap_24
+      name: Dragon_Trap_2_9
       rect:
         serializedVersion: 2
-        x: 261
-        y: 379
-        width: 21
-        height: 27
+        x: 258
+        y: 329
+        width: 27
+        height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -839,15 +839,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_trap_25
+      name: Dragon_Trap_2_10
       rect:
         serializedVersion: 2
-        x: 293
-        y: 379
-        width: 21
-        height: 27
+        x: 290
+        y: 329
+        width: 27
+        height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -864,12 +864,12 @@ TextureImporter:
       name: dragon_trap_26
       rect:
         serializedVersion: 2
-        x: 269
-        y: 364
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 190
+        y: 329
+        width: 4
+        height: 3
+      alignment: 9
+      pivot: {x: 0.19942856, y: -1.2366434}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -883,116 +883,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_trap_27
-      rect:
-        serializedVersion: 2
-        x: 262
-        y: 352
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52f998c816ad60720800000000000000
-      internalID: 2812175129843965733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragon_trap_28
-      rect:
-        serializedVersion: 2
-        x: 267
-        y: 328
-        width: 18
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fff0f961dbda34740800000000000000
-      internalID: 5135139027772444671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragon_trap_29
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 345
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2126d1596fe2d4c40800000000000000
-      internalID: 5498102356687806994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragon_trap_30
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 340
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 15df0923817174a90800000000000000
-      internalID: -7329864475827176111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragon_trap_31
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 328
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6ac811708ec9b0c0800000000000000
-      internalID: -4559386096687330708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: dragon_trap_32
       rect:
         serializedVersion: 2
@@ -1001,7 +891,7 @@ TextureImporter:
         width: 22
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1023,7 +913,7 @@ TextureImporter:
         width: 22
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1045,7 +935,7 @@ TextureImporter:
         width: 23
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1067,7 +957,7 @@ TextureImporter:
         width: 36
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1089,7 +979,7 @@ TextureImporter:
         width: 41
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1111,7 +1001,7 @@ TextureImporter:
         width: 49
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1133,7 +1023,7 @@ TextureImporter:
         width: 58
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1155,7 +1045,7 @@ TextureImporter:
         width: 65
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1177,7 +1067,7 @@ TextureImporter:
         width: 22
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1199,7 +1089,7 @@ TextureImporter:
         width: 9
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1221,7 +1111,7 @@ TextureImporter:
         width: 10
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1243,7 +1133,7 @@ TextureImporter:
         width: 29
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1265,7 +1155,7 @@ TextureImporter:
         width: 22
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1287,7 +1177,7 @@ TextureImporter:
         width: 7
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1309,7 +1199,7 @@ TextureImporter:
         width: 7
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1331,7 +1221,7 @@ TextureImporter:
         width: 7
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1353,7 +1243,7 @@ TextureImporter:
         width: 22
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1375,7 +1265,7 @@ TextureImporter:
         width: 22
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1397,7 +1287,7 @@ TextureImporter:
         width: 23
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1419,7 +1309,7 @@ TextureImporter:
         width: 36
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1441,7 +1331,7 @@ TextureImporter:
         width: 41
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1463,7 +1353,7 @@ TextureImporter:
         width: 49
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1485,7 +1375,7 @@ TextureImporter:
         width: 58
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1507,7 +1397,7 @@ TextureImporter:
         width: 65
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1529,7 +1419,7 @@ TextureImporter:
         width: 22
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1551,7 +1441,7 @@ TextureImporter:
         width: 9
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1573,7 +1463,7 @@ TextureImporter:
         width: 10
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1595,7 +1485,7 @@ TextureImporter:
         width: 29
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1617,7 +1507,7 @@ TextureImporter:
         width: 22
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1639,7 +1529,7 @@ TextureImporter:
         width: 7
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1661,7 +1551,7 @@ TextureImporter:
         width: 7
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1683,7 +1573,7 @@ TextureImporter:
         width: 7
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1696,11 +1586,605 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: dragon_trap_16
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 329
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ac297145cfc9647b2dafb3b951593a
+      internalID: 2125963004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_17
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 329
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef668c3b3d7dfc24bacb3694d4b60d43
+      internalID: -147632225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_18
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 329
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ac523914128e6419eba7bc8965182d
+      internalID: 812981619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_19
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 329
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394f5e14c6ff57148a91c739f1308e6a
+      internalID: 707403540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_20
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 329
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64b2aaf87312b848811510582412df8
+      internalID: 1238130734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_21
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 329
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca1ea7c57559b84690834010a5a25d6
+      internalID: 2043738075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_22
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 329
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807774675ab0659498fc29b2eaacb350
+      internalID: -454522802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_23
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 391
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4608794e6971647a8f31dfad40cbbe
+      internalID: -1010401332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 390
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dd78011a40f3241a2ac84d9c237309
+      internalID: 1553823586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 390
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8131959f6a5c201418b0c68560997db7
+      internalID: 1171461981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_27
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 390
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec78c0631beff540a66ef739230d73a
+      internalID: 2812175129843965733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 390
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44755554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1faeb9fbaaea5b34c912f8f33b208036
+      internalID: 5135139027772444671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_29
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 389
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9288e4aa1b76c0f4ea58961e30d8de1d
+      internalID: 5498102356687806994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_30
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 390
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.3776207, y: 0.36013794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58485c0f4ed98542ad3148d3a3b8236
+      internalID: -7329864475827176111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_31
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 390
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df7cfbcdf024834eab3ead81cfb3154
+      internalID: -4559386096687330708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_64
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 390
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddd7acd4d818fa44bd2e22c310d59b4
+      internalID: 673751710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_65
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 390
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8d34ec792ab9644b7427fbedb9d96b
+      internalID: -746534231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_66
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 390
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d8deee2ab06de4c8d78387b4cff01b
+      internalID: 162826125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_67
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 391
+        width: 4
+        height: 3
+      alignment: 9
+      pivot: {x: 0.24358113, y: -0.31585693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ff30c6c70b3a04288ca4857bd6fd8e
+      internalID: -1046785896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_68
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 390
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e57e91cfe7041b40a39e5c0c622fd0f
+      internalID: -1509663452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_69
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 390
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c5e527ee11c77469ffb9adf90bd39d
+      internalID: -2123254475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_70
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 390
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b8712eac3f987458cb3fbbe93ff6cc
+      internalID: 586182376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_71
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 389
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.023727417, y: 0.49999237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ab3a5c25497c848a5798c890b973e9
+      internalID: 1458624340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_72
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 390
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316a3eff0cc6bfc4f8590a24704c341a
+      internalID: 125244531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_73
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 390
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6f9c72137896941836062bbcff2c2c
+      internalID: -1344519815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_74
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 390
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e7915438f79b5428c3e54a222f7d11
+      internalID: 141583939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_trap_75
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 391
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3723e5471916b428447194a83b9d8a
+      internalID: 223291260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b354b45a7580b6d44a7c0f559fcac525
     internalID: 0
     vertices: []
     indices: 
@@ -1710,6 +2194,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Dragon_Trap_2_1: 4553536009149651812
+      Dragon_Trap_2_10: -4027126771931474483
+      Dragon_Trap_2_2: 8074699618925694506
+      Dragon_Trap_2_3: 2459237423799085149
+      Dragon_Trap_2_4: -1915862918101400606
+      Dragon_Trap_2_5: 1148502441186159244
+      Dragon_Trap_2_6: -8567127308147930024
+      Dragon_Trap_2_7: 8324270946913760959
+      Dragon_Trap_2_8: -7162941497833612125
+      Dragon_Trap_2_9: 6350947689979422370
       dragon_trap_0: 5193463601210512922
       dragon_trap_1: 2561692192110249278
       dragon_trap_10: -8583352616314880732
@@ -1718,17 +2212,17 @@ TextureImporter:
       dragon_trap_13: 7776771556242464165
       dragon_trap_14: -7634120990277339777
       dragon_trap_15: -2332405671239175195
-      dragon_trap_16: 4553536009149651812
-      dragon_trap_17: 8074699618925694506
-      dragon_trap_18: 2459237423799085149
-      dragon_trap_19: -1915862918101400606
+      dragon_trap_16: 2125963004
+      dragon_trap_17: -147632225
+      dragon_trap_18: 812981619
+      dragon_trap_19: 707403540
       dragon_trap_2: -170792565277413966
-      dragon_trap_20: 1148502441186159244
-      dragon_trap_21: -8567127308147930024
-      dragon_trap_22: 8324270946913760959
-      dragon_trap_23: -7162941497833612125
-      dragon_trap_24: 6350947689979422370
-      dragon_trap_25: -4027126771931474483
+      dragon_trap_20: 1238130734
+      dragon_trap_21: 2043738075
+      dragon_trap_22: -454522802
+      dragon_trap_23: -1010401332
+      dragon_trap_24: 1553823586
+      dragon_trap_25: 1171461981
       dragon_trap_26: 2253798424599972887
       dragon_trap_27: 2812175129843965733
       dragon_trap_28: 5135139027772444671
@@ -1771,7 +2265,19 @@ TextureImporter:
       dragon_trap_61: -1416159848655124082
       dragon_trap_62: 828791986059700754
       dragon_trap_63: 7178005544397347304
+      dragon_trap_64: 673751710
+      dragon_trap_65: -746534231
+      dragon_trap_66: 162826125
+      dragon_trap_67: -1046785896
+      dragon_trap_68: -1509663452
+      dragon_trap_69: -2123254475
       dragon_trap_7: -3565005020053100424
+      dragon_trap_70: 586182376
+      dragon_trap_71: 1458624340
+      dragon_trap_72: 125244531
+      dragon_trap_73: -1344519815
+      dragon_trap_74: 141583939
+      dragon_trap_75: 223291260
       dragon_trap_8: -4935633858459123159
       dragon_trap_9: 9074083440750145523
   mipmapLimitGroupName: 

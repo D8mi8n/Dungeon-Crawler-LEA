@@ -280,12 +280,12 @@ TextureImporter:
       name: Spikes_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 31
-        width: 9
-        height: 10
+        x: 1
+        y: 32
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: Spikes_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 31
-        width: 9
-        height: 10
+        x: 9
+        y: 32
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,12 +324,12 @@ TextureImporter:
       name: Spikes_2
       rect:
         serializedVersion: 2
-        x: 16
-        y: 15
-        width: 9
-        height: 34
+        x: 17
+        y: 16
+        width: 7
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -346,12 +346,12 @@ TextureImporter:
       name: Spikes_3
       rect:
         serializedVersion: 2
-        x: 24
-        y: 15
-        width: 9
-        height: 34
+        x: 25
+        y: 16
+        width: 7
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -368,12 +368,12 @@ TextureImporter:
       name: Spikes_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 31
-        width: 9
-        height: 18
+        x: 33
+        y: 32
+        width: 7
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -390,12 +390,12 @@ TextureImporter:
       name: Spikes_5
       rect:
         serializedVersion: 2
-        x: 40
-        y: 31
-        width: 9
-        height: 18
+        x: 41
+        y: 32
+        width: 7
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -412,12 +412,12 @@ TextureImporter:
       name: Spikes_6
       rect:
         serializedVersion: 2
-        x: 48
-        y: 31
-        width: 9
-        height: 10
+        x: 49
+        y: 32
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -434,12 +434,12 @@ TextureImporter:
       name: Spikes_7
       rect:
         serializedVersion: 2
-        x: 56
-        y: 31
-        width: 9
-        height: 10
+        x: 57
+        y: 32
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -456,12 +456,12 @@ TextureImporter:
       name: Spikes_8
       rect:
         serializedVersion: 2
-        x: 64
-        y: 15
-        width: 9
-        height: 34
+        x: 65
+        y: 16
+        width: 7
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -478,12 +478,12 @@ TextureImporter:
       name: Spikes_9
       rect:
         serializedVersion: 2
-        x: 72
-        y: 15
-        width: 9
-        height: 34
+        x: 73
+        y: 16
+        width: 7
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -500,12 +500,12 @@ TextureImporter:
       name: Spikes_10
       rect:
         serializedVersion: 2
-        x: 80
-        y: 31
-        width: 9
-        height: 18
+        x: 81
+        y: 32
+        width: 7
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -522,12 +522,12 @@ TextureImporter:
       name: Spikes_11
       rect:
         serializedVersion: 2
-        x: 88
-        y: 31
-        width: 9
-        height: 18
+        x: 89
+        y: 32
+        width: 7
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -544,12 +544,12 @@ TextureImporter:
       name: Spikes_12
       rect:
         serializedVersion: 2
-        x: 96
-        y: 31
-        width: 9
-        height: 13
+        x: 97
+        y: 32
+        width: 7
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -566,12 +566,12 @@ TextureImporter:
       name: Spikes_13
       rect:
         serializedVersion: 2
-        x: 104
-        y: 31
-        width: 9
-        height: 13
+        x: 105
+        y: 32
+        width: 7
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -588,12 +588,12 @@ TextureImporter:
       name: Spikes_14
       rect:
         serializedVersion: 2
-        x: 112
-        y: 15
-        width: 9
-        height: 37
+        x: 113
+        y: 16
+        width: 7
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -610,12 +610,12 @@ TextureImporter:
       name: Spikes_15
       rect:
         serializedVersion: 2
-        x: 120
-        y: 15
-        width: 9
-        height: 37
+        x: 121
+        y: 16
+        width: 7
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -632,12 +632,12 @@ TextureImporter:
       name: Spikes_16
       rect:
         serializedVersion: 2
-        x: 128
-        y: 31
-        width: 9
-        height: 21
+        x: 129
+        y: 32
+        width: 7
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -654,12 +654,12 @@ TextureImporter:
       name: Spikes_17
       rect:
         serializedVersion: 2
-        x: 136
-        y: 31
-        width: 9
-        height: 21
+        x: 137
+        y: 32
+        width: 7
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -676,12 +676,12 @@ TextureImporter:
       name: Spikes_18
       rect:
         serializedVersion: 2
-        x: 144
-        y: 31
-        width: 9
-        height: 18
+        x: 145
+        y: 32
+        width: 7
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -695,15 +695,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spikes_19
+      name: Spike_1_4
       rect:
         serializedVersion: 2
-        x: 147
-        y: 15
-        width: 9
-        height: 18
+        x: 148
+        y: 16
+        width: 7
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -720,12 +720,12 @@ TextureImporter:
       name: Spikes_20
       rect:
         serializedVersion: 2
-        x: 152
-        y: 31
-        width: 9
-        height: 18
+        x: 153
+        y: 32
+        width: 7
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -742,12 +742,12 @@ TextureImporter:
       name: Spikes_21
       rect:
         serializedVersion: 2
-        x: 160
-        y: 15
-        width: 9
-        height: 42
+        x: 161
+        y: 16
+        width: 7
+        height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -764,12 +764,12 @@ TextureImporter:
       name: Spikes_22
       rect:
         serializedVersion: 2
-        x: 168
-        y: 15
-        width: 9
-        height: 42
+        x: 169
+        y: 16
+        width: 7
+        height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -786,12 +786,12 @@ TextureImporter:
       name: Spikes_23
       rect:
         serializedVersion: 2
-        x: 176
-        y: 31
-        width: 9
-        height: 26
+        x: 177
+        y: 32
+        width: 7
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -808,12 +808,12 @@ TextureImporter:
       name: Spikes_24
       rect:
         serializedVersion: 2
-        x: 184
-        y: 31
-        width: 9
-        height: 26
+        x: 185
+        y: 32
+        width: 7
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -830,12 +830,12 @@ TextureImporter:
       name: Spikes_25
       rect:
         serializedVersion: 2
-        x: 192
-        y: 31
-        width: 9
-        height: 13
+        x: 193
+        y: 32
+        width: 7
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -852,12 +852,12 @@ TextureImporter:
       name: Spikes_26
       rect:
         serializedVersion: 2
-        x: 200
-        y: 31
-        width: 9
-        height: 13
+        x: 201
+        y: 32
+        width: 7
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -874,12 +874,12 @@ TextureImporter:
       name: Spikes_27
       rect:
         serializedVersion: 2
-        x: 208
-        y: 15
-        width: 9
-        height: 37
+        x: 209
+        y: 16
+        width: 7
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -896,12 +896,12 @@ TextureImporter:
       name: Spikes_28
       rect:
         serializedVersion: 2
-        x: 216
-        y: 15
-        width: 9
-        height: 37
+        x: 217
+        y: 16
+        width: 7
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -918,12 +918,12 @@ TextureImporter:
       name: Spikes_29
       rect:
         serializedVersion: 2
-        x: 224
-        y: 31
-        width: 9
-        height: 21
+        x: 225
+        y: 32
+        width: 7
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -940,12 +940,12 @@ TextureImporter:
       name: Spikes_30
       rect:
         serializedVersion: 2
-        x: 232
-        y: 31
-        width: 9
-        height: 21
+        x: 233
+        y: 32
+        width: 7
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -962,12 +962,12 @@ TextureImporter:
       name: Spikes_31
       rect:
         serializedVersion: 2
-        x: 240
-        y: 31
-        width: 9
-        height: 10
+        x: 241
+        y: 32
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -984,12 +984,12 @@ TextureImporter:
       name: Spikes_32
       rect:
         serializedVersion: 2
-        x: 248
-        y: 31
-        width: 9
-        height: 10
+        x: 249
+        y: 32
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1006,12 +1006,12 @@ TextureImporter:
       name: Spikes_33
       rect:
         serializedVersion: 2
-        x: 256
-        y: 15
-        width: 9
-        height: 34
+        x: 257
+        y: 16
+        width: 7
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1028,12 +1028,12 @@ TextureImporter:
       name: Spikes_34
       rect:
         serializedVersion: 2
-        x: 264
-        y: 15
-        width: 9
-        height: 34
+        x: 265
+        y: 16
+        width: 7
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1050,12 +1050,12 @@ TextureImporter:
       name: Spikes_35
       rect:
         serializedVersion: 2
-        x: 272
-        y: 31
-        width: 9
-        height: 18
+        x: 273
+        y: 32
+        width: 7
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1072,12 +1072,12 @@ TextureImporter:
       name: Spikes_36
       rect:
         serializedVersion: 2
-        x: 280
-        y: 31
-        width: 8
-        height: 18
+        x: 281
+        y: 32
+        width: 7
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1091,15 +1091,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spikes_37
+      name: Spike_1_1
       rect:
         serializedVersion: 2
-        x: 3
-        y: 15
-        width: 9
-        height: 10
+        x: 4
+        y: 16
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1113,15 +1113,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spikes_38
+      name: Spike_1_2
       rect:
         serializedVersion: 2
-        x: 51
-        y: 15
-        width: 9
-        height: 10
+        x: 52
+        y: 16
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1135,15 +1135,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spikes_39
+      name: Spike_1_3
       rect:
         serializedVersion: 2
-        x: 99
-        y: 15
-        width: 9
-        height: 13
+        x: 100
+        y: 16
+        width: 7
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1160,12 +1160,12 @@ TextureImporter:
       name: Spikes_40
       rect:
         serializedVersion: 2
-        x: 156
+        x: 157
         y: 0
-        width: 9
-        height: 17
+        width: 7
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1182,12 +1182,12 @@ TextureImporter:
       name: Spikes_41
       rect:
         serializedVersion: 2
-        x: 164
+        x: 165
         y: 0
-        width: 9
-        height: 17
+        width: 7
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1204,12 +1204,12 @@ TextureImporter:
       name: Spikes_42
       rect:
         serializedVersion: 2
-        x: 172
+        x: 173
         y: 0
-        width: 9
-        height: 17
+        width: 7
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1223,15 +1223,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spikes_43
+      name: Spike_1_5
       rect:
         serializedVersion: 2
-        x: 195
-        y: 15
-        width: 9
-        height: 13
+        x: 196
+        y: 16
+        width: 7
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1245,15 +1245,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spikes_44
+      name: Spike_1_6
       rect:
         serializedVersion: 2
-        x: 243
-        y: 15
-        width: 9
-        height: 10
+        x: 244
+        y: 16
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1270,12 +1270,12 @@ TextureImporter:
       name: Spikes_45
       rect:
         serializedVersion: 2
-        x: 12
+        x: 13
         y: 0
-        width: 9
-        height: 9
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1292,12 +1292,12 @@ TextureImporter:
       name: Spikes_46
       rect:
         serializedVersion: 2
-        x: 20
+        x: 21
         y: 0
-        width: 9
-        height: 9
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1314,12 +1314,12 @@ TextureImporter:
       name: Spikes_47
       rect:
         serializedVersion: 2
-        x: 28
+        x: 29
         y: 0
-        width: 9
-        height: 9
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1336,12 +1336,12 @@ TextureImporter:
       name: Spikes_48
       rect:
         serializedVersion: 2
-        x: 60
+        x: 61
         y: 0
-        width: 9
-        height: 9
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1358,12 +1358,12 @@ TextureImporter:
       name: Spikes_49
       rect:
         serializedVersion: 2
-        x: 68
+        x: 69
         y: 0
-        width: 9
-        height: 9
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1380,12 +1380,12 @@ TextureImporter:
       name: Spikes_50
       rect:
         serializedVersion: 2
-        x: 76
+        x: 77
         y: 0
-        width: 9
-        height: 9
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1407,7 +1407,7 @@ TextureImporter:
         width: 9
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1429,7 +1429,7 @@ TextureImporter:
         width: 9
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1451,7 +1451,7 @@ TextureImporter:
         width: 9
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1468,12 +1468,12 @@ TextureImporter:
       name: Spikes_54
       rect:
         serializedVersion: 2
-        x: 204
+        x: 205
         y: 0
-        width: 9
-        height: 12
+        width: 7
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1490,12 +1490,12 @@ TextureImporter:
       name: Spikes_55
       rect:
         serializedVersion: 2
-        x: 212
+        x: 213
         y: 0
-        width: 9
-        height: 12
+        width: 7
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1512,12 +1512,12 @@ TextureImporter:
       name: Spikes_56
       rect:
         serializedVersion: 2
-        x: 220
+        x: 221
         y: 0
-        width: 9
-        height: 12
+        width: 7
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1534,12 +1534,12 @@ TextureImporter:
       name: Spikes_57
       rect:
         serializedVersion: 2
-        x: 252
+        x: 253
         y: 0
-        width: 9
-        height: 9
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1556,12 +1556,12 @@ TextureImporter:
       name: Spikes_58
       rect:
         serializedVersion: 2
-        x: 260
+        x: 261
         y: 0
-        width: 9
-        height: 9
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1578,12 +1578,12 @@ TextureImporter:
       name: Spikes_59
       rect:
         serializedVersion: 2
-        x: 268
-        y: 0
-        width: 9
-        height: 9
+        x: 269
+        y: 1
+        width: 7
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1600,7 +1600,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 349f465ecbd6d6d4f96e6dd116f518bd
     internalID: 0
     vertices: []
     indices: 
@@ -1610,6 +1610,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Spike_1_1: -3375606124700766264
+      Spike_1_2: -2091653904938825257
+      Spike_1_3: 7208604379474185306
+      Spike_1_4: 2911467466273707247
+      Spike_1_5: 853481534517147479
+      Spike_1_6: -4444828941687205124
       Spikes_0: 6723963429988506304
       Spikes_1: -7010832575621253078
       Spikes_10: -6953474909685209652
@@ -1621,7 +1627,6 @@ TextureImporter:
       Spikes_16: -5184010590927084044
       Spikes_17: 1985817921114405524
       Spikes_18: 1677359685467642345
-      Spikes_19: 2911467466273707247
       Spikes_2: 8562923692314260799
       Spikes_20: -1474636180849365011
       Spikes_21: -1504042700791414411
@@ -1641,15 +1646,10 @@ TextureImporter:
       Spikes_34: 885819971805994954
       Spikes_35: -5438175428518814937
       Spikes_36: -5372574097060103121
-      Spikes_37: -3375606124700766264
-      Spikes_38: -2091653904938825257
-      Spikes_39: 7208604379474185306
       Spikes_4: -3644641957871353732
       Spikes_40: -4939817076351578271
       Spikes_41: 1870240032975276764
       Spikes_42: 4243460616710320969
-      Spikes_43: 853481534517147479
-      Spikes_44: -4444828941687205124
       Spikes_45: 554315433135906839
       Spikes_46: -3383311911217232347
       Spikes_47: 6036337806493806076

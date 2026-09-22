@@ -552,7 +552,7 @@ TextureImporter:
         width: 96
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -574,7 +574,7 @@ TextureImporter:
         width: 96
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -596,7 +596,7 @@ TextureImporter:
         width: 96
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -618,7 +618,7 @@ TextureImporter:
         width: 96
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -627,6 +627,732 @@ TextureImporter:
       bones: []
       spriteID: eb5804eeaf063cd468d91f9fc85a80ef
       internalID: -1374682962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piller_Back_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9d8cc0e4979d94097eb71131c37b05
+      internalID: -1688776405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piller_Back_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2f7b786de9ba54e82f6eecdec6422e
+      internalID: 1824020762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piller_Back_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 304
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0996dd5d9a36b264ca59b514b07c5cb8
+      internalID: -1953420418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piller_Back_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18394b5c18f9fb645b24be3e504d4253
+      internalID: 2120110352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slab
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 184
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc31f806245d7c419741f8a98ee17a4
+      internalID: 1754525826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curbe_Water_Right_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 201
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df97ad13c4c57d34781ef7f11da77cb7
+      internalID: 1226626255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curbe_Water_Right_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 345
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4933ae1314f05944d85b1c77150f2794
+      internalID: -1122313267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curbe_Water_Right_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 345
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028da5a984e79dc4584806f3b5b72158
+      internalID: -497144270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curbe_Water_Right_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 201
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae5babe07504754d95bf6d99d4624e0
+      internalID: -1167223339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curbe_Water_Right_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 57
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f742fc1f11c96408c82514bf2915de
+      internalID: 529822344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curbe_Water_Right_6
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 57
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c2455643a23764f87ba71e5963170d
+      internalID: 1269634981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brige_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 272
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dfbe1659642d740b76347d2e718bd9
+      internalID: 1202061245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brige_2
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 272
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b51543f9d102cd40804a6ddf04c8aba
+      internalID: -883952621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brige_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d00c5104d5e9b40aa15f994ee145e7
+      internalID: 2035092921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brige_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 128
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb201468c1f2cb498d748066ed84017
+      internalID: 837226936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Slab_Tile_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 360
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef968aef3f721849a8a42ac8c07a936
+      internalID: -1654010940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Slab_Tile_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 360
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc458b4210194f40af77d3fd1f84d40
+      internalID: 996253659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Slab_Tile_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 216
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ef32eeccd9c224987019faaa22ed8e
+      internalID: 1495145497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Slab_Tile_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 216
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc712f2978c0f5e4286ba423641e04ef
+      internalID: 840233407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Slab_Tile_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 72
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bab6fa06106ef94e8000bc4f65f6750
+      internalID: -112432009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Slab_Tile_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 72
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3d9dbbfecd7a343b2fe3e4ecaf58b0
+      internalID: 1179023911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curbe_Water_Left_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 345
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748d8ebfc93d93c42916ad53e686f739
+      internalID: -59943205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curbe_Water_Left_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 345
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de93b8b0a26c564e9780227acdb21cf
+      internalID: 1618936914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curbe_Water_Left_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 201
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823a2b46697cc1943874068f6b68e8e9
+      internalID: -507432713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curbe_Water_Left_4
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 201
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e03c69a5886634fbf43f47579c4840
+      internalID: 1017976969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curbe_Water_Left_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 57
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5679703e6b82e54a951825b6daf20bd
+      internalID: -2136006799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curbe_Water_Left_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 57
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9e20b495852ab4fb9cb70b060cc7f8
+      internalID: 1452338807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right_Side_Slab_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 325
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4be2e4ba0b2e36448c630b4a8b6cd08
+      internalID: -1719063861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right_Side_Slab_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 325
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a74e8b8c8b85f4ca1b9888391d174e
+      internalID: 1759275606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right_Side_Slab_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 181
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4dd6f1869bbef4094a975f2a772ee3
+      internalID: -563320494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right_Side_Slab_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 181
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ec0c2e8fa3bcf429f07dc3486807b6
+      internalID: 1813535589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right_Side_Slab_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 37
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0b9dfdd17b7ab4087bba8572d34cd2
+      internalID: 782356728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right_Side_Slab_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 37
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7fcf5cf88b2d2498eee5a0fa1dfbca
+      internalID: -1365708544
       vertices: []
       indices: 
       edges: []
@@ -645,6 +1371,39 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Brige_1: 1202061245
+      Brige_2: -883952621
+      Brige_3: 2035092921
+      Brige_4: 837226936
+      Curbe_Water_Left_1: -59943205
+      Curbe_Water_Left_2: 1618936914
+      Curbe_Water_Left_3: -507432713
+      Curbe_Water_Left_4: 1017976969
+      Curbe_Water_Left_5: -2136006799
+      Curbe_Water_Left_6: 1452338807
+      Curbe_Water_Right_1: -1122313267
+      Curbe_Water_Right_2: -497144270
+      Curbe_Water_Right_3: 1226626255
+      Curbe_Water_Right_4: -1167223339
+      Curbe_Water_Right_5: 529822344
+      Curbe_Water_Right_6: 1269634981
+      Piller_Back_1: -1688776405
+      Piller_Back_2: -1953420418
+      Piller_Back_3: 1824020762
+      Piller_Back_4: 2120110352
+      Right_Side_Slab_1: -1719063861
+      Right_Side_Slab_2: 1759275606
+      Right_Side_Slab_3: -563320494
+      Right_Side_Slab_4: 1813535589
+      Right_Side_Slab_5: 782356728
+      Right_Side_Slab_6: -1365708544
+      Slab: 1754525826
+      Water_Slab_Tile_1: -1654010940
+      Water_Slab_Tile_2: 996253659
+      Water_Slab_Tile_3: 1495145497
+      Water_Slab_Tile_4: 840233407
+      Water_Slab_Tile_5: -112432009
+      Water_Slab_Tile_6: 1179023911
       Water_coasts_animation_0: 6463628117186900801
       Water_coasts_animation_10: 3527088806668918740
       Water_coasts_animation_11: 3502505397015447601

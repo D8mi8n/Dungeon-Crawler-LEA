@@ -499,37 +499,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: water_detilazation_v2_0
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 1207
-        width: 19
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cb66124033886f5a0800000000000000
-      internalID: -6487848460486613316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_1
+      name: Bubble_1
       rect:
         serializedVersion: 2
         x: 18
-        y: 1198
+        y: 1190
         width: 233
-        height: 28
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -543,37 +521,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_2
+      name: Bubble_2
       rect:
         serializedVersion: 2
-        x: 220
-        y: 1203
-        width: 32
-        height: 8
+        x: 269
+        y: 1191
+        width: 233
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6eead77ce4e2ce590800000000000000
-      internalID: -7643683551665344794
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_3
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 1207
-        width: 118
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -587,37 +543,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_4
+      name: Bubble_3
       rect:
         serializedVersion: 2
-        x: 386
-        y: 1196
-        width: 74
-        height: 16
+        x: 511
+        y: 1194
+        width: 75
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6acc9c93c64cb2710800000000000000
-      internalID: 1669644055975939238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_5
-      rect:
-        serializedVersion: 2
-        x: 517
-        y: 1206
-        width: 53
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -631,139 +565,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_6
-      rect:
-        serializedVersion: 2
-        x: 550
-        y: 1201
-        width: 25
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5db957a9336ab01a0800000000000000
-      internalID: -6842192468294394923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_7
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 1189
-        width: 64
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5f2e68cfe599df90800000000000000
-      internalID: -6928341694640410788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_8
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 1194
-        width: 23
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e62e65e1d03032c00800000000000000
-      internalID: 874546107518476910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_9
-      rect:
-        serializedVersion: 2
-        x: 332
-        y: 1197
-        width: 53
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ac5b93eea4c37c00800000000000000
-      internalID: 897277006198824104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_10
-      rect:
-        serializedVersion: 2
-        x: 357
-        y: 1190
-        width: 31
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d0a7f1e8cc1f0e760800000000000000
-      internalID: 7485248441549814285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_11
-      rect:
-        serializedVersion: 2
-        x: 467
-        y: 1174
-        width: 42
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: deaf9c04851342430800000000000000
-      internalID: 3757182244247698157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_12
+      name: Bubble_4
       rect:
         serializedVersion: 2
         x: 28
@@ -771,7 +573,7 @@ TextureImporter:
         width: 179
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -785,7 +587,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_13
+      name: Bubble_5
       rect:
         serializedVersion: 2
         x: 265
@@ -793,7 +595,7 @@ TextureImporter:
         width: 115
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -807,15 +609,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_14
+      name: Bubble_6
       rect:
         serializedVersion: 2
-        x: 409
-        y: 1144
-        width: 71
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 403
+        y: 1128
+        width: 156
+        height: 54
+      alignment: 9
+      pivot: {x: 0.48533922, y: 0.501024}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -829,37 +631,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_15
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 1141
-        width: 23
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a3b927f0069e2f1a0800000000000000
-      internalID: -6777097890453873862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_16
+      name: Bubble_8
       rect:
         serializedVersion: 2
         x: 282
-        y: 1100
-        width: 99
-        height: 14
+        y: 1095
+        width: 106
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -873,15 +653,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_17
+      name: Bubble_9
       rect:
         serializedVersion: 2
         x: 447
         y: 1098
-        width: 40
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 50
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5223773, y: 0.44672504}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -895,29 +675,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_18
-      rect:
-        serializedVersion: 2
-        x: 468
-        y: 1104
-        width: 28
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b6990aab9b6947c70800000000000000
-      internalID: 8967958482445703531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_19
+      name: Bubble_7
       rect:
         serializedVersion: 2
         x: 20
@@ -925,7 +683,7 @@ TextureImporter:
         width: 198
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -939,59 +697,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_20
-      rect:
-        serializedVersion: 2
-        x: 362
-        y: 1095
-        width: 24
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d90e22c6f1448a7a0800000000000000
-      internalID: -6365763171539296099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_21
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 999
-        width: 21
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6543b5803dbaecd30800000000000000
-      internalID: 4453686004382643286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_22
+      name: Bubble_10
       rect:
         serializedVersion: 2
         x: 17
-        y: 986
+        y: 981
         width: 235
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 37
+      alignment: 9
+      pivot: {x: 0.49000996, y: 0.5560072}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1005,37 +719,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_23
-      rect:
-        serializedVersion: 2
-        x: 219
-        y: 996
-        width: 34
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6709c2c8373897b60800000000000000
-      internalID: 7744365566536487030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_24
+      name: Bubble_11
       rect:
         serializedVersion: 2
         x: 306
-        y: 999
-        width: 120
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 982
+        width: 157
+        height: 33
+      alignment: 9
+      pivot: {x: 0.4660386, y: 0.45748994}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1049,37 +741,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_25
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 988
-        width: 76
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd41cb2f3e32a94e0800000000000000
-      internalID: -1974226024711580451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_26
+      name: Bubble_12
       rect:
         serializedVersion: 2
         x: 516
-        y: 999
-        width: 55
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 993
+        width: 64
+        height: 16
+      alignment: 9
+      pivot: {x: 0.52368164, y: 0.50749207}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1093,125 +763,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_27
-      rect:
-        serializedVersion: 2
-        x: 549
-        y: 994
-        width: 25
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9215a5014be9986e0800000000000000
-      internalID: -1834760876971110103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_28
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 981
-        width: 66
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3e410586d6971b490800000000000000
-      internalID: -7732265574409956125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_29
-      rect:
-        serializedVersion: 2
-        x: 331
-        y: 990
-        width: 55
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bba7078e1f9c714d0800000000000000
-      internalID: -3163838172380497221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_30
-      rect:
-        serializedVersion: 2
-        x: 356
-        y: 982
-        width: 33
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a08f75b41452f27a0800000000000000
-      internalID: -6399855583103027190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_31
-      rect:
-        serializedVersion: 2
-        x: 466
-        y: 966
-        width: 44
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3ce1a0be27efa1e10800000000000000
-      internalID: 2169325940055350979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_32
+      name: Bubble_13
       rect:
         serializedVersion: 2
         x: 27
         y: 921
         width: 182
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.50471735, y: 0.4949402}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1225,15 +785,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_33
+      name: Bubble_14
       rect:
         serializedVersion: 2
         x: 264
-        y: 938
-        width: 117
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 927
+        width: 122
+        height: 24
+      alignment: 9
+      pivot: {x: 0.49760136, y: 0.5139262}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1247,15 +807,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_34
+      name: Bubble_15
       rect:
         serializedVersion: 2
         x: 408
-        y: 936
-        width: 69
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 932
+        width: 72
+        height: 24
+      alignment: 9
+      pivot: {x: 0.49486288, y: 0.47716522}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1269,81 +829,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_35
-      rect:
-        serializedVersion: 2
-        x: 451
-        y: 947
-        width: 30
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d23fc33ae2baea770800000000000000
-      internalID: 8624018553256604461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_36
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 930
-        width: 70
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f09143582dec7edb0800000000000000
-      internalID: -4762610677347772145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_37
-      rect:
-        serializedVersion: 2
-        x: 532
-        y: 933
-        width: 25
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f07ac50e64aa3edf0800000000000000
-      internalID: -152090741011863793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_38
+      name: Bubble_17
       rect:
         serializedVersion: 2
         x: 281
-        y: 892
-        width: 101
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 887
+        width: 106
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5006204, y: 0.4496494}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1357,15 +851,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_39
+      name: Bubble_18
       rect:
         serializedVersion: 2
         x: 446
         y: 890
-        width: 43
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 50
+        height: 12
+      alignment: 9
+      pivot: {x: 0.47810912, y: 0.5020701}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1379,37 +873,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_40
-      rect:
-        serializedVersion: 2
-        x: 467
-        y: 896
-        width: 30
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80834e8f618802210800000000000000
-      internalID: 1306193524183808008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_41
+      name: Bubble_16
       rect:
         serializedVersion: 2
         x: 19
         y: 866
         width: 200
         height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.49477065, y: 0.4673413}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1423,59 +895,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_42
-      rect:
-        serializedVersion: 2
-        x: 361
-        y: 887
-        width: 26
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 004e990a84adfec60800000000000000
-      internalID: 7849732680997004288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_43
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 790
-        width: 23
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c887c1173658e290800000000000000
-      internalID: -7860938355053721408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_44
+      name: Bubble_19
       rect:
         serializedVersion: 2
         x: 16
-        y: 782
+        y: 773
         width: 237
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 36
+      alignment: 9
+      pivot: {x: 0.49702886, y: 0.4893273}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1489,81 +917,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_45
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 788
-        width: 36
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4887ea3956a92c720800000000000000
-      internalID: 2865022074021116036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_46
-      rect:
-        serializedVersion: 2
-        x: 305
-        y: 791
-        width: 122
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1cfbd899986ccae0800000000000000
-      internalID: -1527731164681602022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_47
-      rect:
-        serializedVersion: 2
-        x: 405
-        y: 789
-        width: 57
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc21ca339ebd9d180800000000000000
-      internalID: -9089992578229857585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_48
+      name: Bubble_21
       rect:
         serializedVersion: 2
         x: 515
-        y: 791
-        width: 57
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 784
+        width: 62
+        height: 15
+      alignment: 9
+      pivot: {x: 0.48875576, y: 0.5191162}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1577,103 +939,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_49
+      name: Bubble_20
       rect:
         serializedVersion: 2
-        x: 548
-        y: 785
-        width: 27
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea3fc742cf0043ec0800000000000000
-      internalID: -3588241920163515474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_50
-      rect:
-        serializedVersion: 2
-        x: 55
+        x: 303
         y: 773
-        width: 68
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bdae678c009887010800000000000000
-      internalID: 1186849138268367579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_51
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 778
-        width: 27
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 25e62b7c07ed77bd0800000000000000
-      internalID: -2632390881206702510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_52
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 782
-        width: 54
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c78baf9c2d4bd3950800000000000000
-      internalID: 6430494660379719804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_53
-      rect:
-        serializedVersion: 2
-        x: 386
-        y: 781
-        width: 63
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 162
+        height: 35
+      alignment: 9
+      pivot: {x: 0.4994228, y: 0.49631}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1687,59 +961,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_54
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 774
-        width: 35
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2af474df51b63ab40800000000000000
-      internalID: 5450317716236226466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_55
-      rect:
-        serializedVersion: 2
-        x: 465
-        y: 758
-        width: 46
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 364cc41b24919fbd0800000000000000
-      internalID: -2596015935969246109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_56
+      name: Bubble_22
       rect:
         serializedVersion: 2
         x: 26
         y: 713
         width: 184
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4967613, y: 0.4901652}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1753,15 +983,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_57
+      name: Bubble_23
       rect:
         serializedVersion: 2
         x: 263
-        y: 731
+        y: 719
         width: 119
-        height: 12
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1775,15 +1005,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_58
+      name: Bubble_24
       rect:
         serializedVersion: 2
-        x: 407
-        y: 728
-        width: 71
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 408
+        y: 724
+        width: 163
+        height: 41
+      alignment: 9
+      pivot: {x: 0.49625626, y: 0.49585408}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1797,81 +1027,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_59
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 738
-        width: 32
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba96568fce4f57530800000000000000
-      internalID: 3852254354902182315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_60
-      rect:
-        serializedVersion: 2
-        x: 296
-        y: 722
-        width: 72
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1914e4cc9259c12a0800000000000000
-      internalID: -6765368533463449199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_61
-      rect:
-        serializedVersion: 2
-        x: 531
-        y: 725
-        width: 27
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7b1edfa4c9a6915b0800000000000000
-      internalID: -5397165458921233993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_62
+      name: Bubble_26
       rect:
         serializedVersion: 2
         x: 280
-        y: 684
-        width: 103
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 679
+        width: 109
+        height: 17
+      alignment: 9
+      pivot: {x: 0.4909458, y: 0.5464621}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1885,15 +1049,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_63
+      name: Bubble_27
       rect:
         serializedVersion: 2
-        x: 445
+        x: 444
         y: 682
-        width: 45
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 54
+        height: 12
+      alignment: 9
+      pivot: {x: 0.49460348, y: 0.47322592}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1907,37 +1071,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_64
-      rect:
-        serializedVersion: 2
-        x: 467
-        y: 688
-        width: 31
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 696fbcc25f891e3e0800000000000000
-      internalID: -2026170178554038634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_65
+      name: Bubble_25
       rect:
         serializedVersion: 2
         x: 18
         y: 658
         width: 202
         height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4997886, y: 0.5231787}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1951,37 +1093,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_66
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 679
-        width: 28
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d1cdaeb8f359ebb0800000000000000
-      internalID: -4906297991227391536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_67
+      name: Bubble_28
       rect:
         serializedVersion: 2
         x: 14
-        y: 574
+        y: 565
         width: 241
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5030069, y: 0.49427423}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1995,15 +1115,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_68
+      name: Bubble_29
       rect:
         serializedVersion: 2
         x: 304
-        y: 583
-        width: 124
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 565
+        width: 158
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5031883, y: 0.4730465}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2017,213 +1137,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_69
-      rect:
-        serializedVersion: 2
-        x: 405
-        y: 581
-        width: 58
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d4021af3ce22c0ac0800000000000000
-      internalID: -3887693980252430259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_70
-      rect:
-        serializedVersion: 2
-        x: 514
-        y: 584
-        width: 59
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c4685a6d788ed2d60800000000000000
-      internalID: 7867199794205525580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_71
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 573
-        width: 50
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e0a46500c49b3740800000000000000
-      internalID: 5132859752763924705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_72
-      rect:
-        serializedVersion: 2
-        x: 388
-        y: 573
-        width: 63
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed9cfd063899943d0800000000000000
-      internalID: -3221875268861834786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_73
-      rect:
-        serializedVersion: 2
-        x: 547
-        y: 577
-        width: 29
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af373e5b109b20f00800000000000000
-      internalID: 1081630277520028666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_74
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 566
-        width: 71
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5cd68436aee4928c0800000000000000
-      internalID: -4023598023483822651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_75
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 570
-        width: 31
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec425ea20c7c78000800000000000000
-      internalID: 38218750023247054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_76
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 566
-        width: 38
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38c17704877b7e020800000000000000
-      internalID: 2371065455939361923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_77
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 550
-        width: 48
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 857baa2f9b786ea60800000000000000
-      internalID: 7702993445373785944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_78
+      name: Bubble_30
       rect:
         serializedVersion: 2
         x: 25
         y: 505
         width: 186
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.496331, y: 0.49227414}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2237,15 +1159,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_79
+      name: Bubble_31
       rect:
         serializedVersion: 2
         x: 262
-        y: 523
+        y: 511
         width: 121
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5023718, y: 0.50186664}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2259,37 +1181,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_80
-      rect:
-        serializedVersion: 2
-        x: 296
-        y: 514
-        width: 73
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a17f9b15d476b0440800000000000000
-      internalID: 4903126201104201498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_81
+      name: Bubble_32
       rect:
         serializedVersion: 2
         x: 406
-        y: 520
-        width: 77
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 516
+        width: 76
+        height: 21
+      alignment: 9
+      pivot: {x: 0.49765658, y: 0.5215047}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2303,37 +1203,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_82
-      rect:
-        serializedVersion: 2
-        x: 530
-        y: 517
-        width: 29
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db7023677834d3e90800000000000000
-      internalID: -7044399993054951491
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_83
+      name: Bubble_34
       rect:
         serializedVersion: 2
         x: 279
-        y: 476
-        width: 105
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 468
+        width: 111
+        height: 20
+      alignment: 9
+      pivot: {x: 0.4905698, y: 0.5077866}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2347,15 +1225,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_84
+      name: Puddle_1
       rect:
         serializedVersion: 2
         x: 444
         y: 478
         width: 25
         height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.39975342, y: 0.4678701}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2369,7 +1247,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_85
+      name: Puddle_2
       rect:
         serializedVersion: 2
         x: 468
@@ -2377,7 +1255,7 @@ TextureImporter:
         width: 31
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2391,15 +1269,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_86
+      name: Bubble_33
       rect:
         serializedVersion: 2
         x: 17
-        y: 455
+        y: 450
         width: 204
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 25
+      alignment: 9
+      pivot: {x: 0.49902183, y: 0.49645996}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2413,72 +1291,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_87
-      rect:
-        serializedVersion: 2
-        x: 359
-        y: 471
-        width: 28
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17c575b22cae350c0800000000000000
-      internalID: -4588065475688702863
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_88
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 474
-        width: 41
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35206a246c6fd9c80800000000000000
-      internalID: -8314218005673934253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: water_detilazation_v2_89
-      rect:
-        serializedVersion: 2
-        x: 78
-        y: 450
-        width: 55
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc24277d8ee0713e0800000000000000
-      internalID: -2083179909425773875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: water_detilazation_v2_90
       rect:
         serializedVersion: 2
@@ -2487,7 +1299,7 @@ TextureImporter:
         width: 22
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2509,7 +1321,7 @@ TextureImporter:
         width: 239
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2531,7 +1343,7 @@ TextureImporter:
         width: 124
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2553,7 +1365,7 @@ TextureImporter:
         width: 61
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2567,7 +1379,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_94
+      name: Puddle_5
       rect:
         serializedVersion: 2
         x: 514
@@ -2575,7 +1387,7 @@ TextureImporter:
         width: 61
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2589,28 +1401,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_95
-      rect:
-        serializedVersion: 2
-        x: 547
-        y: 369
-        width: 30
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34897acea97aa2860800000000000000
-      internalID: 7505996012803561539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: water_detilazation_v2_96
       rect:
         serializedVersion: 2
@@ -2619,7 +1409,7 @@ TextureImporter:
         width: 72
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2641,7 +1431,7 @@ TextureImporter:
         width: 28
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2663,7 +1453,7 @@ TextureImporter:
         width: 52
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2685,7 +1475,7 @@ TextureImporter:
         width: 37
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2707,7 +1497,7 @@ TextureImporter:
         width: 60
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2729,7 +1519,7 @@ TextureImporter:
         width: 48
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2751,7 +1541,7 @@ TextureImporter:
         width: 190
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2773,7 +1563,7 @@ TextureImporter:
         width: 23
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2795,7 +1585,7 @@ TextureImporter:
         width: 118
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2817,7 +1607,7 @@ TextureImporter:
         width: 74
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2839,7 +1629,7 @@ TextureImporter:
         width: 33
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2861,7 +1651,7 @@ TextureImporter:
         width: 29
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2883,7 +1673,7 @@ TextureImporter:
         width: 105
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2897,15 +1687,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_109
+      name: Puddle_6
       rect:
         serializedVersion: 2
         x: 444
         y: 266
-        width: 47
-        height: 11
+        width: 53
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2919,28 +1709,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_110
-      rect:
-        serializedVersion: 2
-        x: 469
-        y: 272
-        width: 28
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3bffe7ffc563e7ec0800000000000000
-      internalID: -3567354081779449933
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: water_detilazation_v2_111
       rect:
         serializedVersion: 2
@@ -2949,7 +1717,7 @@ TextureImporter:
         width: 205
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2971,7 +1739,7 @@ TextureImporter:
         width: 25
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2993,7 +1761,7 @@ TextureImporter:
         width: 19
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3015,7 +1783,7 @@ TextureImporter:
         width: 236
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3037,7 +1805,7 @@ TextureImporter:
         width: 121
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3059,7 +1827,7 @@ TextureImporter:
         width: 74
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3081,7 +1849,7 @@ TextureImporter:
         width: 56
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3103,7 +1871,7 @@ TextureImporter:
         width: 26
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3125,7 +1893,7 @@ TextureImporter:
         width: 68
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3147,7 +1915,7 @@ TextureImporter:
         width: 26
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3169,7 +1937,7 @@ TextureImporter:
         width: 53
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3191,7 +1959,7 @@ TextureImporter:
         width: 34
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3213,7 +1981,7 @@ TextureImporter:
         width: 44
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3235,7 +2003,7 @@ TextureImporter:
         width: 185
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3257,7 +2025,7 @@ TextureImporter:
         width: 116
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3271,15 +2039,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_126
+      name: Puddle_7
       rect:
         serializedVersion: 2
         x: 408
         y: 104
-        width: 70
-        height: 13
+        width: 74
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3293,28 +2061,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_detilazation_v2_127
-      rect:
-        serializedVersion: 2
-        x: 451
-        y: 115
-        width: 29
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f2fc8a189fe4366c0800000000000000
-      internalID: -4151387597976318161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: water_detilazation_v2_128
       rect:
         serializedVersion: 2
@@ -3323,7 +2069,7 @@ TextureImporter:
         width: 25
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3345,7 +2091,7 @@ TextureImporter:
         width: 103
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3367,7 +2113,7 @@ TextureImporter:
         width: 42
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3389,7 +2135,7 @@ TextureImporter:
         width: 26
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3411,7 +2157,7 @@ TextureImporter:
         width: 201
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3433,7 +2179,7 @@ TextureImporter:
         width: 23
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3446,11 +2192,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Puddle_3
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 471
+        width: 48
+        height: 8
+      alignment: 9
+      pivot: {x: 0.49598375, y: 0.7168808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15beda5e53f2924f9499315ef82f530
+      internalID: -390591163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puddle_4
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 548
+        width: 48
+        height: 12
+      alignment: 9
+      pivot: {x: 0.22689056, y: 0.38754272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed82e40702116304a8b9b721fb68bb0e
+      internalID: -1902724885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_detilazation_v2_0
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 575
+        width: 64
+        height: 20
+      alignment: 9
+      pivot: {x: 0.23492241, y: 0.6060303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405b0a38ca499ca4986bc945f2ce83db
+      internalID: -6487848460486613316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 76786b1caf23972458c60c18bb5c72ce
     internalID: 0
     vertices: []
     indices: 
@@ -3460,8 +2272,49 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bubble_1: -6176151524402178121
+      Bubble_10: -4328301181268286390
+      Bubble_11: 1970881802704879005
+      Bubble_12: -8108721259099858956
+      Bubble_13: 4337589992499515237
+      Bubble_14: -8144125188037290884
+      Bubble_15: 1977633289602484136
+      Bubble_16: 48745192738156020
+      Bubble_17: 2385411699928515835
+      Bubble_18: 2116863054626577313
+      Bubble_19: -908178931295641635
+      Bubble_2: 7192075921782464042
+      Bubble_20: 572272954788643039
+      Bubble_21: -5581496374021606184
+      Bubble_22: 907445091364067578
+      Bubble_23: -8472205230306189201
+      Bubble_24: -2510391685396113445
+      Bubble_25: 5734806718093163535
+      Bubble_26: 7411454246011751408
+      Bubble_27: -6039189029602686461
+      Bubble_28: 7275113226006474241
+      Bubble_29: -632824010217417289
+      Bubble_3: -1210549678770318665
+      Bubble_30: 7404346886295000866
+      Bubble_31: 4962410548462472344
+      Bubble_32: -3320733348553391090
+      Bubble_33: -1370119913840388378
+      Bubble_34: 6485276135767724355
+      Bubble_4: 7952343750254203294
+      Bubble_5: 706449793785572618
+      Bubble_6: 8999282617018855299
+      Bubble_7: -863965452752681758
+      Bubble_8: -4211536625221064474
+      Bubble_9: 1318740241228969824
+      Puddle_1: -7871643370208804792
+      Puddle_2: 5408870080563032943
+      Puddle_3: -6487848460486613316
+      Puddle_4: -1902724885
+      Puddle_5: -8435363718418792847
+      Puddle_6: -5651505961227049883
+      Puddle_7: 7747015435904712956
       water_detilazation_v2_0: -6487848460486613316
-      water_detilazation_v2_1: -6176151524402178121
+      water_detilazation_v2_1: 2111503770
       water_detilazation_v2_10: 7485248441549814285
       water_detilazation_v2_100: 8712520051724204621
       water_detilazation_v2_101: 2548905537412178997
@@ -3472,7 +2325,6 @@ TextureImporter:
       water_detilazation_v2_106: -8799930078620937966
       water_detilazation_v2_107: 5595734831578224020
       water_detilazation_v2_108: 5242336058597897737
-      water_detilazation_v2_109: -5651505961227049883
       water_detilazation_v2_11: 3757182244247698157
       water_detilazation_v2_110: -3567354081779449933
       water_detilazation_v2_111: -721158577030479952
@@ -3484,82 +2336,53 @@ TextureImporter:
       water_detilazation_v2_117: -8391132605286186220
       water_detilazation_v2_118: 6869818198117555426
       water_detilazation_v2_119: -8163451161921679934
-      water_detilazation_v2_12: 7952343750254203294
       water_detilazation_v2_120: 6361562531156274883
       water_detilazation_v2_121: -4145529008099546525
       water_detilazation_v2_122: -818557435993017905
       water_detilazation_v2_123: 6896601772436688130
       water_detilazation_v2_124: -5929517083108893022
       water_detilazation_v2_125: -5738919992629023948
-      water_detilazation_v2_126: 7747015435904712956
       water_detilazation_v2_127: -4151387597976318161
       water_detilazation_v2_128: 3266806526803121466
       water_detilazation_v2_129: -5475071835271995677
-      water_detilazation_v2_13: 706449793785572618
       water_detilazation_v2_130: -369249667842605140
       water_detilazation_v2_131: 4157562813539826114
       water_detilazation_v2_132: -3282339488543823222
       water_detilazation_v2_133: -5377457608724720409
-      water_detilazation_v2_14: 8999282617018855299
       water_detilazation_v2_15: -6777097890453873862
-      water_detilazation_v2_16: -4211536625221064474
-      water_detilazation_v2_17: 1318740241228969824
       water_detilazation_v2_18: 8967958482445703531
-      water_detilazation_v2_19: -863965452752681758
       water_detilazation_v2_2: -7643683551665344794
       water_detilazation_v2_20: -6365763171539296099
       water_detilazation_v2_21: 4453686004382643286
-      water_detilazation_v2_22: -4328301181268286390
       water_detilazation_v2_23: 7744365566536487030
-      water_detilazation_v2_24: 1970881802704879005
       water_detilazation_v2_25: -1974226024711580451
-      water_detilazation_v2_26: -8108721259099858956
       water_detilazation_v2_27: -1834760876971110103
       water_detilazation_v2_28: -7732265574409956125
       water_detilazation_v2_29: -3163838172380497221
-      water_detilazation_v2_3: 7192075921782464042
       water_detilazation_v2_30: -6399855583103027190
       water_detilazation_v2_31: 2169325940055350979
-      water_detilazation_v2_32: 4337589992499515237
-      water_detilazation_v2_33: -8144125188037290884
-      water_detilazation_v2_34: 1977633289602484136
       water_detilazation_v2_35: 8624018553256604461
       water_detilazation_v2_36: -4762610677347772145
       water_detilazation_v2_37: -152090741011863793
-      water_detilazation_v2_38: 2385411699928515835
-      water_detilazation_v2_39: 2116863054626577313
       water_detilazation_v2_4: 1669644055975939238
       water_detilazation_v2_40: 1306193524183808008
-      water_detilazation_v2_41: 48745192738156020
       water_detilazation_v2_42: 7849732680997004288
       water_detilazation_v2_43: -7860938355053721408
-      water_detilazation_v2_44: -908178931295641635
       water_detilazation_v2_45: 2865022074021116036
       water_detilazation_v2_46: -1527731164681602022
       water_detilazation_v2_47: -9089992578229857585
-      water_detilazation_v2_48: -5581496374021606184
       water_detilazation_v2_49: -3588241920163515474
-      water_detilazation_v2_5: -1210549678770318665
       water_detilazation_v2_50: 1186849138268367579
       water_detilazation_v2_51: -2632390881206702510
       water_detilazation_v2_52: 6430494660379719804
-      water_detilazation_v2_53: 572272954788643039
       water_detilazation_v2_54: 5450317716236226466
       water_detilazation_v2_55: -2596015935969246109
-      water_detilazation_v2_56: 907445091364067578
-      water_detilazation_v2_57: -8472205230306189201
-      water_detilazation_v2_58: -2510391685396113445
       water_detilazation_v2_59: 3852254354902182315
       water_detilazation_v2_6: -6842192468294394923
       water_detilazation_v2_60: -6765368533463449199
       water_detilazation_v2_61: -5397165458921233993
-      water_detilazation_v2_62: 7411454246011751408
-      water_detilazation_v2_63: -6039189029602686461
       water_detilazation_v2_64: -2026170178554038634
-      water_detilazation_v2_65: 5734806718093163535
       water_detilazation_v2_66: -4906297991227391536
-      water_detilazation_v2_67: 7275113226006474241
-      water_detilazation_v2_68: -632824010217417289
       water_detilazation_v2_69: -3887693980252430259
       water_detilazation_v2_7: -6928341694640410788
       water_detilazation_v2_70: 7867199794205525580
@@ -3570,16 +2393,9 @@ TextureImporter:
       water_detilazation_v2_75: 38218750023247054
       water_detilazation_v2_76: 2371065455939361923
       water_detilazation_v2_77: 7702993445373785944
-      water_detilazation_v2_78: 7404346886295000866
-      water_detilazation_v2_79: 4962410548462472344
       water_detilazation_v2_8: 874546107518476910
       water_detilazation_v2_80: 4903126201104201498
-      water_detilazation_v2_81: -3320733348553391090
       water_detilazation_v2_82: -7044399993054951491
-      water_detilazation_v2_83: 6485276135767724355
-      water_detilazation_v2_84: -7871643370208804792
-      water_detilazation_v2_85: 5408870080563032943
-      water_detilazation_v2_86: -1370119913840388378
       water_detilazation_v2_87: -4588065475688702863
       water_detilazation_v2_88: -8314218005673934253
       water_detilazation_v2_89: -2083179909425773875
@@ -3588,7 +2404,6 @@ TextureImporter:
       water_detilazation_v2_91: 1645359411089017376
       water_detilazation_v2_92: 2854871303238320757
       water_detilazation_v2_93: -130059223264613879
-      water_detilazation_v2_94: -8435363718418792847
       water_detilazation_v2_95: 7505996012803561539
       water_detilazation_v2_96: 2621499756628943249
       water_detilazation_v2_97: -7241008761788401048

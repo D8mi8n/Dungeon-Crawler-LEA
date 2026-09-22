@@ -120,10 +120,10 @@ TextureImporter:
         serializedVersion: 2
         x: 5
         y: 3
-        width: 71
-        height: 71
+        width: 72
+        height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -140,12 +140,12 @@ TextureImporter:
       name: Statue_fire_1
       rect:
         serializedVersion: 2
-        x: 84
+        x: 85
         y: 3
-        width: 73
+        width: 72
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: Statue_fire_2
       rect:
         serializedVersion: 2
-        x: 163
+        x: 165
         y: 3
         width: 72
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -186,10 +186,10 @@ TextureImporter:
         serializedVersion: 2
         x: 245
         y: 3
-        width: 71
-        height: 71
+        width: 72
+        height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,12 +206,12 @@ TextureImporter:
       name: Statue_fire_4
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 3
-        width: 73
+        width: 72
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -228,12 +228,12 @@ TextureImporter:
       name: Statue_fire_5
       rect:
         serializedVersion: 2
-        x: 403
+        x: 405
         y: 3
         width: 72
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,11 +246,121 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Statue_fire_6
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 28
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b646de0fa7ff2a428079ad35ad71a02
+      internalID: 1196689398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Statue_fire_7
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 29
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8292185f03402d94eaec5e1350b866fd
+      internalID: 439579387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Statue_fire_8
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 30
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a80425ac96e47141a56a349adeb7bc2
+      internalID: 1150372726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Statue_fire_9
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 35
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af12cef1aa6bde4bbe20916ac7f6d42
+      internalID: 987935707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Statue_fire_10
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 37
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4744471c52f3edd41bb7c520a9d4a85a
+      internalID: -2084375722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 28ec58c4f30e28f43a6caed768b1d157
     internalID: 0
     vertices: []
     indices: 
@@ -262,10 +372,15 @@ TextureImporter:
     nameFileIdTable:
       Statue_fire_0: -4711503728515992478
       Statue_fire_1: 3189340245023783694
+      Statue_fire_10: -2084375722
       Statue_fire_2: -8945228832003653259
       Statue_fire_3: 5630833367260195797
       Statue_fire_4: -8485880716591136014
       Statue_fire_5: 9048663483685724350
+      Statue_fire_6: 1196689398
+      Statue_fire_7: 439579387
+      Statue_fire_8: 1150372726
+      Statue_fire_9: 987935707
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

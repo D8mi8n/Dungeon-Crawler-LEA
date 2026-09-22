@@ -118,12 +118,12 @@ TextureImporter:
       name: plate_trap_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 49
-        height: 64
+        x: 1
+        y: 32
+        width: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -140,12 +140,12 @@ TextureImporter:
       name: plate_trap_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 49
-        height: 64
+        x: 49
+        y: 32
+        width: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: plate_trap_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 49
-        height: 64
+        x: 97
+        y: 32
+        width: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: plate_trap_3
       rect:
         serializedVersion: 2
-        x: 144
-        y: 0
-        width: 49
-        height: 64
+        x: 145
+        y: 32
+        width: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,12 +206,12 @@ TextureImporter:
       name: plate_trap_4
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 49
-        height: 64
+        x: 193
+        y: 32
+        width: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -228,12 +228,12 @@ TextureImporter:
       name: plate_trap_5
       rect:
         serializedVersion: 2
-        x: 240
-        y: 0
-        width: 48
-        height: 64
+        x: 241
+        y: 32
+        width: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -250,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6306c94e018530148864aedd46a83e54
     internalID: 0
     vertices: []
     indices: 
