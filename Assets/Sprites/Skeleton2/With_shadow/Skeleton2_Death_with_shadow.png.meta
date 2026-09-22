@@ -282,12 +282,12 @@ TextureImporter:
       name: Skeleton2_Death_with_shadow_5
       rect:
         serializedVersion: 2
-        x: 322
+        x: 324
         y: 211
-        width: 62
+        width: 58
         height: 27
       alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0.485, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -370,9 +370,9 @@ TextureImporter:
       name: Skeleton2_Death_with_shadow_9
       rect:
         serializedVersion: 2
-        x: 193
+        x: 194
         y: 147
-        width: 64
+        width: 62
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -392,12 +392,12 @@ TextureImporter:
       name: Skeleton2_Death_with_shadow_10
       rect:
         serializedVersion: 2
-        x: 257
+        x: 258
         y: 147
-        width: 63
+        width: 61
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.51, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -414,12 +414,12 @@ TextureImporter:
       name: Skeleton2_Death_with_shadow_11
       rect:
         serializedVersion: 2
-        x: 322
+        x: 321
         y: 147
-        width: 62
+        width: 63
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.51, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -460,7 +460,7 @@ TextureImporter:
         serializedVersion: 2
         x: 76
         y: 83
-        width: 40
+        width: 41
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -482,7 +482,7 @@ TextureImporter:
         serializedVersion: 2
         x: 133
         y: 83
-        width: 56
+        width: 55
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -546,9 +546,9 @@ TextureImporter:
       name: Skeleton2_Death_with_shadow_17
       rect:
         serializedVersion: 2
-        x: 324
+        x: 325
         y: 83
-        width: 56
+        width: 55
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -612,7 +612,7 @@ TextureImporter:
       name: Skeleton2_Death_with_shadow_20
       rect:
         serializedVersion: 2
-        x: 141
+        x: 142
         y: 19
         width: 37
         height: 27
@@ -634,9 +634,9 @@ TextureImporter:
       name: Skeleton2_Death_with_shadow_21
       rect:
         serializedVersion: 2
-        x: 196
+        x: 195
         y: 19
-        width: 60
+        width: 59
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -656,9 +656,9 @@ TextureImporter:
       name: Skeleton2_Death_with_shadow_22
       rect:
         serializedVersion: 2
-        x: 264
+        x: 263
         y: 19
-        width: 52
+        width: 51
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -678,9 +678,9 @@ TextureImporter:
       name: Skeleton2_Death_with_shadow_23
       rect:
         serializedVersion: 2
-        x: 326
-        y: 18
-        width: 58
+        x: 325
+        y: 19
+        width: 55
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
