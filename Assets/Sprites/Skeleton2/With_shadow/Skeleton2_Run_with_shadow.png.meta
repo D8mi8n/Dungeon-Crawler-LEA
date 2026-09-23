@@ -394,7 +394,7 @@ TextureImporter:
       name: Skeleton2_Run_with_shadow_9
       rect:
         serializedVersion: 2
-        x: 74
+        x: 75
         y: 147
         width: 30
         height: 28
@@ -416,7 +416,7 @@ TextureImporter:
       name: Skeleton2_Run_with_shadow_10
       rect:
         serializedVersion: 2
-        x: 138
+        x: 139
         y: 147
         width: 30
         height: 28
@@ -482,7 +482,7 @@ TextureImporter:
       name: Skeleton2_Run_with_shadow_13
       rect:
         serializedVersion: 2
-        x: 332
+        x: 331
         y: 147
         width: 30
         height: 28
@@ -504,7 +504,7 @@ TextureImporter:
       name: Skeleton2_Run_with_shadow_14
       rect:
         serializedVersion: 2
-        x: 396
+        x: 395
         y: 147
         width: 30
         height: 28
