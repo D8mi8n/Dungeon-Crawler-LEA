@@ -1,345 +1,153 @@
 
 using UnityEngine;
-using System.Collections.Generic;
-using System.Text.RegularExpressions;
 
 [RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
 {
     [Header("Bewegung")]
-    [SerializeField] private float walkSpeed = 3f;
-    [SerializeField] private float runSpeed = 5f;
+    public float walkSpeed = 3f;
+    public float runSpeed = 5f;
+
+    [Header("Charakter")]
+    [Range(2, 3)]
+    public int skeleton = 2;
 
     [Header("Lebenspunkte")]
-    [SerializeField] private int maxHealth = 3;
+    public int maxHealth = 3;
 
-    [Header("Animationsgeschwindigkeit")]
-    [SerializeField] private float idleFPS = 3f;
-    [SerializeField] private float walkFPS = 7f;
-    [SerializeField] private float runFPS = 10f;
-    [SerializeField] private float attackFPS = 8f;
-    [SerializeField] private float hurtFPS = 6f;
-    [SerializeField] private float deathFPS = 5f;
-
-    private Rigidbody2D rb;
-    private SpriteRenderer spriteRenderer;
-
-    private Vector2 movement;
     private int currentHealth;
 
-    // Alle vorhandenen Animationen
-    private enum AnimationState
-    {
-        Idle,
-        Walk,
-        Run,
-        Attack,
-        Hurt,
-        Death
-    }
+    private Rigidbody2D rb;
+    private Animator animator;
 
-    // Blickrichtung
-    private enum Direction
-    {
-        D,
-        L,
-        R,
-        U
-    }
+    private Vector2 movement;
 
-    private AnimationState currentState = AnimationState.Idle;
-    private Direction facing = Direction.D;
+    private bool isRunning;
+    private bool isBusy;
+    private bool isDead;
 
-    // Hier werden alle Sprites gespeichert
-    private Dictionary<string, Sprite[]> animations =
-        new Dictionary<string, Sprite[]>();
-
-    private Sprite[] currentFrames;
+    // D = Down, U = Up, L = Left, R = Right
+    private string direction = "D";
 
     private string currentAnimation = "";
-
-    private int currentFrame = 0;
-    private float animationTimer = 0f;
-
-    private bool isDead = false;
-    private bool isRunning = false;
-
-    public int CurrentHealth => currentHealth;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
 
         currentHealth = maxHealth;
 
-        // Einstellungen für ein Top-Down-Spiel
+        // Top-Down-Bewegung
         rb.gravityScale = 0f;
         rb.freezeRotation = true;
 
-        LoadAnimations();
-
-        PlayAnimation(AnimationState.Idle);
+        PlayAnimation("Idle");
     }
 
     private void Update()
     {
-        if (!isDead)
-        {
-            ReadInput();
-
-            // Angriff starten
-            if (Input.GetKeyDown(KeyCode.Space) &&
-                currentState != AnimationState.Attack &&
-                currentState != AnimationState.Hurt)
-            {
-                PlayAnimation(AnimationState.Attack, true);
-            }
-            else if (currentState != AnimationState.Attack &&
-                     currentState != AnimationState.Hurt)
-            {
-                UpdateMovementAnimation();
-            }
-        }
-
-        UpdateAnimation();
-    }
-
-    private void FixedUpdate()
-    {
         if (isDead)
             return;
 
-        // Während Angriff oder Schaden nicht bewegen
-        if (currentState == AnimationState.Attack ||
-            currentState == AnimationState.Hurt)
+        // Prüfen, ob Angriff oder Hurt beendet ist
+        if (isBusy)
         {
-            return;
+            AnimatorStateInfo state =
+                animator.GetCurrentAnimatorStateInfo(0);
+
+            if (state.IsName(currentAnimation) &&
+                state.normalizedTime >= 1f)
+            {
+                isBusy = false;
+            }
+            else
+            {
+                return;
+            }
         }
 
-        float speed = isRunning ? runSpeed : walkSpeed;
-
-        rb.MovePosition(
-            rb.position + movement * speed * Time.fixedDeltaTime
-        );
-    }
-
-    // Eingabe und Blickrichtung
-    private void ReadInput()
-    {
+        // Bewegung lesen
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
         movement = new Vector2(horizontal, vertical).normalized;
 
-        isRunning =
-            Input.GetKey(KeyCode.LeftShift) ||
-            Input.GetKey(KeyCode.RightShift);
+        // Rennen mit Shift
+        isRunning = Input.GetKey(KeyCode.LeftShift);
 
-        // Letzte Blickrichtung speichern
+        // Blickrichtung bestimmen
         if (movement.sqrMagnitude > 0.01f)
         {
             if (Mathf.Abs(movement.x) > Mathf.Abs(movement.y))
             {
-                facing = movement.x > 0
-                    ? Direction.R
-                    : Direction.L;
+                direction = movement.x > 0 ? "R" : "L";
             }
             else
             {
-                facing = movement.y > 0
-                    ? Direction.U
-                    : Direction.D;
+                direction = movement.y > 0 ? "U" : "D";
             }
         }
-    }
 
-    // Idle, Walk oder Run auswählen
-    private void UpdateMovementAnimation()
-    {
+        // Angriff mit Leertaste
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            movement = Vector2.zero;
+            isBusy = true;
+
+            PlayAnimation("Attack", true);
+
+            return;
+        }
+
+        // Passende Bewegungsanimation
         if (movement.sqrMagnitude < 0.01f)
         {
-            PlayAnimation(AnimationState.Idle);
+            PlayAnimation("Idle");
         }
         else if (isRunning)
         {
-            PlayAnimation(AnimationState.Run);
+            PlayAnimation("Run");
         }
         else
         {
-            PlayAnimation(AnimationState.Walk);
+            PlayAnimation("Walk");
         }
     }
 
-    // Sprites automatisch aus Resources laden
-    private void LoadAnimations()
+    private void FixedUpdate()
     {
-        Sprite[] allSprites = Resources.LoadAll<Sprite>("Player");
+        if (isDead || isBusy)
+            return;
 
-        Dictionary<string, List<Sprite>> groups =
-            new Dictionary<string, List<Sprite>>();
+        float speed = isRunning ? runSpeed : walkSpeed;
 
-        foreach (Sprite sprite in allSprites)
-        {
-            // Beispiel: Player_WalkD_Skeleton_2
-            Match match = Regex.Match(
-                sprite.name,
-                @"^Player_(Attack|Death|Hurt|Idle|Run|Walk)([DLRU])_Skeleton_(\d+)$"
-            );
-
-            if (!match.Success)
-                continue;
-
-            string key =
-                match.Groups[1].Value +
-                match.Groups[2].Value;
-
-            if (!groups.ContainsKey(key))
-            {
-                groups[key] = new List<Sprite>();
-            }
-
-            groups[key].Add(sprite);
-        }
-
-        // Frames in der richtigen Reihenfolge sortieren
-        foreach (var group in groups)
-        {
-            group.Value.Sort((a, b) =>
-                GetFrameNumber(a.name).CompareTo(
-                    GetFrameNumber(b.name)
-                )
-            );
-
-            animations[group.Key] = group.Value.ToArray();
-        }
-
-        Debug.Log(
-            "Player: " + animations.Count +
-            " Animationen geladen."
+        rb.MovePosition(
+            rb.position +
+            movement * speed * Time.fixedDeltaTime
         );
     }
 
-    private int GetFrameNumber(string spriteName)
-    {
-        int index = spriteName.LastIndexOf('_');
-
-        if (int.TryParse(
-            spriteName.Substring(index + 1),
-            out int number))
-        {
-            return number;
-        }
-
-        return 0;
-    }
-
-    // Eine Animation starten
+    // Animation anhand des Namens abspielen
     private void PlayAnimation(
-        AnimationState newState,
+        string animation,
         bool restart = false)
     {
-        string animationName =
-            newState.ToString() + facing.ToString();
+        string stateName =
+            "Player_" +
+            animation +
+            direction +
+            "_Skeleton_" +
+            skeleton;
 
-        // Laufende Animation nicht ständig neu starten
-        if (!restart && currentAnimation == animationName)
+        // Gleiche Animation nicht ständig neu starten
+        if (!restart && currentAnimation == stateName)
             return;
 
-        if (!animations.TryGetValue(
-            animationName,
-            out Sprite[] frames))
-        {
-            Debug.LogWarning(
-                "Animation fehlt: " + animationName
-            );
+        currentAnimation = stateName;
 
-            return;
-        }
-
-        currentState = newState;
-        currentAnimation = animationName;
-
-        currentFrames = frames;
-
-        currentFrame = 0;
-        animationTimer = 0f;
-
-        spriteRenderer.sprite = currentFrames[0];
-    }
-
-    // Animationsgeschwindigkeit bestimmen
-    private float GetAnimationFPS()
-    {
-        switch (currentState)
-        {
-            case AnimationState.Idle:
-                return idleFPS;
-
-            case AnimationState.Walk:
-                return walkFPS;
-
-            case AnimationState.Run:
-                return runFPS;
-
-            case AnimationState.Attack:
-                return attackFPS;
-
-            case AnimationState.Hurt:
-                return hurtFPS;
-
-            case AnimationState.Death:
-                return deathFPS;
-
-            default:
-                return idleFPS;
-        }
-    }
-
-    // Einzelne Frames abspielen
-    private void UpdateAnimation()
-    {
-        if (currentFrames == null ||
-            currentFrames.Length == 0)
-        {
-            return;
-        }
-
-        float fps = Mathf.Max(0.1f, GetAnimationFPS());
-
-        animationTimer += Time.deltaTime;
-
-        if (animationTimer < 1f / fps)
-            return;
-
-        animationTimer -= 1f / fps;
-
-        currentFrame++;
-
-        // Animation ist zu Ende
-        if (currentFrame >= currentFrames.Length)
-        {
-            // Death: Auf dem letzten Frame bleiben
-            if (currentState == AnimationState.Death)
-            {
-                currentFrame = currentFrames.Length - 1;
-                return;
-            }
-
-            // Nach Attack und Hurt zur Bewegung zurück
-            if (currentState == AnimationState.Attack ||
-                currentState == AnimationState.Hurt)
-            {
-                UpdateMovementAnimation();
-                return;
-            }
-
-            // Idle, Walk und Run wiederholen
-            currentFrame = 0;
-        }
-
-        spriteRenderer.sprite = currentFrames[currentFrame];
+        animator.Play(stateName, 0, 0f);
     }
 
     // Schaden erhalten
@@ -349,7 +157,8 @@ public class PlayerController : MonoBehaviour
             return;
 
         currentHealth -= damage;
-        currentHealth = Mathf.Max(0, currentHealth);
+
+        movement = Vector2.zero;
 
         if (currentHealth <= 0)
         {
@@ -357,19 +166,20 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            PlayAnimation(AnimationState.Hurt, true);
+            isBusy = true;
+
+            PlayAnimation("Hurt", true);
         }
     }
 
     // Tod des Spielers
-    public void Die()
+    private void Die()
     {
-        if (isDead)
-            return;
-
         isDead = true;
+        isBusy = false;
+
         movement = Vector2.zero;
 
-        PlayAnimation(AnimationState.Death, true);
+        PlayAnimation("Death", true);
     }
 }
