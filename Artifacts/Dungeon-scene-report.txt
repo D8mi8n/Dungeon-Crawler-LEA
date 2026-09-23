@@ -1,0 +1,188 @@
+﻿DUNGEON SCENE AUDIT — world coordinates, unmodified scene
+Camera: (0, 0, -10); orthographic size 7
+Camera view at 16:9: half width 12.444
+
+SOLID COLLIDERS (trigger colliders are explicitly marked)
+Colider | BoxCollider2D | trigger=False | bounds min=(-7.95, -2.197, 0) max=(-6.95, 2.594, 0)
+Colider/Colider | BoxCollider2D | trigger=False | bounds min=(-4, 1.561, 0) max=(-2.786, 4.373, 0)
+Colider/Colider | BoxCollider2D | trigger=False | bounds min=(-7.92, 1.57, 0) max=(-2.83, 2.57, 0)
+Colider/Colider | BoxCollider2D | trigger=False | bounds min=(7.1, -2.988, 0) max=(8.1, 2.594, 0)
+Colider/Colider | BoxCollider2D | trigger=False | bounds min=(-3.953, 4.05, 0) max=(4.178, 5.05, 0)
+Colider/Colider | BoxCollider2D | trigger=False | bounds min=(1.407, -2.17, 0) max=(7.205, -1.17, 0)
+Colider/Colider | BoxCollider2D | trigger=False | bounds min=(2.712, 1.57, 0) max=(7.177, 2.57, 0)
+Colider/Colider | BoxCollider2D | trigger=False | bounds min=(-7.988, -2.17, 0) max=(-1.451, -1.17, 0)
+Colider/Colider | BoxCollider2D | trigger=False | bounds min=(2.819, 1.545, 0) max=(4.197, 4.488, 0)
+Colider/Colider | BoxCollider2D | trigger=False | bounds min=(-1.05, 1.288, 0) max=(1.134, 4.626, 0)
+Colider/Colider  | BoxCollider2D | trigger=False | bounds min=(-2.68, -5.944, 0) max=(-1.45, -1.241, 0)
+Colider/Colider  | BoxCollider2D | trigger=False | bounds min=(1.43, -5.944, 0) max=(2.66, -1.241, 0)
+
+FLOOR / BRIDGE SPRITE BOUNDS (visual bounds, not a navigation mesh)
+Building/Tiles/Brige_Smal | bounds min=(-1.448, -3.039, -0.1) max=(1.428, -1.061, 0.1)
+Building/Tiles/Floor_Tiles | bounds min=(2.62, -0.745, -0.1) max=(5.12, 1.505, 0.1)
+Building/Tiles/Floor_Tiles/Floor | bounds min=(-1.18, 0.895, -0.1) max=(1.32, 3.145, 0.1)
+Building/Tiles/Floor_Tiles/Floor | bounds min=(-1.87, -0.745, -0.1) max=(0.63, 1.505, 0.1)
+Building/Tiles/Floor_Tiles/Floor | bounds min=(-1.18, 1.565, -0.1) max=(1.32, 3.815, 0.1)
+Building/Tiles/Floor_Tiles/Floor | bounds min=(-2.86, 0.662, -0.1) max=(0.14, 4.038, 0.1)
+Building/Tiles/Floor_Tiles/Floor | bounds min=(4.25, -1.808, -0.1) max=(7.25, 1.568, 0.1)
+Building/Tiles/Floor_Tiles/Floor | bounds min=(-4.218, -0.745, -0.1) max=(-1.718, 1.505, 0.1)
+Building/Tiles/Floor_Tiles/Floor | bounds min=(-0.09, 0.662, -0.1) max=(2.91, 4.038, 0.1)
+Building/Tiles/Floor_Tiles/Floor | bounds min=(-6.87, -1.808, -0.1) max=(-3.87, 1.568, 0.1)
+Building/Tiles/Floor_Tiles/Floor | bounds min=(0.55, -0.745, -0.1) max=(3.05, 1.505, 0.1)
+Building/Tiles/Floor_Tiles/Floor  | bounds min=(-1.51, -6.098, -0.1) max=(1.49, -2.723, 0.1)
+Building/Tiles/Lines | bounds min=(2.711, 1.505, -0.1) max=(4.647, 1.63, 0.1)
+Building/Tiles/Lines/Lines | bounds min=(-4.137, 1.504, -0.1) max=(-2.682, 1.629, 0.1)
+
+ALL SPRITE RENDERERS
+B1 | position=(1.99, -5.66, 0) | order=3 | sprite=B1 | bounds min=(0.49, -6.66, -0.1) max=(3.49, -4.66, 0.1)
+B1 (1) | position=(-2.02, -5.64, 0) | order=3 | sprite=B1 | bounds min=(-3.52, -6.64, -0.1) max=(-0.52, -4.64, 0.1)
+Building/Decoration/Candle | position=(-5.35, 3.5, 0) | order=2 | sprite=Big_Candle_1 | bounds min=(-6.194, 2.656, -0.1) max=(-4.506, 4.344, 0.1)
+Building/Decoration/Candle/Candle | position=(5.65, 3.5, 0) | order=2 | sprite=Big_Candle_1 | bounds min=(4.806, 2.656, -0.1) max=(6.494, 4.344, 0.1)
+Building/Decoration/Chained Skeleton | position=(-9.49, -0.66, 0) | order=2 | sprite=other_objects_27 | bounds min=(-10.209, -1.598, -0.1) max=(-8.771, 0.278, 0.1)
+Building/Decoration/Chained Skeleton/Chained Skeleton | position=(9.69, -0.66, 0) | order=2 | sprite=other_objects_27 | bounds min=(8.971, -1.598, -0.1) max=(10.409, 0.278, 0.1)
+Building/Decoration/Coffin | position=(0.03, 2.02, 0) | order=3 | sprite=coffins_10 | bounds min=(-1.22, 1.083, -0.1) max=(1.28, 2.958, 0.1)
+Building/Decoration/Statue | position=(0.101, 4.73, 0) | order=3 | sprite=Statue_fire_0 | bounds min=(-2.149, 2.48, -0.1) max=(2.351, 6.98, 0.1)
+Building/Tiles/Brige_Smal | position=(-0.01, -2.05, 0) | order=3 | sprite=walls_floor_65 | bounds min=(-1.448, -3.039, -0.1) max=(1.428, -1.061, 0.1)
+Building/Tiles/Floor_Tiles | position=(3.87, 0.38, 0) | order=3 | sprite=walls_floor_63 | bounds min=(2.62, -0.745, -0.1) max=(5.12, 1.505, 0.1)
+Building/Tiles/Floor_Tiles/Floor | position=(0.07, 2.02, 0) | order=2 | sprite=walls_floor_63 | bounds min=(-1.18, 0.895, -0.1) max=(1.32, 3.145, 0.1)
+Building/Tiles/Floor_Tiles/Floor | position=(-0.62, 0.38, 0) | order=2 | sprite=walls_floor_63 | bounds min=(-1.87, -0.745, -0.1) max=(0.63, 1.505, 0.1)
+Building/Tiles/Floor_Tiles/Floor | position=(0.07, 2.69, 0) | order=2 | sprite=walls_floor_63 | bounds min=(-1.18, 1.565, -0.1) max=(1.32, 3.815, 0.1)
+Building/Tiles/Floor_Tiles/Floor | position=(-1.36, 2.35, 0) | order=1 | sprite=Water_coasts_animation_4 | bounds min=(-2.86, 0.662, -0.1) max=(0.14, 4.038, 0.1)
+Building/Tiles/Floor_Tiles/Floor | position=(5.75, -0.12, 0) | order=1 | sprite=Water_coasts_animation_4 | bounds min=(4.25, -1.808, -0.1) max=(7.25, 1.568, 0.1)
+Building/Tiles/Floor_Tiles/Floor | position=(-2.968, 0.38, 0) | order=2 | sprite=walls_floor_63 | bounds min=(-4.218, -0.745, -0.1) max=(-1.718, 1.505, 0.1)
+Building/Tiles/Floor_Tiles/Floor | position=(1.41, 2.35, 0) | order=1 | sprite=Water_coasts_animation_4 | bounds min=(-0.09, 0.662, -0.1) max=(2.91, 4.038, 0.1)
+Building/Tiles/Floor_Tiles/Floor | position=(-5.37, -0.12, 0) | order=1 | sprite=Water_coasts_animation_4 | bounds min=(-6.87, -1.808, -0.1) max=(-3.87, 1.568, 0.1)
+Building/Tiles/Floor_Tiles/Floor | position=(1.8, 0.38, 0) | order=2 | sprite=walls_floor_63 | bounds min=(0.55, -0.745, -0.1) max=(3.05, 1.505, 0.1)
+Building/Tiles/Floor_Tiles/Floor  | position=(-0.01, -4.41, 0) | order=1 | sprite=Water_coasts_animation_4 | bounds min=(-1.51, -6.098, -0.1) max=(1.49, -2.723, 0.1)
+Building/Tiles/Lines | position=(3.679, 1.567, 0) | order=4 | sprite=walls_floor_64 | bounds min=(2.711, 1.505, -0.1) max=(4.647, 1.63, 0.1)
+Building/Tiles/Lines/Lines | position=(-3.41, 1.566, 0) | order=4 | sprite=walls_floor_64 | bounds min=(-4.137, 1.504, -0.1) max=(-2.682, 1.629, 0.1)
+Building/Tiles/Piller | position=(-9.41, 0.51, 0) | order=1 | sprite=Water_coasts_animation_0 | bounds min=(-10.973, -1.771, -0.1) max=(-7.848, 2.791, 0.1)
+Building/Tiles/Piller/Piller | position=(5.65, 4.7, 0) | order=1 | sprite=Water_coasts_animation_0 | bounds min=(4.088, 2.419, -0.1) max=(7.213, 6.981, 0.1)
+Building/Tiles/Piller/Piller | position=(9.8, 0.51, 0) | order=1 | sprite=Water_coasts_animation_0 | bounds min=(8.237, -1.771, -0.1) max=(11.363, 2.791, 0.1)
+Building/Tiles/Piller/Piller | position=(-5.35, 4.7, 0) | order=1 | sprite=Water_coasts_animation_0 | bounds min=(-6.913, 2.419, -0.1) max=(-3.788, 6.981, 0.1)
+Building/Tiles/Piller/Piller (1) | position=(3.02, -4.76, 0) | order=4 | sprite=Water_coasts_animation_0 | bounds min=(1.458, -7.041, -0.1) max=(4.583, -2.479, 0.1)
+Building/Tiles/Piller/Piller (2) | position=(-3.24, -4.75, 0) | order=4 | sprite=Water_coasts_animation_0 | bounds min=(-4.803, -7.031, -0.1) max=(-1.678, -2.469, 0.1)
+Building/Tiles/Water | position=(1.372, 0.095, 0) | order=-4 | sprite=Water_coasts_animation_14 | bounds min=(-14.474, -9.071, -0.1) max=(17.218, 9.26, 0.1)
+Building/Tiles/Water/Water  | position=(1.372, -6.3, 0) | order=-4 | sprite=Water_coasts_animation_14 | bounds min=(-14.474, -15.466, -0.1) max=(17.218, 2.866, 0.1)
+Building/Tiles/Water/Water /WaterBubble | position=(0.238, -2.285, 0) | order=-1 | sprite=W1 | bounds min=(-6.522, -2.738, -0.1) max=(6.997, -1.831, 0.1)
+Building/Tiles/Water/Water /WaterBubble | position=(-5.271, -2.97, 0) | order=-1 | sprite=W1 | bounds min=(-14.431, -3.379, -0.1) max=(3.889, -2.561, 0.1)
+Building/Tiles/Water/Water /WaterBubble | position=(1.092, -4.37, 0) | order=-1 | sprite=W1 | bounds min=(-8.068, -4.779, -0.1) max=(10.252, -3.961, 0.1)
+Building/Tiles/Water/Water /WaterBubble | position=(6.711, -2.97, 0) | order=-1 | sprite=W1 | bounds min=(-2.449, -3.379, -0.1) max=(15.871, -2.561, 0.1)
+Building/Tiles/Water/Water /WaterBubble | position=(0.345, -3.35, 0) | order=-1 | sprite=W1 | bounds min=(-6.388, -3.86, -0.1) max=(7.077, -2.839, 0.1)
+Building/Tiles/Water/WaterBubble | position=(0.238, 4.11, 0) | order=-1 | sprite=W1 | bounds min=(-6.522, 3.656, -0.1) max=(6.997, 4.564, 0.1)
+Building/Tiles/Water/WaterBubble | position=(0.345, 3.045, 0) | order=-1 | sprite=W1 | bounds min=(-6.388, 2.534, -0.1) max=(7.077, 3.556, 0.1)
+Building/Tiles/Water/WaterBubble | position=(-5.271, 3.424, 0) | order=-1 | sprite=W1 | bounds min=(-14.431, 3.015, -0.1) max=(3.889, 3.834, 0.1)
+Building/Tiles/Water/WaterBubble | position=(1.092, 2.025, 0) | order=-1 | sprite=W1 | bounds min=(-8.068, 1.615, -0.1) max=(10.252, 2.434, 0.1)
+Building/Tiles/Water/WaterBubble | position=(6.711, 3.424, 0) | order=-1 | sprite=W1 | bounds min=(-2.449, 3.015, -0.1) max=(15.871, 3.834, 0.1)
+Building/Tiles/Water_Slab_Tile | position=(-3.65, -1.12, 0) | order=2 | sprite=Water_Slab_Tile_1 | bounds min=(-4.15, -1.87, -0.1) max=(-3.15, -0.37, 0.1)
+Building/Tiles/Water_Slab_Tile/Reflektion | position=(0.08, 3.91, 0) | order=-2 | sprite=Water_coasts_animation_15 | bounds min=(-1.42, 3.41, -0.1) max=(1.58, 4.41, 0.1)
+Building/Tiles/Water_Slab_Tile/Reflektion/Reflektion | position=(-9.39, -1.95, 0) | order=-2 | sprite=Water_coasts_animation_15 | bounds min=(-10.89, -2.45, -0.1) max=(-7.89, -1.45, 0.1)
+Building/Tiles/Water_Slab_Tile/Reflektion/Reflektion | position=(8.4, 3.91, 0) | order=-2 | sprite=Water_coasts_animation_15 | bounds min=(6.9, 3.41, -0.1) max=(9.9, 4.41, 0.1)
+Building/Tiles/Water_Slab_Tile/Reflektion/Reflektion | position=(-10.1, 3.97, 0) | order=-2 | sprite=Water_coasts_animation_15 | bounds min=(-11.6, 3.47, -0.1) max=(-8.6, 4.47, 0.1)
+Building/Tiles/Water_Slab_Tile/Reflektion/Reflektion | position=(5.69, 2.36, 0) | order=-2 | sprite=Water_coasts_animation_15 | bounds min=(4.19, 1.86, -0.1) max=(7.19, 2.86, 0.1)
+Building/Tiles/Water_Slab_Tile/Reflektion/Reflektion | position=(-2.72, 3.96, 0) | order=-2 | sprite=Water_coasts_animation_15 | bounds min=(-4.22, 3.46, -0.1) max=(-1.22, 4.46, 0.1)
+Building/Tiles/Water_Slab_Tile/Reflektion/Reflektion | position=(-8.05, 3.97, 0) | order=-2 | sprite=Water_coasts_animation_15 | bounds min=(-9.55, 3.47, -0.1) max=(-6.55, 4.47, 0.1)
+Building/Tiles/Water_Slab_Tile/Reflektion/Reflektion | position=(11.11, 3.91, 0) | order=-2 | sprite=Water_coasts_animation_15 | bounds min=(9.61, 3.41, -0.1) max=(12.61, 4.41, 0.1)
+Building/Tiles/Water_Slab_Tile/Reflektion/Reflektion | position=(-5.31, 2.36, 0) | order=-2 | sprite=Water_coasts_animation_15 | bounds min=(-6.81, 1.86, -0.1) max=(-3.81, 2.86, 0.1)
+Building/Tiles/Water_Slab_Tile/Reflektion/Reflektion | position=(12.75, 3.91, 0) | order=-2 | sprite=Water_coasts_animation_15 | bounds min=(11.25, 3.41, -0.1) max=(14.25, 4.41, 0.1)
+Building/Tiles/Water_Slab_Tile/Reflektion/Reflektion | position=(2.93, 3.91, 0) | order=-2 | sprite=Water_coasts_animation_15 | bounds min=(1.43, 3.41, -0.1) max=(4.43, 4.41, 0.1)
+Building/Tiles/Water_Slab_Tile/Water_Slab_Tile (1) | position=(-2.67, -1.12, 0) | order=2 | sprite=Water_Slab_Tile_1 | bounds min=(-3.17, -1.87, -0.1) max=(-2.17, -0.37, 0.1)
+Building/Tiles/Water_Slab_Tile/Water_Slab_Tile (2) | position=(-1.68, -1.12, 0) | order=2 | sprite=Water_Slab_Tile_1 | bounds min=(-2.18, -1.87, -0.1) max=(-1.18, -0.37, 0.1)
+Building/Tiles/Water_Slab_Tile/Water_Slab_Tile (3) | position=(-0.7, -1.12, 0) | order=2 | sprite=Water_Slab_Tile_1 | bounds min=(-1.2, -1.87, -0.1) max=(-0.2, -0.37, 0.1)
+Building/Tiles/Water_Slab_Tile/Water_Slab_Tile (4) | position=(0.3, -1.12, 0) | order=2 | sprite=Water_Slab_Tile_1 | bounds min=(-0.2, -1.87, -0.1) max=(0.8, -0.37, 0.1)
+Building/Tiles/Water_Slab_Tile/Water_Slab_Tile (5) | position=(2.27, -1.12, 0) | order=2 | sprite=Water_Slab_Tile_1 | bounds min=(1.77, -1.87, -0.1) max=(2.77, -0.37, 0.1)
+Building/Tiles/Water_Slab_Tile/Water_Slab_Tile (6) | position=(3.25, -1.12, 0) | order=2 | sprite=Water_Slab_Tile_1 | bounds min=(2.75, -1.87, -0.1) max=(3.75, -0.37, 0.1)
+Building/Tiles/Water_Slab_Tile/Water_Slab_Tile (7) | position=(1.28, -1.12, 0) | order=2 | sprite=Water_Slab_Tile_1 | bounds min=(0.78, -1.87, -0.1) max=(1.78, -0.37, 0.1)
+Building/Tiles/Water_Slab_Tile/Water_Slab_Tile (8) | position=(4.24, -1.12, 0) | order=2 | sprite=Water_Slab_Tile_1 | bounds min=(3.74, -1.87, -0.1) max=(4.74, -0.37, 0.1)
+Building/Tiles/Water_Slab_Tile/Water_Slab_Tile (9) | position=(-4.203, -1.12, 0) | order=2 | sprite=Water_Slab_Tile_1 | bounds min=(-4.703, -1.87, -0.1) max=(-3.703, -0.37, 0.1)
+Building/Wall | position=(-2.869, 6.509, 0) | order=0 | sprite=Piller_Front_1 | bounds min=(-4.056, 4.29, -0.1) max=(-1.681, 8.727, 0.1)
+Building/Wall/Wall | position=(-10.32, 6.509, 0) | order=0 | sprite=Piller_Front_1 | bounds min=(-11.508, 4.29, -0.1) max=(-9.133, 8.727, 0.1)
+Building/Wall/Wall | position=(-0.55, 6.509, 0) | order=0 | sprite=Piller_Front_1 | bounds min=(-1.738, 4.29, -0.1) max=(0.637, 8.727, 0.1)
+Building/Wall/Wall | position=(-7.99, 6.509, 0) | order=0 | sprite=Piller_Front_1 | bounds min=(-9.178, 4.29, -0.1) max=(-6.803, 8.727, 0.1)
+Building/Wall/Wall | position=(10.61, 6.509, 0) | order=0 | sprite=Piller_Front_1 | bounds min=(9.423, 4.29, -0.1) max=(11.798, 8.727, 0.1)
+Building/Wall/Wall | position=(1.87, 6.509, 0) | order=0 | sprite=Piller_Front_1 | bounds min=(0.683, 4.29, -0.1) max=(3.058, 8.727, 0.1)
+Building/Wall/Wall | position=(0.176, 7.94, 0) | order=0 | sprite=Piller_Top | bounds min=(-13.728, 6.784, -0.1) max=(14.079, 9.096, 0.1)
+Building/Wall/Wall | position=(4.22, 6.509, 0) | order=0 | sprite=Piller_Front_1 | bounds min=(3.033, 4.29, -0.1) max=(5.408, 8.727, 0.1)
+Building/Wall/Wall | position=(1.85, 6.509, 0) | order=0 | sprite=Piller_Front_1 | bounds min=(0.663, 4.29, -0.1) max=(3.038, 8.727, 0.1)
+Building/Wall/Wall | position=(12.98, 6.509, 0) | order=0 | sprite=Piller_Front_1 | bounds min=(11.793, 4.29, -0.1) max=(14.168, 8.727, 0.1)
+Building/Wall/Wall | position=(8.27, 6.509, 0) | order=0 | sprite=Piller_Front_1 | bounds min=(7.083, 4.29, -0.1) max=(9.458, 8.727, 0.1)
+Building/Wall/Wall  | position=(-12.599, 6.509, 0) | order=0 | sprite=Piller_Front_1 | bounds min=(-13.786, 4.29, -0.1) max=(-11.411, 8.727, 0.1)
+
+WALKABILITY PREVIEW: radius 0.28, grid spacing 0.5; # = solid collider, . = floor/bridge bounds, ~ = other.
+Visual sprite bounds can contain transparent pixels; inspect the screenshot before choosing spawn points.
+Columns: x=-10 through 10. Rows: y=6 down through -10.
+ 6.0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 5.5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 5.0 ~~~~~~~~~~~~#################~~~~~~~~~~~~
+ 4.5 ~~~~~~~~~~~~#################~~~~~~~~~~~~
+ 4.0 ~~~~~~~~~~~~#################~~~~~~~~~~~~
+ 3.5 ~~~~~~~~~~~~####..#####...###~~~~~~~~~~~~
+ 3.0 ~~~~~~~~~~~~####..#####...###~~~~~~~~~~~~
+ 2.5 ~~~~############..#####..############~~~~
+ 2.0 ~~~~############..#####..############~~~~
+ 1.5 ~~~~###########...#####..############~~~~
+ 1.0 ~~~~###...........#####...........###~~~~
+ 0.5 ~~~~###...........................###~~~~
+ 0.0 ~~~~###...........................###~~~~
+-0.5 ~~~~###...........................###~~~~
+-1.0 ~~~~##############~~~~~##############~~~~
+-1.5 ~~~~##############.....##############~~~~
+-2.0 ~~~~##############.....##############~~~~
+-2.5 ~~~~~~~~~~~~~~~###.....###~~~~~~~~###~~~~
+-3.0 ~~~~~~~~~~~~~~~###.....###~~~~~~~~###~~~~
+-3.5 ~~~~~~~~~~~~~~~###.....###~~~~~~~~~~~~~~~
+-4.0 ~~~~~~~~~~~~~~~###.....###~~~~~~~~~~~~~~~
+-4.5 ~~~~~~~~~~~~~~~###.....###~~~~~~~~~~~~~~~
+-5.0 ~~~~~~~~~~~~~~~###.....###~~~~~~~~~~~~~~~
+-5.5 ~~~~~~~~~~~~~~~###.....###~~~~~~~~~~~~~~~
+-6.0 ~~~~~~~~~~~~~~~###.....###~~~~~~~~~~~~~~~
+-6.5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-7.0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-7.5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-8.0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-8.5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-9.0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-9.5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-10.0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+CLEAR FLOOR CANDIDATES: one-unit grid, radius 0.4 clear of solid colliders
+(-2, 3)
+(2, 3)
+(-2, 2)
+(2, 2)
+(-6, 1)
+(-5, 1)
+(-4, 1)
+(-3, 1)
+(-2, 1)
+(2, 1)
+(3, 1)
+(4, 1)
+(5, 1)
+(6, 1)
+(-6, 0)
+(-5, 0)
+(-4, 0)
+(-3, 0)
+(-2, 0)
+(-1, 0)
+(0, 0)
+(1, 0)
+(2, 0)
+(3, 0)
+(4, 0)
+(5, 0)
+(6, 0)
+(-1, -2)
+(0, -2)
+(-1, -3)
+(0, -3)
+(1, -3)
+(-1, -4)
+(0, -4)
+(1, -4)
+(-1, -5)
+(0, -5)
+(1, -5)
+(-1, -6)
+(0, -6)
+(1, -6)
