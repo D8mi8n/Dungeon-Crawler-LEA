@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 345962615}
   - component: {fileID: 345962616}
   - component: {fileID: 345962617}
+  - component: {fileID: 345962618}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -246,12 +247,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b125a8a2203853d4f8d36b2c901a363e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerScript
-  is_Idle: 1
-  is_Skeleton_2: 1
-  moveSpeed: 1
-  wall: {fileID: 0}
-  block: {fileID: 0}
-  deathblock: {fileID: 0}
+  walkSpeed: 3
+  runSpeed: 5
+  skeleton: 2
+  maxHealth: 3
+--- !u!50 &345962618
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345962610}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &710055035
 GameObject:
   m_ObjectHideFlags: 0
