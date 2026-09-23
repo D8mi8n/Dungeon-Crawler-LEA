@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public float walkSpeed = 3.2f;
     public float runSpeed = 4.8f;
     [Header("Charakter")]
-    [Range(2, 3)] public int skeleton = 2;
+    [Range(0, 3)] public int skeleton = 2;
     [Header("Kampf")]
     public int maxHealth = 6;
     public int attackDamage = 1;
@@ -108,7 +108,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         isRunning = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
         if (movement.sqrMagnitude > 0.01f)
             Face(movement);
