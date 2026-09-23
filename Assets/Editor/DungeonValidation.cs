@@ -345,7 +345,7 @@ public static class DungeonValidation
             foreach (Collider2D body in bodies)
             {
                 overlaps.Clear();
-                body.OverlapCollider(filter, overlaps);
+                body.Overlap(filter, overlaps);
                 if (overlaps.Count != 0)
                 {
                     free = false;

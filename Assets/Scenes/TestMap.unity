@@ -251,6 +251,13 @@ MonoBehaviour:
   runSpeed: 5
   skeleton: 2
   maxHealth: 3
+  attackDamage: 1
+  attackCooldown: 0.62
+  attackDuration: 0.54
+  attackHitDelay: 0.23
+  attackReach: 0.4
+  attackRadius: 0.5
+  invulnerabilityDuration: 0.95
 --- !u!50 &345962618
 Rigidbody2D:
   serializedVersion: 5
