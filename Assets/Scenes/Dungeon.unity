@@ -804,7 +804,7 @@ GameObject:
   - component: {fileID: 148910286}
   - component: {fileID: 148910285}
   - component: {fileID: 148910284}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Colider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -920,7 +920,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7682492608764607587, guid: 0c111a194ee921946988becc4e711cee, type: 3}
   m_PrefabInstance: {fileID: 1010625826}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 204476657}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b125a8a2203853d4f8d36b2c901a363e, type: 3}
@@ -1640,6 +1640,48 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7874599470955747390, guid: 4a55722c68032cd43b0e0ef78d3cee7a, type: 3}
   m_PrefabInstance: {fileID: 548278871}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &204476657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1996965028116259560, guid: 0c111a194ee921946988becc4e711cee, type: 3}
+  m_PrefabInstance: {fileID: 1010625826}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &204476663
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204476657}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.010530531, y: 0.6524793}
+  m_Size: {x: 0.6059736, y: 1.218607}
+  m_Direction: 0
 --- !u!1 &208245481
 GameObject:
   m_ObjectHideFlags: 0
@@ -2621,7 +2663,8 @@ GameObject:
   m_Component:
   - component: {fileID: 543621763}
   - component: {fileID: 543621764}
-  m_Layer: 0
+  - component: {fileID: 543621765}
+  m_Layer: 4
   m_Name: Colider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2689,6 +2732,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 6.5370336}
   m_EdgeRadius: 0
+--- !u!50 &543621765
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543621762}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!4 &545053171 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7874599470955747390, guid: 4a55722c68032cd43b0e0ef78d3cee7a, type: 3}
@@ -4167,13 +4237,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1996965028116259560, guid: 0c111a194ee921946988becc4e711cee, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5132925842071569230, guid: 0c111a194ee921946988becc4e711cee, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 154172787}
     - target: {fileID: 5852260757298608330, guid: 0c111a194ee921946988becc4e711cee, type: 3}
       propertyPath: m_SortingOrder
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7682492608764607587, guid: 0c111a194ee921946988becc4e711cee, type: 3}
       propertyPath: skeleton
@@ -4182,7 +4256,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1996965028116259560, guid: 0c111a194ee921946988becc4e711cee, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 204476663}
   m_SourcePrefab: {fileID: 100100000, guid: 0c111a194ee921946988becc4e711cee, type: 3}
 --- !u!1 &1016002435
 GameObject:
@@ -4425,7 +4502,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1065820324}
   - component: {fileID: 1065820325}
-  m_Layer: 0
+  - component: {fileID: 1065820326}
+  m_Layer: 4
   m_Name: Colider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4493,6 +4571,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 5.7973046}
   m_EdgeRadius: 0
+--- !u!50 &1065820326
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065820323}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1096962490
 GameObject:
   m_ObjectHideFlags: 0
@@ -4965,7 +5070,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1156592447}
   - component: {fileID: 1156592448}
-  m_Layer: 0
+  - component: {fileID: 1156592449}
+  m_Layer: 4
   m_Name: 'Colider '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5033,6 +5139,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.2301373, y: 4.702479}
   m_EdgeRadius: 0
+--- !u!50 &1156592449
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156592446}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!4 &1176787121 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1666124354782504556, guid: 002f7dc5e41c09b4096764c7f3cf1942, type: 3}
@@ -5298,7 +5431,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1327295425}
   - component: {fileID: 1327295426}
-  m_Layer: 0
+  - component: {fileID: 1327295427}
+  m_Layer: 4
   m_Name: Colider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5366,6 +5500,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 5.5820217}
   m_EdgeRadius: 0
+--- !u!50 &1327295427
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327295424}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1332518245
 GameObject:
   m_ObjectHideFlags: 0
@@ -5660,7 +5821,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1362299496}
   - component: {fileID: 1362299497}
-  m_Layer: 0
+  - component: {fileID: 1362299498}
+  m_Layer: 4
   m_Name: 'Colider '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5728,6 +5890,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.2301373, y: 4.702479}
   m_EdgeRadius: 0
+--- !u!50 &1362299498
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362299495}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1366458944
 GameObject:
   m_ObjectHideFlags: 0
@@ -5829,7 +6018,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1374892060}
   - component: {fileID: 1374892061}
-  m_Layer: 0
+  - component: {fileID: 1374892062}
+  m_Layer: 4
   m_Name: Colider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5897,6 +6087,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 5.0904493}
   m_EdgeRadius: 0
+--- !u!50 &1374892062
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374892059}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1421410763
 GameObject:
   m_ObjectHideFlags: 0
@@ -5907,7 +6124,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1421410764}
   - component: {fileID: 1421410765}
-  m_Layer: 0
+  - component: {fileID: 1421410766}
+  m_Layer: 4
   m_Name: Colider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5975,6 +6193,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 8.131559}
   m_EdgeRadius: 0
+--- !u!50 &1421410766
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421410763}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1427665606
 GameObject:
   m_ObjectHideFlags: 0
@@ -6076,7 +6321,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1467453631}
   - component: {fileID: 1467453632}
-  m_Layer: 0
+  - component: {fileID: 1467453633}
+  m_Layer: 4
   m_Name: Colider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6144,6 +6390,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 4.4657907}
   m_EdgeRadius: 0
+--- !u!50 &1467453633
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467453630}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!4 &1497255756 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1666124354782504556, guid: 002f7dc5e41c09b4096764c7f3cf1942, type: 3}
@@ -6785,7 +7058,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1676640780}
   - component: {fileID: 1676640781}
-  m_Layer: 0
+  - component: {fileID: 1676640782}
+  m_Layer: 4
   m_Name: Colider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6853,6 +7127,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.1835656, y: 3.338089}
   m_EdgeRadius: 0
+--- !u!50 &1676640782
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676640779}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1698704378
 GameObject:
   m_ObjectHideFlags: 0
@@ -7583,7 +7884,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1991146532}
   - component: {fileID: 1991146533}
-  m_Layer: 0
+  - component: {fileID: 1991146534}
+  m_Layer: 4
   m_Name: Colider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7651,6 +7953,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.378083, y: 2.9435678}
   m_EdgeRadius: 0
+--- !u!50 &1991146534
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991146531}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2024945225
 GameObject:
   m_ObjectHideFlags: 0
@@ -8255,7 +8584,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2134994281}
   - component: {fileID: 2134994282}
-  m_Layer: 0
+  - component: {fileID: 2134994283}
+  m_Layer: 4
   m_Name: Colider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8323,6 +8653,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.2136993, y: 2.8120604}
   m_EdgeRadius: 0
+--- !u!50 &2134994283
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134994280}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &4673105113698825593
 PrefabInstance:
   m_ObjectHideFlags: 0

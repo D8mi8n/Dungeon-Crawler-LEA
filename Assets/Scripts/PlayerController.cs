@@ -275,4 +275,5 @@ public class PlayerController : MonoBehaviour
         if (spriteRenderer != null)
             spriteRenderer.color = normalColor;
     }
+
 }
