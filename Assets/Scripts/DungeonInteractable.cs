@@ -47,19 +47,4 @@ public sealed class DungeonInteractable : MonoBehaviour
         else if (kind != ItemKind.SealChest) gameObject.SetActive(false);
         return true;
     }
-
-    private void OnGUI()
-    {
-        var game = DungeonGame.Instance;
-        if (IsConsumed || game == null || !game.IsPlaying || game.Player == null || Camera.main == null) return;
-        if (kind != ItemKind.SealChest && kind != ItemKind.Exit) return;
-        Vector3 screen = Camera.main.WorldToScreenPoint(transform.position + Vector3.up * 0.85f);
-        if (screen.z < 0 || screen.y < 0 || screen.y > Screen.height) return;
-        string label = kind == ItemKind.Exit ? "NORDTOR" : "SEELENSIEGEL";
-        float scale = Mathf.Max(0.65f, Screen.height / 720f);
-        var style = new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleCenter, fontSize = Mathf.RoundToInt(11 * scale) };
-        style.normal.textColor = kind == ItemKind.Exit ? new Color(0.45f, 0.95f, 0.86f) : new Color(1, 0.8f, 0.4f);
-        float labelY = Mathf.Max(122 * scale, Screen.height - screen.y);
-        GUI.Label(new Rect(screen.x - 90 * scale, labelY, 180 * scale, 22 * scale), label, style);
-    }
 }

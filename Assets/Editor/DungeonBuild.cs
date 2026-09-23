@@ -120,7 +120,7 @@ public static class DungeonBuild
         foreach (EnemyController enemy in UnityEngine.Object.FindObjectsByType<EnemyController>(FindObjectsSortMode.None))
             ValidateSpawn(enemy.transform.position, wallLayer, enemy.name);
 
-        EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(ScenePath, true) };
+        DungeonLevelBuild.UpdateBuildSettings();
         PlayerSettings.companyName = "LEA";
         PlayerSettings.productName = "LEA – Die vergessene Krypta";
         PlayerSettings.bundleVersion = "1.0";
@@ -142,12 +142,13 @@ public static class DungeonBuild
         var preparedScene = SceneManager.GetSceneByPath(ScenePath);
         if (preparedScene.IsValid() && preparedScene.isLoaded && preparedScene.isDirty)
             EditorSceneManager.SaveScene(preparedScene);
-        EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(ScenePath, true) };
+        DungeonLevelBuild.EnsureLevels();
+        DungeonLevelBuild.UpdateBuildSettings();
         string output = Path.GetFullPath(Path.Combine(Application.dataPath, "../Builds/Windows/LEA.exe"));
         Directory.CreateDirectory(Path.GetDirectoryName(output));
         BuildReport report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
         {
-            scenes = new[] { ScenePath },
+            scenes = EditorBuildSettings.scenes.Where(s => s.enabled).Select(s => s.path).ToArray(),
             locationPathName = output,
             target = BuildTarget.StandaloneWindows64,
             options = BuildOptions.None
@@ -180,6 +181,7 @@ public static class DungeonBuild
         hud.buttonHover = UiSprite("Main_menu", 4);
         hud.buttonPressed = UiSprite("Main_menu", 3);
         hud.characterFrame = UiSprite("character_panel", 1);
+        hud.playerPortrait = FirstSprite(2);
         hud.actionPanel = UiSprite("Action_panel", 0);
         hud.sealIcon = UiSprite("Icons", 102);
         hud.coinIcon = UiSprite("Icons", 69);

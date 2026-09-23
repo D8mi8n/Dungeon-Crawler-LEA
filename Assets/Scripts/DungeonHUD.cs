@@ -7,6 +7,8 @@ public sealed class DungeonHUD : MonoBehaviour
     public Sprite panelSprite, buttonNormal, buttonHover, buttonPressed, characterFrame, actionPanel;
     [Header("PNG_UI · Symbole")]
     public Sprite sealIcon, coinIcon, swordIcon, healthIcon, movementIcon, soundOnIcon, soundOffIcon, starIcon, defeatIcon;
+    [Header("HUD · Festes Spielerporträt")]
+    public Sprite playerPortrait;
     private static readonly Color Ink = new Color(.20f,.15f,.11f);
     private static readonly Color Muted = new Color(.40f,.31f,.20f);
     private static readonly Color Green = new Color(.18f,.38f,.25f);
@@ -18,7 +20,9 @@ public sealed class DungeonHUD : MonoBehaviour
         float scale = Mathf.Min(Screen.width / 1280f, Screen.height / 720f);
         Vector2 p = new Vector2((screenPosition.x - (Screen.width - 1280 * scale) / 2) / scale,
             (Screen.height - screenPosition.y - (Screen.height - 720 * scale) / 2) / scale);
-        return p.y < 115 || p.y > 630;
+        return new Rect(20,17,275,102).Contains(p)
+            || new Rect(735,21,523,83).Contains(p)
+            || new Rect(1090,641,164,43).Contains(p);
     }
 
     private void OnGUI()
@@ -62,7 +66,11 @@ public sealed class DungeonHUD : MonoBehaviour
         Text(new Rect(416,73,448,96),"LEA",80,true);
         Text(new Rect(330,174,620,36),"DIE VERGESSENE KRYPTA",25,true,Green);
         Rule(358,224,564);
-        Text(new Rect(350,246,580,58),"Drei Wächter. Drei Seelensiegel.\nFinde deinen Weg zurück ins Licht.",20,true);
+        for (int i=0;i<DungeonGame.LevelNames.Length;i++)
+        {
+            string caption=(i==g.LevelIndex?"• ":"") + DungeonGame.LevelNames[i];
+            if(Button(new Rect(315+i*218,254,214,48),caption)) g.SelectLevel(i);
+        }
         if (Button(new Rect(369,335,542,61),"Krypta betreten")) g.StartRun();
         if (Button(new Rect(369,414,263,48),g.Muted?"Ton aus":"Ton an",g.Muted?soundOffIcon:soundOnIcon)) g.ToggleMute();
         if (Button(new Rect(648,414,263,48),"Beenden")) g.QuitGame();
@@ -71,42 +79,26 @@ public sealed class DungeonHUD : MonoBehaviour
         Control(665,515,"LEER / MAUS","Angreifen",swordIcon);
         Control(351,574,"E","Truhe / Nordtor",sealIcon);
         Control(665,574,"SHIFT · ESC","Sprinten · Pause",movementIcon);
-        Text(new Rect(330,637,620,23),"EINGABE  Starten       ·       LEA / 1.0",13,true,Muted);
     }
 
     private void DrawGame(DungeonGame g)
     {
         int hp=g.Player!=null?g.Player.CurrentHealth:0, max=g.Player!=null?g.Player.MaxHealth:6;
         DrawSprite(characterFrame,new Rect(20,17,275,102));
-        if (g.Player!=null) Icon(g.Player.GetComponent<SpriteRenderer>().sprite,new Rect(32,30,70,69));
-        Text(new Rect(123,19,143,21),"LEBENSKRAFT",12,false,Cream);
+        // A separate idle portrait keeps HUD framing independent of movement and attack frames.
+        DrawPlayerPortrait();
         Fill(new Rect(124,44,124,9),new Color(.19f,.09f,.08f));
         Fill(new Rect(124,44,124*hp/Mathf.Max(1f,max),9),new Color(.84f,.28f,.22f));
         for(int i=1;i<max;i++) Fill(new Rect(124+124f*i/max,44,2,9),new Color(.24f,.16f,.09f));
         Text(new Rect(123,56,130,27),hp+" / "+max,17,false,Cream);
-        Metric(new Rect(305,21,169,83),sealIcon,"SIEGEL",g.SealCount+" / 3");
-        Metric(new Rect(488,21,155,83),coinIcon,"MÜNZEN",g.CoinCount.ToString());
-        Metric(new Rect(657,21,171,83),swordIcon,"BESIEGT",g.DefeatedEnemies+" / "+g.TotalEnemies);
-        Panel(new Rect(842,21,414,83));
-        Text(new Rect(861,32,288,19),g.SealCount==3?"DAS NORDTOR IST BEREIT":"DEIN AUFTRAG",12,false,Green);
-        Text(new Rect(1152,31,85,21),TimeText(g.ElapsedTime),16,true);
-        Text(new Rect(861,56,369,37),g.SealCount<3?"Besiege die Wächter und öffne ihre Siegeltruhen.":"Erreiche das Nordtor und drücke E.",16);
-        if(!string.IsNullOrEmpty(g.Message))
-        {
-            Panel(new Rect(287,126,706,54));
-            Text(new Rect(307,135,666,35),g.Message,17,true);
-        }
+        Metric(new Rect(735,21,169,83),sealIcon,"SIEGEL",g.SealCount+" / 3");
+        Metric(new Rect(918,21,155,83),coinIcon,"MÜNZEN",g.CoinCount.ToString());
+        Metric(new Rect(1087,21,171,83),swordIcon,"BESIEGT",g.DefeatedEnemies+" / "+g.TotalEnemies);
         if(!string.IsNullOrEmpty(g.InteractionPrompt))
         {
             Panel(new Rect(319,555,642,56));
             Text(new Rect(339,566,602,34),g.InteractionPrompt,18,true,Green);
         }
-        NineSlice(actionPanel,new Rect(365,636,550,52),5,3);
-        Icon(swordIcon,new Rect(385,643,32,34));
-        Text(new Rect(427,640,224,38),"LEER / MAUS  Angriff",17,false,Cream);
-        Icon(sealIcon,new Rect(666,643,29,33));
-        Text(new Rect(710,640,182,38),"E  Interagieren",17,false,Cream);
-        Text(new Rect(26,656,320,26),"WASD / Pfeile · SHIFT Sprinten",14,true,Cream);
         if(Button(new Rect(1090,641,164,43),"Pause · ESC")) g.Pause();
     }
 
@@ -115,12 +107,24 @@ public sealed class DungeonHUD : MonoBehaviour
         Panel(new Rect(392,87,496,551));
         Icon(sealIcon,new Rect(615,116,49,54));
         Text(new Rect(430,184,420,49),"ATEMPAUSE",35,true);
-        Text(new Rect(431,239,418,32),"Die Krypta wartet auf dich.",18,true,Muted);
+        Text(new Rect(431,239,418,32),DungeonGame.LevelNames[g.LevelIndex],18,true,Muted);
         if(Button(new Rect(459,292,362,53),"Weiterkämpfen")) g.Resume();
         if(Button(new Rect(459,361,362,47),"Neu starten")) g.RestartRun();
         if(Button(new Rect(459,424,362,47),"Hauptmenü")) g.ReturnToMenu();
         if(Button(new Rect(459,487,362,47),g.Muted?"Ton einschalten":"Ton ausschalten",g.Muted?soundOffIcon:soundOnIcon)) g.ToggleMute();
-        Text(new Rect(430,569,420,28),"ESC  Zurück ins Spiel",15,true,Muted);
+    }
+
+    private void DrawPlayerPortrait()
+    {
+        if(playerPortrait==null) return;
+        // Frame the body of the idle sprite, excluding the sword's extra width.
+        // The fixed crop is centered in the circular opening at (71, 68).
+        Rect source=playerPortrait.rect;
+        Rect crop=new Rect(source.x+source.width/30f,source.y+source.height*.1f,
+            source.width*16f/30f,source.height*22f/30f);
+        GUI.DrawTextureWithTexCoords(new Rect(47,35,48,66),playerPortrait.texture,
+            new Rect(crop.x/playerPortrait.texture.width,crop.y/playerPortrait.texture.height,
+                crop.width/playerPortrait.texture.width,crop.height/playerPortrait.texture.height));
     }
 
     private void DrawResult(DungeonGame g,bool won)
@@ -138,9 +142,9 @@ public sealed class DungeonHUD : MonoBehaviour
         ResultMetric(467,coinIcon,"MÜNZEN",g.CoinCount.ToString());
         ResultMetric(641,swordIcon,"BESIEGT",g.DefeatedEnemies+" / "+g.TotalEnemies);
         ResultMetric(815,null,"ZEIT",TimeText(g.ElapsedTime));
-        if(Button(new Rect(305,512,324,56),won?"Noch einmal spielen":"Erneut versuchen")) g.RestartRun();
+        if(Button(new Rect(305,512,324,56),won&&g.HasNextLevel?"Nächstes Level":won?"Noch einmal spielen":"Erneut versuchen")) g.ContinueAfterResult();
         if(Button(new Rect(650,512,324,56),"Hauptmenü")) g.ReturnToMenu();
-        Text(new Rect(302,596,676,27),"EINGABE  Neu starten",15,true,Muted);
+        Text(new Rect(302,596,676,27),won&&g.HasNextLevel?"EINGABE  Nächstes Level":"EINGABE  Neu starten",15,true,Muted);
     }
 
     private void Metric(Rect r,Sprite icon,string caption,string value)

@@ -8,6 +8,18 @@ Die Windows-Version liegt in `Builds/Windows`. **LEA.exe** startet das Spiel. De
 
 Im Unity Editor die Szene **Assets/Scenes/LEA.unity** öffnen und Play drücken. Im Hauptmenü „Krypta betreten“ oder Eingabe wählen.
 
+Im Hauptmenü stehen **Krypta**, **Zisterne** und **Grabkammern** direkt zur Auswahl. Nach einem Sieg führt „Nächstes Level“ in die folgende Szene. Jedes Level beginnt mit vollen Lebenspunkten und eigenen Siegeln. „Neu starten“ wiederholt das aktuelle Level.
+
+- **LEA.unity – Krypta:** die ursprüngliche kompakte Karte.
+- **LEA_Zisterne.unity – Zisterne:** vier Kammern um ein Wasserbecken, verbunden durch einen begehbaren Brückenring. Zwei Wege führen zu den seitlichen Wächtern.
+- **LEA_Grabkammern.unity – Grabkammern:** warme Steinhallen mit versetzten Durchgängen, Seitenkammern und Fallen auf dem Weg zur nördlichen Grabkammer.
+
+Die neuen Szenen haben eine mitlaufende Kamera. Alle Gegner zeigen ihren Lebensbalken oberhalb des animierten Sprites. Das Spiel-HUD zeigt nur Leben, Siegel, Münzen, besiegte Gegner und Pause; Auftragskasten, Meldungsbanner und die permanente Steuerungsleiste wurden entfernt. Die Steuerung steht weiterhin im Hauptmenü; Hinweise an benutzbaren Truhen und Türen erscheinen nur in ihrer Nähe.
+
+Die Umgebungsgrafiken der beiden neuen Level stammen aus **Assets/Sprites/PNG**. Die Bauteile bleiben als verbundene Instanzen der vorhandenen Prefabs erhalten: `Floor_Tiles`, `Brige`, `Piller_Water_Animated`, `Bubble`, `Big_Torch`, `Big_Candle_1`, `Statue`, `Scull`, `Door` und `Plate_Trap`. Die Zisterne verwendet einen klar geführten Brückendurchgang und am Ufer verankerte Wasserpfeiler. Die Grabkammern kombinieren geordnete Sarkophagnischen mit Kerzen und Statuen an den Wänden. Zusammenhängende Wandkanten, dezente Pflasterung aus `plates.png` und sparsame Rissvarianten halten den Maßstab einheitlich. Die ursprünglichen Prefab-Dateien werden dabei nicht verändert.
+
+Das Wand-/Bodenatlas `walls_floor.png` verwendet für nahtlos wiederholte Wand- und Bodenstreifen den Sprite-Meshtyp **Full Rect**. Die Bilddatei bleibt unverändert. Zusätzlich zum Spielablauf wird auf beiden neuen Karten geprüft, dass alle Siegeltruhen und der Ausgang mit dem tatsächlichen Spielerradius an den Wandkollisionen vorbei erreichbar sind.
+
 | Eingabe | Aktion |
 | --- | --- |
 | WASD / Pfeiltasten | Bewegen und Blickrichtung bestimmen |
@@ -15,7 +27,7 @@ Im Unity Editor die Szene **Assets/Scenes/LEA.unity** öffnen und Play drücken.
 | Leertaste / linke Maustaste | In Blickrichtung angreifen |
 | E | Nahe Siegeltruhe öffnen / Nordtor benutzen |
 | Esc | Pause / fortsetzen |
-| Eingabe | Im Hauptmenü starten, nach Sieg oder Niederlage neu starten |
+| Eingabe | Im Hauptmenü starten, nach Sieg ins nächste Level, nach Niederlage neu starten |
 
 ## Spielziel
 
@@ -37,11 +49,13 @@ Gegner kündigen ihre Angriffe farblich an. Nach einem Treffer ist der Spieler k
 
 ## Projekt und Builds
 
-Die ursprünglichen Szenen `Dungeon`, `TestMap` und `TestDamian` bleiben als Ausgangsmaterial erhalten. Die fertige Spielszene heißt **LEA** und ist die einzige aktivierte Build-Szene.
+Die ursprünglichen Szenen `Dungeon`, `TestMap` und `TestDamian` bleiben als Ausgangsmaterial erhalten. **LEA**, **LEA_Zisterne** und **LEA_Grabkammern** sind als Build-Szenen aktiviert.
 
 Die GUI-Sprites sind am Objekt **LEA Spielsteuerung → DungeonHUD** im Inspector zugewiesen. **LEA → GUI-Sprites zuweisen** aktualisiert diese Referenzen in der fertigen Szene. Die Oberfläche skaliert für andere Fenstergrößen; die Ränder werden in neun Teilen gezeichnet, damit die Pixelrahmen erhalten bleiben.
 
 Über **LEA → Windows-Version bauen** wird die Windows-Version aus der Spielszene erstellt. Das Editor-Werkzeug kann die Spielszene auch über **LEA → Spielszene vorbereiten** aus `Dungeon` und den vorhandenen Grafiken neu erzeugen. **Achtung:** Beim Vorbereiten werden manuelle Änderungen an `LEA.unity` und den erzeugten LEA-Animator-Controllern ersetzt. Eigene Varianten vorher unter einem anderen Namen speichern.
+
+**LEA → Zwei zusätzliche Level erzeugen** erzeugt die beiden neuen Szenen erneut aus der bestehenden LEA-Spielszene und ihren eigenen Kartenlayouts. Dieser Befehl ersetzt Änderungen an den beiden zusätzlichen Szenen. Der normale Windows-Build verwendet dagegen die gespeicherten Szenen und erzeugt nur fehlende Level.
 
 Wichtige Dateien:
 

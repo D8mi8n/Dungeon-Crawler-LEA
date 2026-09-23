@@ -8,6 +8,10 @@ public sealed class DungeonGame : MonoBehaviour
     public enum GameState { Menu, Playing, Paused, Won, Lost }
     public static DungeonGame Instance { get; private set; }
     private static bool startImmediately;
+    public static readonly string[] LevelScenes = { "LEA", "LEA_Zisterne", "LEA_Grabkammern" };
+    public static readonly string[] LevelNames = { "Krypta", "Zisterne", "Grabkammern" };
+    public int LevelIndex => Mathf.Max(0, System.Array.IndexOf(LevelScenes, SceneManager.GetActiveScene().name));
+    public bool HasNextLevel => LevelIndex < LevelScenes.Length - 1;
     public PlayerController player;
     public GameState State { get; private set; } = GameState.Menu;
     public PlayerController Player => player;
@@ -69,7 +73,7 @@ public sealed class DungeonGame : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return))
         {
             if (State == GameState.Menu) StartRun();
-            else if (State == GameState.Won || State == GameState.Lost) RestartRun();
+            else if (State == GameState.Won || State == GameState.Lost) ContinueAfterResult();
         }
         if (!IsPlaying || player == null) return;
         ElapsedTime += Time.deltaTime;
@@ -124,14 +128,34 @@ public sealed class DungeonGame : MonoBehaviour
     {
         startImmediately = true;
         Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void SelectLevel(int index)
+    {
+        if (State != GameState.Menu || index < 0 || index >= LevelScenes.Length || index == LevelIndex) return;
+        startImmediately = false;
+        Time.timeScale = 1;
+        SceneManager.LoadScene(LevelScenes[index]);
+    }
+
+    public void ContinueAfterResult()
+    {
+        if (State != GameState.Won && State != GameState.Lost) return;
+        if (State == GameState.Won && HasNextLevel)
+        {
+            startImmediately = true;
+            Time.timeScale = 1;
+            SceneManager.LoadScene(LevelScenes[LevelIndex + 1]);
+        }
+        else RestartRun();
     }
 
     public void ReturnToMenu()
     {
         startImmediately = false;
         Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void OnPlayerDied()

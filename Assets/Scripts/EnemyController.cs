@@ -19,6 +19,14 @@ public class EnemyController : MonoBehaviour
 
     public bool IsDead { get; private set; }
     public int CurrentHealth { get; private set; }
+    public Vector3 HealthBarWorldPosition
+    {
+        get
+        {
+            var renderer = spriteRenderer != null ? spriteRenderer : GetComponent<SpriteRenderer>();
+            return new Vector3(renderer.bounds.center.x, renderer.bounds.max.y + 0.12f, transform.position.z);
+        }
+    }
 
     private Rigidbody2D body;
     private Animator animator;
@@ -272,16 +280,18 @@ public class EnemyController : MonoBehaviour
 
     private void OnGUI()
     {
-        if (!IsPlaying || IsDead || (CurrentHealth >= maxHealth && !isGuardian))
+        if (!IsPlaying || IsDead)
             return;
         Camera view = Camera.main;
         if (view == null)
             return;
-        Vector3 screen = view.WorldToScreenPoint(transform.position + Vector3.up * 0.58f);
-        if (screen.z <= 0f)
+        Vector3 screen = view.WorldToScreenPoint(HealthBarWorldPosition);
+        if (screen.z <= 0f || screen.x < 0 || screen.x > Screen.width || screen.y < 0 || screen.y > Screen.height)
             return;
-        float width = isGuardian ? 64f : 36f;
-        Rect bounds = new Rect(screen.x - width * 0.5f, Screen.height - screen.y, width, 5f);
+        GUI.depth = 0;
+        float scale = Mathf.Max(0.65f, Screen.height / 720f);
+        float width = (isGuardian ? 64f : 44f) * scale;
+        Rect bounds = new Rect(screen.x - width * 0.5f, Screen.height - screen.y - 5f * scale, width, 5f * scale);
         Color previousColor = GUI.color;
         GUI.color = new Color(0.1f, 0.06f, 0.08f, 0.95f);
         GUI.DrawTexture(new Rect(bounds.x - 1f, bounds.y - 1f, bounds.width + 2f, bounds.height + 2f), Texture2D.whiteTexture);

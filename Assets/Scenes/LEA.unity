@@ -7770,6 +7770,7 @@ MonoBehaviour:
   buttonHover: {fileID: 2885058273434057715, guid: 8e19c768999fe5b458fabf1895e09141, type: 3}
   buttonPressed: {fileID: -1175416069785852829, guid: 8e19c768999fe5b458fabf1895e09141, type: 3}
   characterFrame: {fileID: -214830240826405523, guid: d12dd58ee1a81654a969826dbfe52202, type: 3}
+  playerPortrait: {fileID: 3087738552712123693, guid: 6ed7169f9d62e2e45849271a91390bc0, type: 3}
   actionPanel: {fileID: 2678117307762808000, guid: 8df2e2a65ffbf204b8e2dfa5b0da8b15, type: 3}
   sealIcon: {fileID: -6989001855597078397, guid: 7a192691b71a46c46b251c555338817d, type: 3}
   coinIcon: {fileID: 1029129698335283115, guid: 7a192691b71a46c46b251c555338817d, type: 3}

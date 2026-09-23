@@ -15,7 +15,7 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public static class DungeonValidation
 {
-    private enum Phase { Starting, Menu, Paused, PlayingClock, AttackHit, Invulnerability, Restarting, ReturningMenu, FinalMenu, Stopping }
+    private enum Phase { Starting, Menu, Paused, PlayingClock, AttackHit, Invulnerability, Restarting, ReturningMenu, FinalMenu, CampaignMenu, CampaignNext, Stopping }
 
     private static readonly StringBuilder Report = new StringBuilder();
     private static Phase phase;
@@ -42,6 +42,7 @@ public static class DungeonValidation
     private static bool previousOptionsEnabled;
     private static EnterPlayModeOptions previousOptions;
     private static string reportPath;
+    private static int levelIndex;
 
     public static void Run()
     {
@@ -51,6 +52,7 @@ public static class DungeonValidation
         savedOptions = false;
         passed = failed = runtimeErrors = 0;
         expectedEnemies = 0;
+        levelIndex = 0;
         Report.Clear();
         Report.AppendLine("LEA PLAYMODE VALIDATION");
         Report.AppendLine("Started: " + DateTime.UtcNow.ToString("O"));
@@ -106,6 +108,7 @@ public static class DungeonValidation
                 case Phase.Starting:
                     if (game == null || game.Player == null || Time.frameCount < 3) return;
                     CheckReferencesAndSpawns(game);
+                    if (game.LevelIndex > 0) CheckLevelNavigation(game);
                     expectedEnemies = game.TotalEnemies;
                     CheckFreshRun(game, DungeonGame.GameState.Menu);
                     pausedElapsed = game.ElapsedTime;
@@ -214,7 +217,42 @@ public static class DungeonValidation
                     if (!Waited(0.15)) return;
                     Check(game.State == DungeonGame.GameState.Menu && Mathf.Approximately(Time.timeScale, 0), "Return to menu stays in Menu with time frozen");
                     Check(Mathf.Approximately(game.ElapsedTime, pausedElapsed), "Returned menu does not advance time");
-                    Finish();
+                    if (levelIndex < DungeonGame.LevelScenes.Length - 1)
+                    {
+                        previousGameId = game.GetInstanceID();
+                        game.SelectLevel(++levelIndex);
+                        SetPhase(Phase.Starting);
+                    }
+                    else
+                    {
+                        previousGameId = game.GetInstanceID();
+                        game.SelectLevel(0);
+                        SetPhase(Phase.CampaignMenu);
+                    }
+                    break;
+
+                case Phase.CampaignMenu:
+                    if (!NewSceneReady(game) || !Waited(.1)) return;
+                    Check(game.LevelIndex == 0 && game.State == DungeonGame.GameState.Menu, "Level selection returns to the first level menu");
+                    game.StartRun();
+                    ValidateSealsAndWin(game);
+                    previousGameId = game.GetInstanceID();
+                    game.ContinueAfterResult();
+                    SetPhase(Phase.CampaignNext);
+                    break;
+
+                case Phase.CampaignNext:
+                    if (!NewSceneReady(game) || !Waited(.1)) return;
+                    Check(game.State == DungeonGame.GameState.Playing, "Continue starts the next level directly");
+                    Check(game.SealCount == 0 && game.Player.CurrentHealth == game.Player.MaxHealth, "Next level resets seals and health");
+                    ValidateSealsAndWin(game);
+                    if (game.HasNextLevel)
+                    {
+                        previousGameId = game.GetInstanceID();
+                        game.ContinueAfterResult();
+                        SetPhase(Phase.CampaignNext);
+                    }
+                    else Finish();
                     break;
             }
         }
@@ -370,6 +408,9 @@ public static class DungeonValidation
             Check(actor.GetComponent<Rigidbody2D>() != null, actor.name + " has a rigidbody");
             Check(animator != null && animator.runtimeAnimatorController != null, actor.name + " has an animation controller");
             Check(sprite != null && sprite.sprite != null, actor.name + " has a visible sprite reference");
+            if (actor is EnemyController enemy)
+                Check(enemy.HealthBarWorldPosition.y > sprite.bounds.max.y,
+                    actor.name + " health bar sits above the entire animated sprite");
             Collider2D[] bodies = actor.GetComponents<Collider2D>().Where(body => body.enabled && !body.isTrigger).ToArray();
             Check(bodies.Length > 0, actor.name + " has a solid body collider");
             bool free = true;
@@ -389,7 +430,98 @@ public static class DungeonValidation
         bool missingScript = UnityEngine.Object.FindObjectsByType<Transform>(FindObjectsSortMode.None)
             .Any(transform => transform.GetComponents<MonoBehaviour>().Any(component => component == null));
         Check(!missingScript, "Scene contains no missing script references");
-        Check(SceneManager.GetActiveScene().path == "Assets/Scenes/LEA.unity", "Runtime uses the intended LEA scene");
+        Check(SceneManager.GetActiveScene().path == DungeonLevelBuild.PathFor(levelIndex), "Runtime uses the selected level scene");
+        Check(!DungeonHUD.BlocksWorldPointer(new Vector2(Screen.width*.5f,Screen.height*.06f)), "Removed footer does not block mouse attacks");
+    }
+
+    private static void CheckLevelNavigation(DungeonGame game)
+    {
+        const float playerRadius = 0.27f;
+        const float interactionDistance = 1.2f;
+        const int maximumPoints = 20000;
+        int wallMask = LayerMask.GetMask("DungeonWalls");
+        Vector2 spawn = game.Player.transform.position;
+        DungeonInteractable[] targets = UnityEngine.Object.FindObjectsByType<DungeonInteractable>(FindObjectsSortMode.None)
+            .Where(item => item.kind == DungeonInteractable.ItemKind.SealChest || item.kind == DungeonInteractable.ItemKind.Exit)
+            .OrderBy(item => item.name).ToArray();
+        var bounds = new Bounds(spawn, Vector3.zero);
+        foreach (DungeonInteractable target in targets) bounds.Encapsulate(target.transform.position);
+        foreach (Collider2D wall in UnityEngine.Object.FindObjectsByType<Collider2D>(FindObjectsSortMode.None))
+            if (wall.enabled && !wall.isTrigger && (wallMask & (1 << wall.gameObject.layer)) != 0)
+                bounds.Encapsulate(wall.bounds);
+        bounds.Expand(1f);
+
+        // Anchor the lattice to the exact spawn; keep a fine sample without unbounded editor work.
+        float step = 0.25f;
+        int left, bottom, width, height;
+        do
+        {
+            left = Mathf.FloorToInt((bounds.min.x - spawn.x) / step);
+            bottom = Mathf.FloorToInt((bounds.min.y - spawn.y) / step);
+            width = Mathf.CeilToInt((bounds.max.x - spawn.x) / step) - left + 1;
+            height = Mathf.CeilToInt((bounds.max.y - spawn.y) / step) - bottom + 1;
+            if ((long)width * height <= maximumPoints) break;
+            step += 0.025f;
+        } while (true);
+
+        Vector2 origin = spawn + new Vector2(left * step, bottom * step);
+        var filter = new ContactFilter2D { useTriggers = false };
+        filter.SetLayerMask(wallMask);
+        var overlap = new Collider2D[1];
+        var sweep = new RaycastHit2D[1];
+        var walkable = new bool[width * height];
+        var reached = new bool[walkable.Length];
+        Physics2D.SyncTransforms();
+        for (int y = 0; y < height; y++)
+        for (int x = 0; x < width; x++)
+            walkable[y * width + x] = Physics2D.OverlapCircle(
+                origin + new Vector2(x * step, y * step), playerRadius, filter, overlap) == 0;
+
+        int first = -bottom * width - left;
+        bool spawnClear = walkable[first];
+        Check(spawnClear, "Level " + game.LevelIndex + " navigation starts with a clear player footprint");
+        var frontier = new Queue<int>();
+        if (spawnClear)
+        {
+            reached[first] = true;
+            frontier.Enqueue(first);
+        }
+        Vector2Int[] directions = { Vector2Int.up, Vector2Int.right, Vector2Int.down, Vector2Int.left };
+        int visited = 0;
+        var closest = Enumerable.Repeat(float.PositiveInfinity, targets.Length).ToArray();
+        while (frontier.Count != 0)
+        {
+            int current = frontier.Dequeue();
+            int x = current % width, y = current / width;
+            Vector2 point = origin + new Vector2(x * step, y * step);
+            visited++;
+            for (int i = 0; i < targets.Length; i++)
+                closest[i] = Mathf.Min(closest[i], Vector2.Distance(point, targets[i].transform.position));
+
+            foreach (Vector2Int direction in directions)
+            {
+                int nextX = x + direction.x, nextY = y + direction.y;
+                if (nextX < 0 || nextX >= width || nextY < 0 || nextY >= height) continue;
+                int next = nextY * width + nextX;
+                if (reached[next] || !walkable[next]) continue;
+                // Sweeps prevent crossing a thin obstacle between two otherwise clear samples.
+                if (Physics2D.CircleCast(point, playerRadius, (Vector2)direction, filter, sweep, step) != 0) continue;
+                reached[next] = true;
+                frontier.Enqueue(next);
+            }
+        }
+
+        Report.AppendLine("  Navigation: level=" + game.LevelIndex + "; spawn=" + spawn
+            + "; raster=" + width + "x" + height + "; step=" + step.ToString("F3")
+            + "; reachable=" + visited + "; bounds=" + bounds);
+        for (int i = 0; i < targets.Length; i++)
+        {
+            bool accessible = closest[i] <= interactionDistance;
+            Check(accessible, "Level " + game.LevelIndex + " has a continuous walkable route to " + targets[i].name);
+            if (!accessible)
+                Report.AppendLine("  Unreachable interaction target: " + targets[i].name + "; position="
+                    + targets[i].transform.position + "; nearest reachable distance=" + closest[i].ToString("F2"));
+        }
     }
 
     private static bool NewSceneReady(DungeonGame game)
