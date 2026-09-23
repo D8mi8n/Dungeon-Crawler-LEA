@@ -915,6 +915,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1439450392634048728, guid: dd5d667328a28f14b950a76c01de309d, type: 3}
   m_PrefabInstance: {fileID: 1579322332}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &154172787 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7682492608764607587, guid: 0c111a194ee921946988becc4e711cee, type: 3}
+  m_PrefabInstance: {fileID: 1010625826}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b125a8a2203853d4f8d36b2c901a363e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerScript
+--- !u!4 &154172790 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 839711839171882127, guid: 0c111a194ee921946988becc4e711cee, type: 3}
+  m_PrefabInstance: {fileID: 1010625826}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &154334798
 GameObject:
   m_ObjectHideFlags: 0
@@ -4113,7 +4129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 839711839171882127, guid: 0c111a194ee921946988becc4e711cee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.35
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 839711839171882127, guid: 0c111a194ee921946988becc4e711cee, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4151,6 +4167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5132925842071569230, guid: 0c111a194ee921946988becc4e711cee, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 154172787}
     - target: {fileID: 5852260757298608330, guid: 0c111a194ee921946988becc4e711cee, type: 3}
       propertyPath: m_SortingOrder
       value: 10
@@ -4642,6 +4662,7 @@ GameObject:
   - component: {fileID: 1121249025}
   - component: {fileID: 1121249024}
   - component: {fileID: 1121249027}
+  - component: {fileID: 1121249028}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4767,6 +4788,21 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &1121249028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121249023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01d67a5208f32b0419b0656f475c6380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DungeonCamera
+  target: {fileID: 154172790}
+  minimum: {x: -14, y: -10}
+  maximum: {x: 14, y: 10}
 --- !u!1 &1127708324
 GameObject:
   m_ObjectHideFlags: 0

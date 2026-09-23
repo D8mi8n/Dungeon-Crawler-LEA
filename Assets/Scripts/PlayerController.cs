@@ -41,10 +41,12 @@ public class PlayerController : MonoBehaviour
     private int wallMask;
     private readonly HashSet<EnemyController> struckEnemies = new HashSet<EnemyController>();
 
+    
     private bool IsPlaying
     {
         get { return DungeonGame.Instance != null && DungeonGame.Instance.IsPlaying; }
     }
+    
 
     private void Awake()
     {
@@ -63,6 +65,9 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log("Instance: " + (DungeonGame.Instance != null));
+        Debug.Log("GamePlaying: " + (DungeonGame.Instance?.IsPlaying ?? false));
+        Debug.Log("State: " + DungeonGame.Instance?.State);
         spriteRenderer.sortingOrder = 1000 - Mathf.RoundToInt(transform.position.y * 100f);
         if (!IsPlaying)
         {
