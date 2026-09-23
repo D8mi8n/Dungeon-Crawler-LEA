@@ -1582,6 +1582,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: walls_floor_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 270
+        width: 46
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57845a551dcef6a48aec7a613e5867f3
+      internalID: -346139637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_floor_65
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 249
+        width: 46
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399716f77f5e441498c7691d371f965c
+      internalID: -1998343162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1657,6 +1701,8 @@ TextureImporter:
       walls_floor_61: -1012128217
       walls_floor_62: 289807404
       walls_floor_63: 138649521
+      walls_floor_64: -346139637
+      walls_floor_65: -1998343162
       walls_floor_7: -7170082584239624480
       walls_floor_8: 963233060431184777
       walls_floor_9: -918787365942849845

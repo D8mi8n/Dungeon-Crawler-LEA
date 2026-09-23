@@ -1366,7 +1366,7 @@ TextureImporter:
         width: 16
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1388,7 +1388,7 @@ TextureImporter:
         width: 16
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1410,7 +1410,7 @@ TextureImporter:
         width: 16
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1432,7 +1432,7 @@ TextureImporter:
         width: 16
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1454,7 +1454,7 @@ TextureImporter:
         width: 16
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1476,7 +1476,7 @@ TextureImporter:
         width: 16
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1485,6 +1485,160 @@ TextureImporter:
       bones: []
       spriteID: 0890afeb2d549f340b59b581c508bba5
       internalID: -2061328754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piller_Front_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 377
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668862d799b12ce4c9eaa5ac36fed258
+      internalID: -511010936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piller_Front_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 377
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8d950711b594345b546450f7ba6590
+      internalID: -338784688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piller_Front_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 233
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d4920ef40864b43816666053b11303
+      internalID: -98536124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piller_Front_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 233
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ca385a35c66d24eb8ced4c7b53e231
+      internalID: -22534980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piller_Front_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 89
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e198850203aaa7478d470e24d3b2b1e
+      internalID: -1096637525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piller_Front_6
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 89
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a24637ead11bf040a0f5dbac3fe4716
+      internalID: -1156433246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piller_Top
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 411
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0473fc41967fb47be3963e7f482758
+      internalID: 1563265422
       vertices: []
       indices: 
       edges: []
@@ -1529,6 +1683,13 @@ TextureImporter:
       Piller_Back_2: -1953420418
       Piller_Back_3: 1824020762
       Piller_Back_4: 2120110352
+      Piller_Front_1: -511010936
+      Piller_Front_2: -338784688
+      Piller_Front_3: -98536124
+      Piller_Front_4: -22534980
+      Piller_Front_5: -1096637525
+      Piller_Front_6: -1156433246
+      Piller_Top: 1563265422
       Right_Side_Slab_1: -1719063861
       Right_Side_Slab_2: 1759275606
       Right_Side_Slab_3: -563320494
@@ -1551,7 +1712,10 @@ TextureImporter:
       Water_coasts_animation_15: -629177898921397695
       Water_coasts_animation_16: -4512588912511727668
       Water_coasts_animation_17: -1542724824
+      Water_coasts_animation_18: -1015265805
+      Water_coasts_animation_19: -2026296634
       Water_coasts_animation_2: 5187109691184453635
+      Water_coasts_animation_3: -1889170592
       Water_coasts_animation_4: -8020466262886027264
       Water_coasts_animation_5: 696317478344156484
       Water_coasts_animation_6: 5092512924022132279
