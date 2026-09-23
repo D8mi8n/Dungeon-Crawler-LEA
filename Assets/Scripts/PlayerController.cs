@@ -65,9 +65,11 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+#if UNITY_EDITOR && LEA_VERBOSE_INPUT
         Debug.Log("Instance: " + (DungeonGame.Instance != null));
         Debug.Log("GamePlaying: " + (DungeonGame.Instance?.IsPlaying ?? false));
         Debug.Log("State: " + DungeonGame.Instance?.State);
+#endif
         spriteRenderer.sortingOrder = 1000 - Mathf.RoundToInt(transform.position.y * 100f);
         if (!IsPlaying)
         {
@@ -117,7 +119,7 @@ public class PlayerController : MonoBehaviour
         isRunning = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
         if (movement.sqrMagnitude > 0.01f)
             Face(movement);
-        bool mouseAttack = Input.GetMouseButtonDown(0);
+        bool mouseAttack = Input.GetMouseButtonDown(0) && !DungeonHUD.BlocksWorldPointer(Input.mousePosition);
         if (Input.GetKeyDown(KeyCode.Space) || mouseAttack)
         {
             Vector2 aim = FacingDirection;

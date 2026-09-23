@@ -1,0 +1,182 @@
+LEA PLAYMODE VALIDATION
+Started: 2026-09-23T13:45:29.3172420Z
+Unity: 6000.3.11f1
+Scene: Assets/Scenes/LEA.unity
+
+EDITOR SEARCH DIAGNOSTIC (not gameplay): ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+System.Collections.Generic.List`1[T].get_Item (System.Int32 index) (at <41d29b352f6a475ab1bf7c6628b82790>:0)
+UnityEditor.Search.SearchDatabase+<EnumerateAll>d__80.MoveNext () (at <014ebb3dbb3d4ee3a86600dd6e33065e>:0)
+System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Boolean& found) (at <80564d689e48448fa2a7101993ee7201>:0)
+System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source) (at <80564d689e48448fa2a7101993ee7201>:0)
+UnityEditor.Search.SearchDatabase.GetDefaultSearchDatabase () (at <014ebb3dbb3d4ee3a86600dd6e33065e>:0)
+UnityEditor.Search.SearchInit.IndexationOnStartup () (at <014ebb3dbb3d4ee3a86600dd6e33065e>:0)
+UnityEditor.EditorApplication.Internal_CallDelayFunctions () (at <2e4eaf245b924ed1b8c17467295ae042>:0)
+
+PASS Game has a player reference
+PASS Scene has exactly one game controller
+PASS Scene has its HUD
+PASS Scene has an orthographic main camera
+PASS Camera is fixed for the compact dungeon or follows the active player
+PASS All fifteen PNG_UI sprite references are assigned
+PASS Game has its runtime audio source
+PASS Enemy count matches live scene actors
+PASS DungeonWalls physics layer exists
+PASS Player has a rigidbody
+PASS Player has an animation controller
+PASS Player has a visible sprite reference
+PASS Player has a solid body collider
+PASS Player spawns clear of DungeonWalls
+PASS Wächter Ost has a rigidbody
+PASS Wächter Ost has an animation controller
+PASS Wächter Ost has a visible sprite reference
+PASS Wächter Ost has a solid body collider
+PASS Wächter Ost spawns clear of DungeonWalls
+PASS Wächter West has a rigidbody
+PASS Wächter West has an animation controller
+PASS Wächter West has a visible sprite reference
+PASS Wächter West has a solid body collider
+PASS Wächter West spawns clear of DungeonWalls
+PASS Kryptenwache West has a rigidbody
+PASS Kryptenwache West has an animation controller
+PASS Kryptenwache West has a visible sprite reference
+PASS Kryptenwache West has a solid body collider
+PASS Kryptenwache West spawns clear of DungeonWalls
+PASS Wächter Nord has a rigidbody
+PASS Wächter Nord has an animation controller
+PASS Wächter Nord has a visible sprite reference
+PASS Wächter Nord has a solid body collider
+PASS Wächter Nord spawns clear of DungeonWalls
+PASS Kryptenwache Ost has a rigidbody
+PASS Kryptenwache Ost has an animation controller
+PASS Kryptenwache Ost has a visible sprite reference
+PASS Kryptenwache Ost has a solid body collider
+PASS Kryptenwache Ost spawns clear of DungeonWalls
+PASS Scene contains no missing script references
+PASS Runtime uses the intended LEA scene
+PASS Fresh scene enters Menu
+PASS Fresh player starts with six health points
+PASS Fresh run resets seals, coins and defeated count
+PASS Fresh run restores the complete enemy roster
+PASS Fresh run starts with a new timer
+PASS Fresh scene has the correct time scale
+PASS Menu does not advance the run timer
+PASS Start enters Playing and resumes time
+PASS Pause freezes the run
+PASS Paused player ignores damage
+PASS Paused timer remains unchanged across frames
+PASS Resume returns to Playing
+PASS Playing advances the timer
+PASS A normal enemy is available for the real attack test
+PASS Player spawn has room for an unobstructed melee test
+PASS Player accepts a ready melee attack
+PASS Immediate second melee attack is blocked by cooldown
+  Attack sample: player=(0.00, -4.80, 0.00); target=(0.00, -4.00, 0.00); health=1; expected=1; facing=(0.00, 1.00)
+  Overlaps=Kryptenwache West:0,Player:0
+  Wall=
+  Target physics=(0.00, -4.00); bounds=Center: (0.00, -4.00, 0.00), Extents: (0.27, 0.27, 0.00); colliderEnabled=True; simulated=True
+PASS Player attack applies one point of damage through its delayed collider hit
+PASS One hit removes one health point
+PASS Immediate second hit is blocked by invulnerability
+PASS Healing restores health and clamps to the maximum
+PASS Healing at full health returns false
+PASS Nonpositive damage does not alter health
+PASS Damage applies again after invulnerability expires
+PASS Scene contains exactly three seal chests
+PASS Scene contains the exit
+PASS Each seal chest references a living guardian
+PASS Every chest has its own guardian
+PASS Living guardian blocks chest Siegeltruhe Nord
+PASS Living guardian blocks chest Siegeltruhe Ost
+PASS Living guardian blocks chest Siegeltruhe West
+PASS Exit interaction rejects a run without all seals
+PASS Escape API rejects a run without all seals
+PASS Guardian 1 dies from lethal damage
+PASS Guardian death increments defeated count once
+PASS Guardian death grants its coin reward
+PASS Repeated death and callback cannot duplicate rewards
+PASS Defeated guardian unlocks seal 1
+PASS Seal chest can only be collected once
+PASS Exit remains locked with 1 seals
+PASS Guardian 2 dies from lethal damage
+PASS Guardian death increments defeated count once
+PASS Guardian death grants its coin reward
+PASS Repeated death and callback cannot duplicate rewards
+PASS Defeated guardian unlocks seal 2
+PASS Seal chest can only be collected once
+PASS Exit remains locked with 2 seals
+PASS Guardian 3 dies from lethal damage
+PASS Guardian death increments defeated count once
+PASS Guardian death grants its coin reward
+PASS Repeated death and callback cannot duplicate rewards
+PASS Defeated guardian unlocks seal 3
+PASS Seal chest can only be collected once
+PASS Seal count and rewards are capped at three
+PASS Three seals allow exit and enter Won
+PASS Victory freezes the completed run
+PASS Fresh scene enters Playing
+PASS Fresh player starts with six health points
+PASS Fresh run resets seals, coins and defeated count
+PASS Fresh run restores the complete enemy roster
+PASS Fresh run starts with a new timer
+PASS Fresh scene has the correct time scale
+PASS Game has a player reference
+PASS Scene has exactly one game controller
+PASS Scene has its HUD
+PASS Scene has an orthographic main camera
+PASS Camera is fixed for the compact dungeon or follows the active player
+PASS All fifteen PNG_UI sprite references are assigned
+PASS Game has its runtime audio source
+PASS Enemy count matches live scene actors
+PASS DungeonWalls physics layer exists
+PASS Player has a rigidbody
+PASS Player has an animation controller
+PASS Player has a visible sprite reference
+PASS Player has a solid body collider
+PASS Player spawns clear of DungeonWalls
+PASS Kryptenwache Ost has a rigidbody
+PASS Kryptenwache Ost has an animation controller
+PASS Kryptenwache Ost has a visible sprite reference
+PASS Kryptenwache Ost has a solid body collider
+PASS Kryptenwache Ost spawns clear of DungeonWalls
+PASS Wächter West has a rigidbody
+PASS Wächter West has an animation controller
+PASS Wächter West has a visible sprite reference
+PASS Wächter West has a solid body collider
+PASS Wächter West spawns clear of DungeonWalls
+PASS Wächter Ost has a rigidbody
+PASS Wächter Ost has an animation controller
+PASS Wächter Ost has a visible sprite reference
+PASS Wächter Ost has a solid body collider
+PASS Wächter Ost spawns clear of DungeonWalls
+PASS Wächter Nord has a rigidbody
+PASS Wächter Nord has an animation controller
+PASS Wächter Nord has a visible sprite reference
+PASS Wächter Nord has a solid body collider
+PASS Wächter Nord spawns clear of DungeonWalls
+PASS Kryptenwache West has a rigidbody
+PASS Kryptenwache West has an animation controller
+PASS Kryptenwache West has a visible sprite reference
+PASS Kryptenwache West has a solid body collider
+PASS Kryptenwache West spawns clear of DungeonWalls
+PASS Scene contains no missing script references
+PASS Runtime uses the intended LEA scene
+PASS Restart creates a new player instance
+PASS Restart restores all enemies alive
+PASS Restart resets every seal chest
+PASS Lethal damage kills the player and clamps health to zero
+PASS Player death enters Lost
+PASS Repeated death notification preserves Lost
+PASS Fresh scene enters Menu
+PASS Fresh player starts with six health points
+PASS Fresh run resets seals, coins and defeated count
+PASS Fresh run restores the complete enemy roster
+PASS Fresh run starts with a new timer
+PASS Fresh scene has the correct time scale
+PASS Return to menu stays in Menu with time frozen
+PASS Returned menu does not advance time
+PASS Play mode produced no errors or exceptions (observed: 0)
+
+RESULT: PASS
+Assertions passed: 159; failed: 0
+Duration: 3,46 seconds

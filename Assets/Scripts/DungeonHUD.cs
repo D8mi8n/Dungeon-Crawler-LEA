@@ -1,288 +1,227 @@
 using UnityEngine;
 
-/// <summary>A small, asset-free interface for the crypt, in a consistent 1280 x 720 canvas.</summary>
+/// <summary>Game UI drawn from the original PNG_UI sprite atlases, with crisp sliced borders.</summary>
 public sealed class DungeonHUD : MonoBehaviour
 {
-    private static readonly Color Ink = new Color(0.025f, 0.043f, 0.063f, 0.95f);
-    private static readonly Color PanelColor = new Color(0.046f, 0.075f, 0.094f, 0.94f);
-    private static readonly Color Line = new Color(0.27f, 0.37f, 0.40f, 0.55f);
-    private static readonly Color Gold = new Color(0.96f, 0.76f, 0.40f);
-    private static readonly Color Teal = new Color(0.39f, 0.88f, 0.81f);
-    private static readonly Color White = new Color(0.93f, 0.96f, 0.95f);
-    private static readonly Color MutedText = new Color(0.61f, 0.70f, 0.72f);
-    private static readonly Color Red = new Color(0.97f, 0.38f, 0.35f);
+    [Header("PNG_UI · Fenster und Schaltflächen")]
+    public Sprite panelSprite, buttonNormal, buttonHover, buttonPressed, characterFrame, actionPanel;
+    [Header("PNG_UI · Symbole")]
+    public Sprite sealIcon, coinIcon, swordIcon, healthIcon, movementIcon, soundOnIcon, soundOffIcon, starIcon, defeatIcon;
+    private static readonly Color Ink = new Color(.20f,.15f,.11f);
+    private static readonly Color Muted = new Color(.40f,.31f,.20f);
+    private static readonly Color Green = new Color(.18f,.38f,.25f);
+    private static readonly Color Cream = new Color(1,.91f,.70f);
+    private GUIStyle label, centered, button;
 
-    private GUIStyle titleStyle;
-    private GUIStyle headingStyle;
-    private GUIStyle bodyStyle;
-    private GUIStyle smallStyle;
-    private GUIStyle tinyStyle;
-    private GUIStyle numberStyle;
-    private GUIStyle buttonStyle;
-    private GUIStyle keyStyle;
+    public static bool BlocksWorldPointer(Vector2 screenPosition)
+    {
+        float scale = Mathf.Min(Screen.width / 1280f, Screen.height / 720f);
+        Vector2 p = new Vector2((screenPosition.x - (Screen.width - 1280 * scale) / 2) / scale,
+            (Screen.height - screenPosition.y - (Screen.height - 720 * scale) / 2) / scale);
+        return p.y < 115 || p.y > 630;
+    }
 
     private void OnGUI()
     {
-        DungeonGame game = DungeonGame.Instance;
+        var game = DungeonGame.Instance;
         if (game == null) return;
         EnsureStyles();
-
-        Matrix4x4 oldMatrix = GUI.matrix;
-        Color oldColor = GUI.color;
-        int oldDepth = GUI.depth;
-        GUI.depth = -100;
-        GUI.color = Color.white;
-        GUI.matrix = Matrix4x4.identity;
-
-        bool overlay = game.State != DungeonGame.GameState.Playing;
-        if (overlay)
-        {
-            Fill(new Rect(0, 0, Screen.width, Screen.height),
-                new Color(0.012f, 0.026f, 0.039f, game.State == DungeonGame.GameState.Menu ? 0.73f : 0.78f));
-        }
-
+        Matrix4x4 previousMatrix = GUI.matrix;
+        Color previousColor = GUI.color;
+        GUI.depth = -100; GUI.color = Color.white; GUI.matrix = Matrix4x4.identity;
+        if (game.State != DungeonGame.GameState.Playing)
+            Fill(new Rect(0,0,Screen.width,Screen.height), new Color(.035f,.055f,.065f,.72f));
         float scale = Mathf.Min(Screen.width / 1280f, Screen.height / 720f);
-        GUI.matrix = Matrix4x4.TRS(
-            new Vector3((Screen.width - 1280f * scale) * 0.5f, (Screen.height - 720f * scale) * 0.5f, 0),
-            Quaternion.identity, new Vector3(scale, scale, 1));
-
+        GUI.matrix = Matrix4x4.TRS(new Vector3((Screen.width-1280*scale)/2,(Screen.height-720*scale)/2,0),
+            Quaternion.identity,Vector3.one*scale);
         switch (game.State)
         {
-            case DungeonGame.GameState.Menu:
-                DrawMenu(game);
-                break;
-            case DungeonGame.GameState.Playing:
-                DrawGameplay(game);
-                break;
-            case DungeonGame.GameState.Paused:
-                DrawPause(game);
-                break;
-            case DungeonGame.GameState.Won:
-                DrawResult(game, true);
-                break;
-            case DungeonGame.GameState.Lost:
-                DrawResult(game, false);
-                break;
+            case DungeonGame.GameState.Menu: DrawMenu(game); break;
+            case DungeonGame.GameState.Playing: DrawGame(game); break;
+            case DungeonGame.GameState.Paused: DrawPause(game); break;
+            case DungeonGame.GameState.Won: DrawResult(game,true); break;
+            case DungeonGame.GameState.Lost: DrawResult(game,false); break;
         }
-
-        GUI.matrix = oldMatrix;
-        GUI.color = oldColor;
-        GUI.depth = oldDepth;
+        GUI.matrix=previousMatrix; GUI.color=previousColor;
     }
 
     private void EnsureStyles()
     {
-        if (bodyStyle != null) return;
-        Font font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-        titleStyle = MakeStyle(font, 112, White, FontStyle.Bold);
-        headingStyle = MakeStyle(font, 34, White, FontStyle.Bold);
-        bodyStyle = MakeStyle(font, 20, White);
-        bodyStyle.wordWrap = true;
-        smallStyle = MakeStyle(font, 16, MutedText);
-        smallStyle.wordWrap = true;
-        tinyStyle = MakeStyle(font, 13, MutedText);
-        tinyStyle.wordWrap = true;
-        numberStyle = MakeStyle(font, 30, White, FontStyle.Bold);
-        buttonStyle = MakeStyle(font, 19, White, FontStyle.Bold);
-        buttonStyle.alignment = TextAnchor.MiddleCenter;
-        keyStyle = MakeStyle(font, 15, White, FontStyle.Bold);
-        keyStyle.alignment = TextAnchor.MiddleCenter;
+        if (label != null) return;
+        Font font=Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+        label=new GUIStyle { font=font,fontSize=20,alignment=TextAnchor.MiddleLeft,wordWrap=true };
+        centered=new GUIStyle(label) { alignment=TextAnchor.MiddleCenter };
+        button=new GUIStyle(centered) { fontSize=23,fontStyle=FontStyle.Bold };
+        button.normal.textColor=button.hover.textColor=button.active.textColor=button.focused.textColor=Ink;
     }
 
-    private static GUIStyle MakeStyle(Font font, int size, Color color, FontStyle weight = FontStyle.Normal)
+    private void DrawMenu(DungeonGame g)
     {
-        GUIStyle style = new GUIStyle();
-        style.font = font;
-        style.fontSize = size;
-        style.fontStyle = weight;
-        style.normal.textColor = color;
-        style.hover.textColor = color;
-        style.active.textColor = color;
-        style.focused.textColor = color;
-        style.richText = false;
-        style.clipping = TextClipping.Clip;
-        return style;
+        Panel(new Rect(278,44,724,630));
+        Icon(sealIcon,new Rect(357,92,57,62)); Icon(sealIcon,new Rect(866,92,57,62));
+        Text(new Rect(416,73,448,96),"LEA",80,true);
+        Text(new Rect(330,174,620,36),"DIE VERGESSENE KRYPTA",25,true,Green);
+        Rule(358,224,564);
+        Text(new Rect(350,246,580,58),"Drei Wächter. Drei Seelensiegel.\nFinde deinen Weg zurück ins Licht.",20,true);
+        if (Button(new Rect(369,335,542,61),"Krypta betreten")) g.StartRun();
+        if (Button(new Rect(369,414,263,48),g.Muted?"Ton aus":"Ton an",g.Muted?soundOffIcon:soundOnIcon)) g.ToggleMute();
+        if (Button(new Rect(648,414,263,48),"Beenden")) g.QuitGame();
+        Rule(358,493,564);
+        Control(351,515,"WASD / PFEILE","Bewegen",movementIcon);
+        Control(665,515,"LEER / MAUS","Angreifen",swordIcon);
+        Control(351,574,"E","Truhe / Nordtor",sealIcon);
+        Control(665,574,"SHIFT · ESC","Sprinten · Pause",movementIcon);
+        Text(new Rect(330,637,620,23),"EINGABE  Starten       ·       LEA / 1.0",13,true,Muted);
     }
 
-    private void DrawMenu(DungeonGame game)
+    private void DrawGame(DungeonGame g)
     {
-        Fill(new Rect(126, 110, 52, 3), Gold);
-        Text(new Rect(126, 132, 460, 134), "LEA", titleStyle);
-        Text(new Rect(131, 272, 540, 44), "DIE VERGESSENE KRYPTA", headingStyle, Gold, 27);
-        Text(new Rect(133, 320, 520, 42), "Ein Tor. Drei Siegel. Dein Weg zurück ins Licht.", smallStyle);
-
-        if (Button(new Rect(132, 394, 434, 58), "Krypta betreten", true)) game.StartRun();
-        if (Button(new Rect(132, 468, 211, 47), game.Muted ? "Ton: aus" : "Ton: an")) game.ToggleMute();
-        if (Button(new Rect(355, 468, 211, 47), "Beenden")) game.QuitGame();
-        Text(new Rect(132, 535, 434, 26), "Auch mit Eingabe starten", tinyStyle);
-
-        Panel(new Rect(740, 157, 412, 425), Teal);
-        Text(new Rect(772, 189, 345, 28), "DEIN AUFTRAG", smallStyle, Teal, 15);
-        Text(new Rect(772, 233, 342, 118),
-            "Sammle die drei Seelensiegel in der Krypta. Erreiche das Nordtor und entkomme.", bodyStyle, White, 23);
-        Fill(new Rect(772, 366, 346, 1), Line);
-        Instruction(772, 391, "WASD", "Bewegen · auch mit Pfeiltasten", 66);
-        Instruction(772, 437, "LEER", "Angreifen · auch mit linker Maus", 66);
-        Instruction(772, 483, "E", "Siegel und Tor aktivieren", 66);
-        Text(new Rect(772, 539, 344, 25), "SHIFT  Sprinten     ESC  Pause", tinyStyle);
-
-        Text(new Rect(132, 650, 900, 25), "Erkunde die Räume. Halte Abstand. Finde den Ausgang.", tinyStyle);
-        Text(new Rect(1072, 650, 80, 25), "LEA / 01", tinyStyle, Gold);
-    }
-
-    private void DrawGameplay(DungeonGame game)
-    {
-        Panel(new Rect(24, 22, 328, 92), Teal);
-        Text(new Rect(42, 36, 170, 20), "LEBENSKRAFT", tinyStyle);
-        int health = game.Player != null ? game.Player.CurrentHealth : 0;
-        int maxHealth = game.Player != null ? Mathf.Max(1, game.Player.MaxHealth) : 6;
-        Text(new Rect(254, 33, 79, 27), health + " / " + maxHealth, smallStyle, health <= 2 ? Red : White, 18);
-        float segmentWidth = (288f - (maxHealth - 1) * 5f) / maxHealth;
-        for (int i = 0; i < maxHealth; i++)
+        int hp=g.Player!=null?g.Player.CurrentHealth:0, max=g.Player!=null?g.Player.MaxHealth:6;
+        DrawSprite(characterFrame,new Rect(20,17,275,102));
+        if (g.Player!=null) Icon(g.Player.GetComponent<SpriteRenderer>().sprite,new Rect(32,30,70,69));
+        Text(new Rect(123,19,143,21),"LEBENSKRAFT",12,false,Cream);
+        Fill(new Rect(124,44,124,9),new Color(.19f,.09f,.08f));
+        Fill(new Rect(124,44,124*hp/Mathf.Max(1f,max),9),new Color(.84f,.28f,.22f));
+        for(int i=1;i<max;i++) Fill(new Rect(124+124f*i/max,44,2,9),new Color(.24f,.16f,.09f));
+        Text(new Rect(123,56,130,27),hp+" / "+max,17,false,Cream);
+        Metric(new Rect(305,21,169,83),sealIcon,"SIEGEL",g.SealCount+" / 3");
+        Metric(new Rect(488,21,155,83),coinIcon,"MÜNZEN",g.CoinCount.ToString());
+        Metric(new Rect(657,21,171,83),swordIcon,"BESIEGT",g.DefeatedEnemies+" / "+g.TotalEnemies);
+        Panel(new Rect(842,21,414,83));
+        Text(new Rect(861,32,288,19),g.SealCount==3?"DAS NORDTOR IST BEREIT":"DEIN AUFTRAG",12,false,Green);
+        Text(new Rect(1152,31,85,21),TimeText(g.ElapsedTime),16,true);
+        Text(new Rect(861,56,369,37),g.SealCount<3?"Besiege die Wächter und öffne ihre Siegeltruhen.":"Erreiche das Nordtor und drücke E.",16);
+        if(!string.IsNullOrEmpty(g.Message))
         {
-            Rect segment = new Rect(42 + i * (segmentWidth + 5), 74, segmentWidth, 18);
-            Fill(segment, i < health ? (health <= 2 ? Red : Teal) : new Color(0.17f, 0.22f, 0.25f));
-            if (i < health) Fill(new Rect(segment.x, segment.y, segment.width, 2), new Color(1, 1, 1, 0.23f));
+            Panel(new Rect(287,126,706,54));
+            Text(new Rect(307,135,666,35),g.Message,17,true);
         }
-
-        HudMetric(new Rect(364, 22, 139, 92), "SEELENSIEGEL", game.SealCount + " / 3", Gold);
-        HudMetric(new Rect(515, 22, 115, 92), "MÜNZEN", game.CoinCount.ToString(), Gold);
-        HudMetric(new Rect(642, 22, 145, 92), "BESIEGT", game.DefeatedEnemies + " / " + game.TotalEnemies, White);
-        HudMetric(new Rect(799, 22, 116, 92), "ZEIT", FormatTime(game.ElapsedTime), White);
-
-        Panel(new Rect(927, 22, 329, 92), Gold);
-        Text(new Rect(945, 36, 284, 20), "DEIN NÄCHSTES ZIEL", tinyStyle, Gold);
-        Text(new Rect(945, 61, 289, 42), game.Objective, smallStyle, White, 16);
-
-        if (!string.IsNullOrEmpty(game.Message))
+        if(!string.IsNullOrEmpty(g.InteractionPrompt))
         {
-            Panel(new Rect(315, 134, 650, 52), Gold);
-            CenterText(new Rect(333, 146, 614, 29), game.Message, smallStyle, White, 18);
+            Panel(new Rect(319,555,642,56));
+            Text(new Rect(339,566,602,34),g.InteractionPrompt,18,true,Green);
         }
+        NineSlice(actionPanel,new Rect(365,636,550,52),5,3);
+        Icon(swordIcon,new Rect(385,643,32,34));
+        Text(new Rect(427,640,224,38),"LEER / MAUS  Angriff",17,false,Cream);
+        Icon(sealIcon,new Rect(666,643,29,33));
+        Text(new Rect(710,640,182,38),"E  Interagieren",17,false,Cream);
+        Text(new Rect(26,656,320,26),"WASD / Pfeile · SHIFT Sprinten",14,true,Cream);
+        if(Button(new Rect(1090,641,164,43),"Pause · ESC")) g.Pause();
+    }
 
-        if (!string.IsNullOrEmpty(game.InteractionPrompt))
+    private void DrawPause(DungeonGame g)
+    {
+        Panel(new Rect(392,87,496,551));
+        Icon(sealIcon,new Rect(615,116,49,54));
+        Text(new Rect(430,184,420,49),"ATEMPAUSE",35,true);
+        Text(new Rect(431,239,418,32),"Die Krypta wartet auf dich.",18,true,Muted);
+        if(Button(new Rect(459,292,362,53),"Weiterkämpfen")) g.Resume();
+        if(Button(new Rect(459,361,362,47),"Neu starten")) g.RestartRun();
+        if(Button(new Rect(459,424,362,47),"Hauptmenü")) g.ReturnToMenu();
+        if(Button(new Rect(459,487,362,47),g.Muted?"Ton einschalten":"Ton ausschalten",g.Muted?soundOffIcon:soundOnIcon)) g.ToggleMute();
+        Text(new Rect(430,569,420,28),"ESC  Zurück ins Spiel",15,true,Muted);
+    }
+
+    private void DrawResult(DungeonGame g,bool won)
+    {
+        Panel(new Rect(234,68,812,588));
+        if(won)
         {
-            Panel(new Rect(350, 591, 580, 57), Teal);
-            CenterText(new Rect(370, 606, 540, 29), game.InteractionPrompt, bodyStyle, White, 19);
+            Icon(starIcon,new Rect(515,107,61,60)); Icon(starIcon,new Rect(601,90,78,76)); Icon(starIcon,new Rect(704,107,61,60));
         }
-
-        Fill(new Rect(24, 670, 1232, 30), new Color(0.026f, 0.042f, 0.053f, 0.87f));
-        CenterText(new Rect(36, 677, 1208, 20),
-            "WASD / Pfeile  Bewegen     SHIFT  Sprinten     LEER / Linke Maus  Angreifen     E  Interagieren     ESC  Pause",
-            tinyStyle, MutedText, 13);
+        else Icon(defeatIcon,new Rect(604,98,72,72));
+        Text(new Rect(278,194,724,50),won?"DER KRYPTA ENTKOMMEN":"VON SCHATTEN BESIEGT",33,true,won?Green:new Color(.73f,.18f,.17f));
+        Text(new Rect(301,255,678,63),won?"Die drei Seelensiegel sind vereint.\nDas Nordtor öffnet deinen Weg ins Licht.":"Die Wächter bewahren ihre Geheimnisse.\nVersuche es erneut – jedes Siegel heilt dich.",20,true,Muted);
+        Rule(295,344,690);
+        ResultMetric(293,sealIcon,"SIEGEL",g.SealCount+" / 3");
+        ResultMetric(467,coinIcon,"MÜNZEN",g.CoinCount.ToString());
+        ResultMetric(641,swordIcon,"BESIEGT",g.DefeatedEnemies+" / "+g.TotalEnemies);
+        ResultMetric(815,null,"ZEIT",TimeText(g.ElapsedTime));
+        if(Button(new Rect(305,512,324,56),won?"Noch einmal spielen":"Erneut versuchen")) g.RestartRun();
+        if(Button(new Rect(650,512,324,56),"Hauptmenü")) g.ReturnToMenu();
+        Text(new Rect(302,596,676,27),"EINGABE  Neu starten",15,true,Muted);
     }
 
-    private void DrawPause(DungeonGame game)
+    private void Metric(Rect r,Sprite icon,string caption,string value)
     {
-        Panel(new Rect(412, 125, 456, 470), Teal);
-        CenterText(new Rect(445, 161, 390, 45), "ATEMPAUSE", headingStyle, White);
-        CenterText(new Rect(449, 220, 382, 28), "Die Krypta wartet auf dich.", smallStyle);
-        if (Button(new Rect(452, 278, 376, 55), "Weiterkämpfen", true)) game.Resume();
-        if (Button(new Rect(452, 346, 376, 47), "Neu starten")) game.RestartRun();
-        if (Button(new Rect(452, 406, 376, 47), "Hauptmenü")) game.ReturnToMenu();
-        if (Button(new Rect(452, 466, 376, 41), game.Muted ? "Ton einschalten" : "Ton ausschalten")) game.ToggleMute();
-        CenterText(new Rect(452, 544, 376, 26), "ESC  Zurück ins Spiel", tinyStyle);
+        Panel(r); Icon(icon,new Rect(r.x+14,r.y+30,30,32));
+        Text(new Rect(r.x+56,r.y+13,r.width-65,19),caption,12,false,Muted);
+        Text(new Rect(r.x+56,r.y+34,r.width-65,36),value,26);
     }
-
-    private void DrawResult(DungeonGame game, bool won)
+    private void ResultMetric(float x,Sprite icon,string caption,string value)
     {
-        Color accent = won ? Gold : Red;
-        Panel(new Rect(256, 105, 768, 510), accent);
-        CenterText(new Rect(302, 144, 676, 27), won ? "DREI SIEGEL. EIN NEUER MORGEN." : "DEINE REISE ENDET HIER", smallStyle, accent, 15);
-        CenterText(new Rect(295, 191, 690, 53), won ? "DER KRYPTA ENTKOMMEN" : "VON SCHATTEN BESIEGT", headingStyle, White, 34);
-        CenterText(new Rect(316, 257, 648, 57),
-            won ? "Das Nordtor ist offen. Du hast die Seelensiegel geborgen\nund deinen Weg zurück ins Licht gefunden."
-                : "Die Krypta bewahrt ihre Geheimnisse.\nVersuche es erneut und finde alle drei Seelensiegel.",
-            bodyStyle, MutedText, 19);
-
-        float firstX = 296;
-        ResultMetric(firstX, "SEELENSIEGEL", game.SealCount + " / 3", Gold);
-        ResultMetric(firstX + 176, "MÜNZEN", game.CoinCount.ToString(), Gold);
-        ResultMetric(firstX + 352, "BESIEGT", game.DefeatedEnemies + " / " + game.TotalEnemies, Teal);
-        ResultMetric(firstX + 528, "ZEIT", FormatTime(game.ElapsedTime), White);
-
-        if (Button(new Rect(306, 483, 326, 56), won ? "Noch einmal spielen" : "Erneut versuchen", true)) game.RestartRun();
-        if (Button(new Rect(648, 483, 326, 56), "Hauptmenü")) game.ReturnToMenu();
-        CenterText(new Rect(306, 564, 668, 25), "EINGABE  Neu starten", tinyStyle);
+        Icon(icon,new Rect(x+59,364,30,33));
+        Text(new Rect(x,402,153,23),caption,12,true,Muted);
+        Text(new Rect(x,433,153,38),value,29,true);
     }
-
-    private void HudMetric(Rect rect, string label, string value, Color accent)
+    private void Control(float x,float y,string key,string caption,Sprite icon)
     {
-        Panel(rect, accent);
-        Text(new Rect(rect.x + 16, rect.y + 14, rect.width - 22, 20), label, tinyStyle, MutedText, 12);
-        Text(new Rect(rect.x + 16, rect.y + 41, rect.width - 23, 36), value, numberStyle, accent, 27);
+        Icon(icon,new Rect(x,y+5,30,32));
+        Text(new Rect(x+43,y,246,21),key,13,false,Green);
+        Text(new Rect(x+43,y+24,246,24),caption,18);
     }
-
-    private void ResultMetric(float x, string label, string value, Color accent)
+    private bool Button(Rect r,string caption,Sprite icon=null)
     {
-        Fill(new Rect(x, 345, 160, 97), new Color(0.10f, 0.15f, 0.17f, 0.7f));
-        CenterText(new Rect(x + 8, 359, 144, 20), label, tinyStyle);
-        CenterText(new Rect(x + 8, 390, 144, 38), value, numberStyle, accent, 29);
+        bool hover=r.Contains(Event.current.mousePosition), held=hover&&Input.GetMouseButton(0);
+        NineSlice(held?buttonPressed:hover?buttonHover:buttonNormal,r,4,3);
+        Icon(icon,new Rect(r.x+19,r.center.y-13,27,26));
+        button.fontSize=r.height>=50?23:19;
+        return GUI.Button(r,caption,button);
     }
-
-    private void Instruction(float x, float y, string key, string description, float keyWidth)
+    private void Panel(Rect r)
     {
-        Fill(new Rect(x, y, keyWidth, 31), new Color(0.16f, 0.23f, 0.25f));
-        Fill(new Rect(x, y + 30, keyWidth, 1), Teal);
-        Text(new Rect(x, y, keyWidth, 30), key, keyStyle);
-        Text(new Rect(x + keyWidth + 12, y + 5, 270, 40), description, smallStyle, White, 15);
+        NineSlice(panelSprite,new Rect(r.x+4,r.y+6,r.width,r.height),5,3,new Color(0,0,0,.28f));
+        NineSlice(panelSprite,r,5,3);
     }
-
-    private bool Button(Rect rect, string label, bool primary = false)
+    private static void Rule(float x,float y,float width) { Fill(new Rect(x,y,width,2),new Color(.55f,.4f,.22f,.4f)); }
+    private void Text(Rect r,string text,int size,bool center=false,Color? color=null)
     {
-        bool hovered = rect.Contains(Event.current.mousePosition);
-        Color background = primary ? Gold : new Color(0.10f, 0.16f, 0.19f, 1);
-        if (hovered) background = primary ? new Color(1, 0.85f, 0.56f) : new Color(0.17f, 0.28f, 0.31f);
-        Fill(new Rect(rect.x, rect.y + 3, rect.width, rect.height), new Color(0, 0, 0, 0.22f));
-        Fill(rect, background);
-        Fill(new Rect(rect.x, rect.y, rect.width, 1), primary ? new Color(1, 0.91f, 0.68f) : Line);
-        if (hovered && !primary) Fill(new Rect(rect.x, rect.y, 3, rect.height), Teal);
-        Color foreground = primary ? Ink : White;
-        buttonStyle.normal.textColor = foreground;
-        buttonStyle.hover.textColor = foreground;
-        buttonStyle.active.textColor = foreground;
-        buttonStyle.focused.textColor = foreground;
-        return GUI.Button(rect, label, buttonStyle);
+        GUIStyle style=center?centered:label;
+        style.fontSize=size; style.normal.textColor=color??Ink;
+        GUI.Label(r,text,style);
     }
-
-    private static void Fill(Rect rect, Color color)
+    private static string TimeText(float t)
     {
-        Color previous = GUI.color;
-        GUI.color = color;
-        GUI.DrawTexture(rect, Texture2D.whiteTexture);
-        GUI.color = previous;
+        int s=Mathf.Max(0,Mathf.FloorToInt(t));
+        return (s/60).ToString("00")+":"+(s%60).ToString("00");
     }
-
-    private static void Panel(Rect rect, Color accent)
+    private static void Icon(Sprite sprite,Rect r)
     {
-        Fill(new Rect(rect.x + 2, rect.y + 5, rect.width, rect.height), new Color(0, 0, 0, 0.2f));
-        Fill(rect, PanelColor);
-        Fill(new Rect(rect.x, rect.y, rect.width, 2), accent);
-        Fill(new Rect(rect.x, rect.y + rect.height - 1, rect.width, 1), Line);
+        if(sprite==null)return;
+        float fit=Mathf.Min(r.width/sprite.rect.width,r.height/sprite.rect.height);
+        Vector2 size=sprite.rect.size*fit;
+        DrawSprite(sprite,new Rect(r.center.x-size.x/2,r.center.y-size.y/2,size.x,size.y));
     }
-
-    private static void Text(Rect rect, string value, GUIStyle style, Color? color = null, int size = 0)
+    private static void DrawSprite(Sprite sprite,Rect r)
     {
-        Color previousColor = style.normal.textColor;
-        int previousSize = style.fontSize;
-        if (color.HasValue) style.normal.textColor = color.Value;
-        if (size > 0) style.fontSize = size;
-        GUI.Label(rect, value ?? string.Empty, style);
-        style.normal.textColor = previousColor;
-        style.fontSize = previousSize;
+        if(sprite==null)return;
+        Rect s=sprite.rect;
+        GUI.DrawTextureWithTexCoords(r,sprite.texture,new Rect(s.x/sprite.texture.width,s.y/sprite.texture.height,s.width/sprite.texture.width,s.height/sprite.texture.height));
     }
-
-    private static void CenterText(Rect rect, string value, GUIStyle style, Color? color = null, int size = 0)
+    private static void NineSlice(Sprite sprite,Rect r,float border,float pixelScale,Color? tint=null)
     {
-        TextAnchor previous = style.alignment;
-        style.alignment = TextAnchor.UpperCenter;
-        Text(rect, value, style, color, size);
-        style.alignment = previous;
+        if(sprite==null){Fill(r,new Color(.89f,.82f,.60f));return;}
+        Color previous=GUI.color; GUI.color=tint??Color.white;
+        Rect s=sprite.rect;
+        border=Mathf.Min(border,Mathf.Min(s.width,s.height)/3);
+        float corner=Mathf.Min(border*pixelScale,Mathf.Min(r.width,r.height)/2);
+        for(int row=0;row<3;row++)
+        for(int col=0;col<3;col++)
+        {
+            float dx=col==0?r.x:col==1?r.x+corner:r.xMax-corner;
+            float dy=row==0?r.y:row==1?r.y+corner:r.yMax-corner;
+            float dw=col==1?r.width-2*corner:corner, dh=row==1?r.height-2*corner:corner;
+            float sx=col==0?s.x:col==1?s.x+border:s.xMax-border;
+            float sy=row==0?s.yMax-border:row==1?s.y+border:s.y;
+            float sw=col==1?s.width-2*border:border, sh=row==1?s.height-2*border:border;
+            GUI.DrawTextureWithTexCoords(new Rect(dx,dy,dw,dh),sprite.texture,
+                new Rect(sx/sprite.texture.width,sy/sprite.texture.height,sw/sprite.texture.width,sh/sprite.texture.height));
+        }
+        GUI.color=previous;
     }
-
-    private static string FormatTime(float elapsed)
+    private static void Fill(Rect r,Color color)
     {
-        int seconds = Mathf.Max(0, Mathf.FloorToInt(elapsed));
-        return (seconds / 60).ToString("00") + ":" + (seconds % 60).ToString("00");
+        Color old=GUI.color;GUI.color=color;GUI.DrawTexture(r,Texture2D.whiteTexture);GUI.color=old;
     }
 }

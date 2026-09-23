@@ -34,6 +34,7 @@ public static class DungeonValidation
     private static EnemyController attackTarget;
     private static Vector3 targetOriginalPosition;
     private static bool targetOriginallyEnabled;
+    private static RigidbodyInterpolation2D targetInterpolation;
     private static int targetExpectedHealth;
     private static bool running;
     private static bool finishing;
@@ -142,6 +143,18 @@ public static class DungeonValidation
 
                 case Phase.AttackHit:
                     if (Time.time - attackAt < 0.35f || !Waited(0.05)) return;
+                    Report.AppendLine("  Attack sample: player=" + game.Player.transform.position
+                        + "; target=" + attackTarget.transform.position + "; health=" + attackTarget.CurrentHealth
+                        + "; expected=" + targetExpectedHealth + "; facing=" + game.Player.FacingDirection);
+                    Report.AppendLine("  Overlaps=" + string.Join(",", Physics2D.OverlapCircleAll(
+                        (Vector2)game.Player.transform.position + game.Player.FacingDirection * game.Player.attackReach,
+                        game.Player.attackRadius).Select(c => c.name + ":" + c.gameObject.layer)));
+                    Report.AppendLine("  Wall=" + Physics2D.Linecast(game.Player.transform.position,
+                        attackTarget.transform.position, LayerMask.GetMask("DungeonWalls")).collider);
+                    Report.AppendLine("  Target physics=" + attackTarget.GetComponent<Rigidbody2D>().position
+                        + "; bounds=" + attackTarget.GetComponent<Collider2D>().bounds
+                        + "; colliderEnabled=" + attackTarget.GetComponent<Collider2D>().enabled
+                        + "; simulated=" + attackTarget.GetComponent<Rigidbody2D>().simulated);
                     Check(attackTarget != null && attackTarget.CurrentHealth == targetExpectedHealth,
                         "Player attack applies one point of damage through its delayed collider hit");
                     RestoreAttackTarget();
@@ -282,7 +295,13 @@ public static class DungeonValidation
         Require(direction != Vector2.zero, "Player spawn has room for an unobstructed melee test");
         attackTarget.transform.position = origin + direction * 0.8f;
         Rigidbody2D body = attackTarget.GetComponent<Rigidbody2D>();
-        if (body != null) body.linearVelocity = Vector2.zero;
+        if (body != null)
+        {
+            targetInterpolation = body.interpolation;
+            body.interpolation = RigidbodyInterpolation2D.None;
+            body.position = origin + direction * 0.8f;
+            body.linearVelocity = Vector2.zero;
+        }
         Physics2D.SyncTransforms();
         attackAt = Time.time;
         Check(game.Player.TryAttack(direction), "Player accepts a ready melee attack");
@@ -294,7 +313,12 @@ public static class DungeonValidation
         if (attackTarget == null) return;
         attackTarget.transform.position = targetOriginalPosition;
         Rigidbody2D body = attackTarget.GetComponent<Rigidbody2D>();
-        if (body != null) body.linearVelocity = Vector2.zero;
+        if (body != null)
+        {
+            body.position = targetOriginalPosition;
+            body.linearVelocity = Vector2.zero;
+            body.interpolation = targetInterpolation;
+        }
         attackTarget.enabled = targetOriginallyEnabled;
         attackTarget = null;
         Physics2D.SyncTransforms();
@@ -318,7 +342,14 @@ public static class DungeonValidation
         Camera camera = Camera.main;
         Check(camera != null && camera.orthographic, "Scene has an orthographic main camera");
         DungeonCamera follow = camera != null ? camera.GetComponent<DungeonCamera>() : null;
-        Check(follow != null && follow.target == game.Player.transform, "Camera follows the active player");
+        Check(follow == null || follow.target == game.Player.transform, "Camera is fixed for the compact dungeon or follows the active player");
+        DungeonHUD hud = UnityEngine.Object.FindFirstObjectByType<DungeonHUD>();
+        Check(hud != null && hud.panelSprite != null && hud.buttonNormal != null && hud.buttonHover != null
+            && hud.buttonPressed != null && hud.characterFrame != null && hud.actionPanel != null
+            && hud.sealIcon != null && hud.coinIcon != null && hud.swordIcon != null
+            && hud.healthIcon != null && hud.soundOnIcon != null && hud.soundOffIcon != null
+            && hud.starIcon != null && hud.defeatIcon != null && hud.movementIcon != null,
+            "All fifteen PNG_UI sprite references are assigned");
         Check(game.GetComponent<AudioSource>() != null, "Game has its runtime audio source");
 
         List<Component> actors = new List<Component> { game.Player };
@@ -396,6 +427,12 @@ public static class DungeonValidation
     private static void LogReceived(string message, string stack, LogType type)
     {
         if (type != LogType.Error && type != LogType.Exception && type != LogType.Assert) return;
+        if (stack != null && stack.Contains("UnityEditor.Search.SearchDatabase") && !stack.Contains("Assets/"))
+        {
+            Report.AppendLine("EDITOR SEARCH DIAGNOSTIC (not gameplay): " + message);
+            Report.AppendLine(stack);
+            return;
+        }
         runtimeErrors++;
         Report.AppendLine("RUNTIME " + type + ": " + message);
         if (!string.IsNullOrEmpty(stack)) Report.AppendLine(stack);

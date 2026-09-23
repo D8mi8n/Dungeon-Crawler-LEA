@@ -29,6 +29,11 @@ public static class DungeonBuild
             throw new InvalidOperationException("Die Spielszene kann nur außerhalb des Spielmodus vorbereitet werden.");
 
         var scene = EditorSceneManager.OpenScene("Assets/Scenes/Dungeon.unity", OpenSceneMode.Single);
+        // Keep source scene and author-added test actors intact in the original asset.
+        if (!EditorSceneManager.SaveScene(scene, ScenePath))
+            throw new InvalidOperationException("Die Spielszene konnte nicht als LEA gespeichert werden.");
+        foreach (PlayerController sourcePlayer in UnityEngine.Object.FindObjectsByType<PlayerController>(FindObjectsSortMode.None))
+            sourcePlayer.gameObject.SetActive(false);
         int wallLayer = EnsureWallLayer();
         foreach (Collider2D collider in UnityEngine.Object.FindObjectsByType<Collider2D>(FindObjectsSortMode.None))
             collider.gameObject.layer = wallLayer;
@@ -108,7 +113,7 @@ public static class DungeonBuild
         var systems = new GameObject("LEA Spielsteuerung");
         systems.transform.SetParent(gameplay);
         systems.AddComponent<DungeonGame>().player = player;
-        systems.AddComponent<DungeonHUD>();
+        ConfigureHud(systems.AddComponent<DungeonHUD>());
 
         Physics2D.SyncTransforms();
         ValidateSpawn(player.transform.position, wallLayer, "Player");
@@ -151,6 +156,57 @@ public static class DungeonBuild
             throw new InvalidOperationException("LEA Windows-Build fehlgeschlagen: " + report.summary.result
                 + " (" + report.summary.totalErrors + " Fehler).");
         Debug.Log("LEA Windows-Version erstellt: " + output);
+    }
+
+    [MenuItem("LEA/GUI-Sprites zuweisen")]
+    public static void RefreshHud()
+    {
+        if (EditorApplication.isPlaying)
+            throw new InvalidOperationException("Die GUI bitte außerhalb des Spielmodus aktualisieren.");
+        if (AssetDatabase.LoadAssetAtPath<SceneAsset>(ScenePath) == null) { Prepare(); return; }
+        var scene = EditorSceneManager.OpenScene(ScenePath, OpenSceneMode.Single);
+        var hud = UnityEngine.Object.FindFirstObjectByType<DungeonHUD>();
+        if (hud == null) throw new InvalidOperationException("Die Spielszene enthält kein DungeonHUD.");
+        ConfigureHud(hud);
+        EditorUtility.SetDirty(hud);
+        EditorSceneManager.SaveScene(scene);
+        AssetDatabase.SaveAssets();
+    }
+
+    private static void ConfigureHud(DungeonHUD hud)
+    {
+        hud.panelSprite = UiSprite("Main_tiles", 54);
+        hud.buttonNormal = UiSprite("Main_menu", 2);
+        hud.buttonHover = UiSprite("Main_menu", 4);
+        hud.buttonPressed = UiSprite("Main_menu", 3);
+        hud.characterFrame = UiSprite("character_panel", 1);
+        hud.actionPanel = UiSprite("Action_panel", 0);
+        hud.sealIcon = UiSprite("Icons", 102);
+        hud.coinIcon = UiSprite("Icons", 69);
+        hud.swordIcon = UiSprite("Icons", 85);
+        hud.movementIcon = UiSprite("Icons", 64);
+        hud.healthIcon = UiSprite("Icons", 97);
+        hud.soundOnIcon = UiSprite("Buttons", 172);
+        hud.soundOffIcon = UiSprite("Buttons", 166);
+        hud.starIcon = UiSprite("Win_loose", 52);
+        hud.defeatIcon = UiSprite("Win_loose", 56);
+    }
+
+    private static Sprite UiSprite(string atlas, int index)
+    {
+        string path = "Assets/Sprites/PNG_UI/" + atlas + ".png";
+        var importer = AssetImporter.GetAtPath(path) as TextureImporter;
+        if (importer == null) throw new InvalidOperationException("GUI-Atlas fehlt: " + path);
+        if (importer.filterMode != FilterMode.Point || importer.textureCompression != TextureImporterCompression.Uncompressed || importer.mipmapEnabled)
+        {
+            importer.filterMode = FilterMode.Point;
+            importer.textureCompression = TextureImporterCompression.Uncompressed;
+            importer.mipmapEnabled = false;
+            importer.SaveAndReimport();
+        }
+        var sprite = AssetDatabase.LoadAllAssetsAtPath(path).OfType<Sprite>().FirstOrDefault(s => s.name == atlas + "_" + index);
+        if (sprite == null) throw new InvalidOperationException("GUI-Sprite fehlt: " + atlas + "_" + index);
+        return sprite;
     }
 
     private static int EnsureWallLayer()
@@ -198,8 +254,10 @@ public static class DungeonBuild
 
     private static AnimationClip LoadClip(string canonicalName)
     {
-        string filename = canonicalName == "Player_WalkD_Skeleton_2" ? "Player_WalkD_Skeleton2" : canonicalName;
+        string filename = canonicalName;
         AnimationClip clip = AssetDatabase.LoadAssetAtPath<AnimationClip>("Assets/Animations/Player/" + filename + ".anim");
+        if (clip == null && canonicalName == "Player_WalkD_Skeleton_2")
+            clip = AssetDatabase.LoadAssetAtPath<AnimationClip>("Assets/Animations/Player/Player_WalkD_Skeleton2.anim");
         if (clip == null) throw new InvalidOperationException("Animationsclip fehlt: " + filename);
         return clip;
     }
@@ -225,7 +283,11 @@ public static class DungeonBuild
         body.constraints = RigidbodyConstraints2D.FreezeRotation;
         body.interpolation = RigidbodyInterpolation2D.Interpolate;
         body.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
-        actor.AddComponent<CircleCollider2D>().radius = 0.42f;
+        var collider = actor.AddComponent<CircleCollider2D>();
+        collider.radius = 0.42f;
+        // The sprite pivots mark the feet. Unity's automatic visual-center offset
+        // otherwise makes melee reach and wall collisions direction-dependent.
+        collider.offset = Vector2.zero;
         actor.AddComponent<Animator>().runtimeAnimatorController = controller;
         return actor;
     }

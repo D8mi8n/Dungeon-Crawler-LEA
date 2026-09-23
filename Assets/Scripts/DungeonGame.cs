@@ -30,6 +30,12 @@ public sealed class DungeonGame : MonoBehaviour
     private AudioSource audioSource;
     private float messageUntil;
 
+    private void OnEnable()
+    {
+        // Unity reloads static fields when scripts change during Play mode.
+        Instance = this;
+    }
+
     private void Awake()
     {
         Instance = this;

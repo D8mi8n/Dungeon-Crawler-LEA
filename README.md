@@ -30,6 +30,7 @@ Gegner kündigen ihre Angriffe farblich an. Nach einem Treffer ist der Spieler k
 - Normale Gegner und drei Wächter mit Angriffsankündigung
 - Drei Siegeltruhen, Heiltränke, Fallen und verriegelter Ausgang
 - Deutsches Hauptmenü, HUD, Pause, Sieg und Niederlage
+- GUI mit den vorhandenen Pixel-Art-Sprites aus `Assets/Sprites/PNG_UI`: Pergamentfenster, grüne Schaltflächen mit Hover-/Klickzustand, Charakterrahmen, Aktionsleiste und Symbole
 - Vollständiger Neustart mit zurückgesetzten Gegnern, Truhen und Werten
 - Kurze Soundeffekte und gespeicherte Stummschaltung
 - Lokale Windows-Version ohne zusätzliche Installation
@@ -37,6 +38,8 @@ Gegner kündigen ihre Angriffe farblich an. Nach einem Treffer ist der Spieler k
 ## Projekt und Builds
 
 Die ursprünglichen Szenen `Dungeon`, `TestMap` und `TestDamian` bleiben als Ausgangsmaterial erhalten. Die fertige Spielszene heißt **LEA** und ist die einzige aktivierte Build-Szene.
+
+Die GUI-Sprites sind am Objekt **LEA Spielsteuerung → DungeonHUD** im Inspector zugewiesen. **LEA → GUI-Sprites zuweisen** aktualisiert diese Referenzen in der fertigen Szene. Die Oberfläche skaliert für andere Fenstergrößen; die Ränder werden in neun Teilen gezeichnet, damit die Pixelrahmen erhalten bleiben.
 
 Über **LEA → Windows-Version bauen** wird die Windows-Version aus der Spielszene erstellt. Das Editor-Werkzeug kann die Spielszene auch über **LEA → Spielszene vorbereiten** aus `Dungeon` und den vorhandenen Grafiken neu erzeugen. **Achtung:** Beim Vorbereiten werden manuelle Änderungen an `LEA.unity` und den erzeugten LEA-Animator-Controllern ersetzt. Eigene Varianten vorher unter einem anderen Namen speichern.
 
