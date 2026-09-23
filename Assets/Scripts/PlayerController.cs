@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public float walkSpeed = 3.2f;
     public float runSpeed = 4.8f;
     [Header("Charakter")]
-    [Range(0, 3)] public int skeleton = 2;
+    [Range(2, 3)] public int skeleton = 2;
     [Header("Kampf")]
     public int maxHealth = 6;
     public int attackDamage = 1;
