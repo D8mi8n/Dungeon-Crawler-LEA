@@ -146,11 +146,11 @@ public static class DungeonLevelBuild
         var items = UnityEngine.Object.FindObjectsByType<DungeonInteractable>(FindObjectsSortMode.None);
         var oldExit=items.Single(i => i.kind == DungeonInteractable.ItemKind.Exit);
         UnityEngine.Object.DestroyImmediate(oldExit.gameObject);
-        var exit=Prefab("Door",new Vector2(2,8.65f),.65f,gameplay,300);
-        exit.name="Nordtor · Door Prefab";
-        var exitUse=new GameObject("Nordtor · Interaktion");
-        exitUse.transform.SetParent(gameplay); exitUse.transform.position=new Vector3(2,7.8f,0);
-        exitUse.AddComponent<DungeonInteractable>().kind=DungeonInteractable.ItemKind.Exit;
+        var exitUse=new GameObject("Nordtor");
+        exitUse.transform.SetParent(gameplay);
+        var exit=exitUse.AddComponent<DungeonInteractable>();
+        exit.kind=DungeonInteractable.ItemKind.Exit;
+        DungeonGateBuild.ConfigureExit(exit,new Vector2(2,7.8f),new Vector2(2,8.65f),200);
         var potions = items.Where(i => i.kind == DungeonInteractable.ItemKind.Potion).ToArray();
         Place(potions[0].transform, water ? new Vector2(-6,-4) : new Vector2(-7,-1));
         Place(potions[1].transform, water ? new Vector2(6,4) : new Vector2(2,1));

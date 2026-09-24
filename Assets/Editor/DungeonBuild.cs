@@ -89,9 +89,7 @@ public static class DungeonBuild
         CreateChest("Siegeltruhe Ost", new Vector2(5.8f, 0.3f), rightGuardian, closedChest, openedChest, spriteMaterial, gameplay);
         CreateChest("Siegeltruhe Nord", new Vector2(-2f, 3.5f), northGuardian, closedChest, openedChest, spriteMaterial, gameplay);
 
-        GameObject exit = CreateSprite("Nordtor", new Vector2(2f, 3.4f), LoadSprite("doors.png", "doors_0"), 0.48f, 12, spriteMaterial, gameplay);
-        exit.GetComponent<SpriteRenderer>().color = new Color(0.6f, 1f, 0.92f);
-        exit.AddComponent<DungeonInteractable>().kind = DungeonInteractable.ItemKind.Exit;
+        DungeonGateBuild.Configure(gameplay);
 
         Sprite potion = CreatePotionSprite();
         foreach (float y in new[] { -2.5f, -4f })

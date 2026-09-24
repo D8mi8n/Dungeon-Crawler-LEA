@@ -108,7 +108,7 @@ public static class DungeonValidation
                 case Phase.Starting:
                     if (game == null || game.Player == null || Time.frameCount < 3) return;
                     CheckReferencesAndSpawns(game);
-                    if (game.LevelIndex > 0) CheckLevelNavigation(game);
+                    CheckLevelNavigation(game);
                     expectedEnemies = game.TotalEnemies;
                     CheckFreshRun(game, DungeonGame.GameState.Menu);
                     pausedElapsed = game.ElapsedTime;
@@ -267,9 +267,26 @@ public static class DungeonValidation
     {
         DungeonInteractable[] items = UnityEngine.Object.FindObjectsByType<DungeonInteractable>(FindObjectsSortMode.None);
         DungeonInteractable[] chests = items.Where(item => item.kind == DungeonInteractable.ItemKind.SealChest).ToArray();
-        DungeonInteractable exit = items.FirstOrDefault(item => item.kind == DungeonInteractable.ItemKind.Exit);
+        DungeonInteractable[] exits = items.Where(item => item.kind == DungeonInteractable.ItemKind.Exit).ToArray();
         Require(chests.Length == 3, "Scene contains exactly three seal chests");
-        Require(exit != null, "Scene contains the exit");
+        Require(exits.Length == 1, "Scene contains exactly one exit");
+        DungeonInteractable exit = exits[0];
+        DungeonExitGate[] activeGates = UnityEngine.Object.FindObjectsByType<DungeonExitGate>(FindObjectsSortMode.None)
+            .Where(candidate => candidate.isActiveAndEnabled).ToArray();
+        Require(activeGates.Length == 1, "Scene contains exactly one active exit gate");
+        DungeonExitGate gate = activeGates[0];
+        Require(gate.gameObject == exit.gameObject && gate.gateRenderer != null && gate.closedSprite != null
+            && gate.openSprite != null && gate.closedSprite != gate.openSprite,
+            "Exit owns the gate renderer and distinct closed/open sprites");
+        SpriteRenderer renderer = gate.gateRenderer;
+        Check(renderer.transform != exit.transform && renderer.transform.IsChildOf(exit.transform)
+            && GateVisibleNearExit(Camera.main, exit, renderer),
+            "Level " + game.LevelIndex + " has a visible child gate sprite when approaching the exit");
+        Check(gate.GetComponentsInChildren<SpriteAnimationLoop>(true).All(loop => !loop.enabled),
+            "Gate prefab animation loops are disabled so the seal state controls its appearance");
+        gate.RefreshVisual();
+        Check(!gate.IsUnlocked && renderer.sprite == gate.closedSprite,
+            "Level " + game.LevelIndex + " gate displays its closed appearance with zero seals");
         Require(chests.All(chest => chest.guardian != null && !chest.guardian.IsDead), "Each seal chest references a living guardian");
         Check(chests.Select(chest => chest.guardian).Distinct().Count() == 3, "Every chest has its own guardian");
 
@@ -296,14 +313,52 @@ public static class DungeonValidation
             Check(chest.TryUse() && chest.IsConsumed && game.SealCount == i + 1, "Defeated guardian unlocks seal " + (i + 1));
             int collectedCoins = game.CoinCount;
             Check(!chest.TryUse() && game.SealCount == i + 1 && game.CoinCount == collectedCoins, "Seal chest can only be collected once");
-            if (i < 2) Check(!exit.TryUse(), "Exit remains locked with " + (i + 1) + " seals");
+            if (i < 2) Check(!exit.TryUse() && game.State == DungeonGame.GameState.Playing,
+                "Exit remains locked with " + (i + 1) + " seals");
         }
 
         int allSealCoins = game.CoinCount;
         game.CollectSeal();
         Check(game.SealCount == 3 && game.CoinCount == allSealCoins, "Seal count and rewards are capped at three");
+        gate.RefreshVisual();
+        Check(gate.IsUnlocked && gate.gateRenderer.sprite == gate.openSprite,
+            "Level " + game.LevelIndex + " gate displays its open appearance with all three seals");
         Check(exit.TryUse() && game.State == DungeonGame.GameState.Won, "Three seals allow exit and enter Won");
         Check(Mathf.Approximately(Time.timeScale, 0), "Victory freezes the completed run");
+    }
+
+    private static bool GateVisibleNearExit(Camera camera, DungeonInteractable exit, SpriteRenderer renderer)
+    {
+        if (camera == null || !camera.isActiveAndEnabled || !renderer.enabled
+            || !renderer.gameObject.activeInHierarchy || renderer.sprite == null || renderer.color.a <= 0
+            || (camera.cullingMask & (1 << renderer.gameObject.layer)) == 0) return false;
+
+        Vector3 originalPosition = camera.transform.position;
+        try
+        {
+            DungeonCamera follow = camera.GetComponent<DungeonCamera>();
+            if (follow != null && follow.isActiveAndEnabled && follow.target != null)
+            {
+                // Evaluate the settled follow-camera frame near the interaction point. The spawn
+                // can be far away in larger levels; no player movement or gameplay frame is needed.
+                float halfHeight = camera.orthographicSize;
+                float halfWidth = halfHeight * camera.aspect;
+                Vector3 nearExit = exit.transform.position;
+                nearExit.x = follow.maximum.x - follow.minimum.x > halfWidth * 2
+                    ? Mathf.Clamp(nearExit.x, follow.minimum.x + halfWidth, follow.maximum.x - halfWidth)
+                    : (follow.minimum.x + follow.maximum.x) / 2;
+                nearExit.y = follow.maximum.y - follow.minimum.y > halfHeight * 2
+                    ? Mathf.Clamp(nearExit.y, follow.minimum.y + halfHeight, follow.maximum.y - halfHeight)
+                    : (follow.minimum.y + follow.maximum.y) / 2;
+                nearExit.z = originalPosition.z;
+                camera.transform.position = nearExit;
+            }
+            return GeometryUtility.TestPlanesAABB(GeometryUtility.CalculateFrustumPlanes(camera), renderer.bounds);
+        }
+        finally
+        {
+            camera.transform.position = originalPosition;
+        }
     }
 
     private static void PrepareAttackTest(DungeonGame game)
@@ -489,6 +544,7 @@ public static class DungeonValidation
         Vector2Int[] directions = { Vector2Int.up, Vector2Int.right, Vector2Int.down, Vector2Int.left };
         int visited = 0;
         var closest = Enumerable.Repeat(float.PositiveInfinity, targets.Length).ToArray();
+        var closestVisible = Enumerable.Repeat(float.PositiveInfinity, targets.Length).ToArray();
         while (frontier.Count != 0)
         {
             int current = frontier.Dequeue();
@@ -496,7 +552,15 @@ public static class DungeonValidation
             Vector2 point = origin + new Vector2(x * step, y * step);
             visited++;
             for (int i = 0; i < targets.Length; i++)
-                closest[i] = Mathf.Min(closest[i], Vector2.Distance(point, targets[i].transform.position));
+            {
+                Vector2 interactionPoint = targets[i].transform.position;
+                float distance = Vector2.Distance(point, interactionPoint);
+                closest[i] = Mathf.Min(closest[i], distance);
+                // Match gameplay: being nearby is insufficient when a wall blocks interaction.
+                if (distance <= interactionDistance && distance < closestVisible[i]
+                    && Physics2D.Linecast(point, interactionPoint, wallMask).collider == null)
+                    closestVisible[i] = distance;
+            }
 
             foreach (Vector2Int direction in directions)
             {
@@ -516,11 +580,12 @@ public static class DungeonValidation
             + "; reachable=" + visited + "; bounds=" + bounds);
         for (int i = 0; i < targets.Length; i++)
         {
-            bool accessible = closest[i] <= interactionDistance;
-            Check(accessible, "Level " + game.LevelIndex + " has a continuous walkable route to " + targets[i].name);
+            bool accessible = closestVisible[i] <= interactionDistance;
+            Check(accessible, "Level " + game.LevelIndex + " has a continuous walkable route and clear interaction line to " + targets[i].name);
             if (!accessible)
                 Report.AppendLine("  Unreachable interaction target: " + targets[i].name + "; position="
-                    + targets[i].transform.position + "; nearest reachable distance=" + closest[i].ToString("F2"));
+                    + targets[i].transform.position + "; nearest reachable distance=" + closest[i].ToString("F2")
+                    + "; nearest unobstructed interaction distance=" + closestVisible[i].ToString("F2"));
         }
     }
 

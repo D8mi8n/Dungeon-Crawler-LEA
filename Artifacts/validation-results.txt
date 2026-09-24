@@ -1,5 +1,5 @@
 LEA PLAYMODE VALIDATION
-Started: 2026-09-23T21:16:34.9438505Z
+Started: 2026-09-24T08:35:32.5844390Z
 Unity: 6000.3.11f1
 Scene: Assets/Scenes/LEA.unity
 
@@ -27,24 +27,6 @@ PASS Player has an animation controller
 PASS Player has a visible sprite reference
 PASS Player has a solid body collider
 PASS Player spawns clear of DungeonWalls
-PASS Wächter West has a rigidbody
-PASS Wächter West has an animation controller
-PASS Wächter West has a visible sprite reference
-PASS Wächter West health bar sits above the entire animated sprite
-PASS Wächter West has a solid body collider
-PASS Wächter West spawns clear of DungeonWalls
-PASS Wächter Ost has a rigidbody
-PASS Wächter Ost has an animation controller
-PASS Wächter Ost has a visible sprite reference
-PASS Wächter Ost health bar sits above the entire animated sprite
-PASS Wächter Ost has a solid body collider
-PASS Wächter Ost spawns clear of DungeonWalls
-PASS Wächter Nord has a rigidbody
-PASS Wächter Nord has an animation controller
-PASS Wächter Nord has a visible sprite reference
-PASS Wächter Nord health bar sits above the entire animated sprite
-PASS Wächter Nord has a solid body collider
-PASS Wächter Nord spawns clear of DungeonWalls
 PASS Kryptenwache Ost has a rigidbody
 PASS Kryptenwache Ost has an animation controller
 PASS Kryptenwache Ost has a visible sprite reference
@@ -57,9 +39,33 @@ PASS Kryptenwache West has a visible sprite reference
 PASS Kryptenwache West health bar sits above the entire animated sprite
 PASS Kryptenwache West has a solid body collider
 PASS Kryptenwache West spawns clear of DungeonWalls
+PASS Wächter Nord has a rigidbody
+PASS Wächter Nord has an animation controller
+PASS Wächter Nord has a visible sprite reference
+PASS Wächter Nord health bar sits above the entire animated sprite
+PASS Wächter Nord has a solid body collider
+PASS Wächter Nord spawns clear of DungeonWalls
+PASS Wächter Ost has a rigidbody
+PASS Wächter Ost has an animation controller
+PASS Wächter Ost has a visible sprite reference
+PASS Wächter Ost health bar sits above the entire animated sprite
+PASS Wächter Ost has a solid body collider
+PASS Wächter Ost spawns clear of DungeonWalls
+PASS Wächter West has a rigidbody
+PASS Wächter West has an animation controller
+PASS Wächter West has a visible sprite reference
+PASS Wächter West health bar sits above the entire animated sprite
+PASS Wächter West has a solid body collider
+PASS Wächter West spawns clear of DungeonWalls
 PASS Scene contains no missing script references
 PASS Runtime uses the selected level scene
 PASS Removed footer does not block mouse attacks
+PASS Level 0 navigation starts with a clear player footprint
+  Navigation: level=0; spawn=(0.00, -4.80); raster=70x51; step=0,250; reachable=753; bounds=Center: (0.06, -0.60, 0.00), Extents: (8.54, 6.15, 0.50)
+PASS Level 0 has a continuous walkable route and clear interaction line to Nordtor
+PASS Level 0 has a continuous walkable route and clear interaction line to Siegeltruhe Nord
+PASS Level 0 has a continuous walkable route and clear interaction line to Siegeltruhe Ost
+PASS Level 0 has a continuous walkable route and clear interaction line to Siegeltruhe West
 PASS Fresh scene enters Menu
 PASS Fresh player starts with six health points
 PASS Fresh run resets seals, coins and defeated count
@@ -89,12 +95,17 @@ PASS Healing at full health returns false
 PASS Nonpositive damage does not alter health
 PASS Damage applies again after invulnerability expires
 PASS Scene contains exactly three seal chests
-PASS Scene contains the exit
+PASS Scene contains exactly one exit
+PASS Scene contains exactly one active exit gate
+PASS Exit owns the gate renderer and distinct closed/open sprites
+PASS Level 0 has a visible child gate sprite when approaching the exit
+PASS Gate prefab animation loops are disabled so the seal state controls its appearance
+PASS Level 0 gate displays its closed appearance with zero seals
 PASS Each seal chest references a living guardian
 PASS Every chest has its own guardian
 PASS Living guardian blocks chest Siegeltruhe Nord
-PASS Living guardian blocks chest Siegeltruhe West
 PASS Living guardian blocks chest Siegeltruhe Ost
+PASS Living guardian blocks chest Siegeltruhe West
 PASS Exit interaction rejects a run without all seals
 PASS Escape API rejects a run without all seals
 PASS Guardian 1 dies from lethal damage
@@ -118,6 +129,7 @@ PASS Repeated death and callback cannot duplicate rewards
 PASS Defeated guardian unlocks seal 3
 PASS Seal chest can only be collected once
 PASS Seal count and rewards are capped at three
+PASS Level 0 gate displays its open appearance with all three seals
 PASS Three seals allow exit and enter Won
 PASS Victory freezes the completed run
 PASS Fresh scene enters Playing
@@ -140,36 +152,36 @@ PASS Player has an animation controller
 PASS Player has a visible sprite reference
 PASS Player has a solid body collider
 PASS Player spawns clear of DungeonWalls
-PASS Wächter West has a rigidbody
-PASS Wächter West has an animation controller
-PASS Wächter West has a visible sprite reference
-PASS Wächter West health bar sits above the entire animated sprite
-PASS Wächter West has a solid body collider
-PASS Wächter West spawns clear of DungeonWalls
 PASS Kryptenwache Ost has a rigidbody
 PASS Kryptenwache Ost has an animation controller
 PASS Kryptenwache Ost has a visible sprite reference
 PASS Kryptenwache Ost health bar sits above the entire animated sprite
 PASS Kryptenwache Ost has a solid body collider
 PASS Kryptenwache Ost spawns clear of DungeonWalls
-PASS Wächter Nord has a rigidbody
-PASS Wächter Nord has an animation controller
-PASS Wächter Nord has a visible sprite reference
-PASS Wächter Nord health bar sits above the entire animated sprite
-PASS Wächter Nord has a solid body collider
-PASS Wächter Nord spawns clear of DungeonWalls
-PASS Wächter Ost has a rigidbody
-PASS Wächter Ost has an animation controller
-PASS Wächter Ost has a visible sprite reference
-PASS Wächter Ost health bar sits above the entire animated sprite
-PASS Wächter Ost has a solid body collider
-PASS Wächter Ost spawns clear of DungeonWalls
 PASS Kryptenwache West has a rigidbody
 PASS Kryptenwache West has an animation controller
 PASS Kryptenwache West has a visible sprite reference
 PASS Kryptenwache West health bar sits above the entire animated sprite
 PASS Kryptenwache West has a solid body collider
 PASS Kryptenwache West spawns clear of DungeonWalls
+PASS Wächter Ost has a rigidbody
+PASS Wächter Ost has an animation controller
+PASS Wächter Ost has a visible sprite reference
+PASS Wächter Ost health bar sits above the entire animated sprite
+PASS Wächter Ost has a solid body collider
+PASS Wächter Ost spawns clear of DungeonWalls
+PASS Wächter West has a rigidbody
+PASS Wächter West has an animation controller
+PASS Wächter West has a visible sprite reference
+PASS Wächter West health bar sits above the entire animated sprite
+PASS Wächter West has a solid body collider
+PASS Wächter West spawns clear of DungeonWalls
+PASS Wächter Nord has a rigidbody
+PASS Wächter Nord has an animation controller
+PASS Wächter Nord has a visible sprite reference
+PASS Wächter Nord health bar sits above the entire animated sprite
+PASS Wächter Nord has a solid body collider
+PASS Wächter Nord spawns clear of DungeonWalls
 PASS Scene contains no missing script references
 PASS Runtime uses the selected level scene
 PASS Removed footer does not block mouse attacks
@@ -201,6 +213,18 @@ PASS Player has an animation controller
 PASS Player has a visible sprite reference
 PASS Player has a solid body collider
 PASS Player spawns clear of DungeonWalls
+PASS Kryptenwache Ost has a rigidbody
+PASS Kryptenwache Ost has an animation controller
+PASS Kryptenwache Ost has a visible sprite reference
+PASS Kryptenwache Ost health bar sits above the entire animated sprite
+PASS Kryptenwache Ost has a solid body collider
+PASS Kryptenwache Ost spawns clear of DungeonWalls
+PASS Kryptenwache West has a rigidbody
+PASS Kryptenwache West has an animation controller
+PASS Kryptenwache West has a visible sprite reference
+PASS Kryptenwache West health bar sits above the entire animated sprite
+PASS Kryptenwache West has a solid body collider
+PASS Kryptenwache West spawns clear of DungeonWalls
 PASS Wächter Nord has a rigidbody
 PASS Wächter Nord has an animation controller
 PASS Wächter Nord has a visible sprite reference
@@ -213,33 +237,27 @@ PASS Wächter West has a visible sprite reference
 PASS Wächter West health bar sits above the entire animated sprite
 PASS Wächter West has a solid body collider
 PASS Wächter West spawns clear of DungeonWalls
-PASS Kryptenwache Ost has a rigidbody
-PASS Kryptenwache Ost has an animation controller
-PASS Kryptenwache Ost has a visible sprite reference
-PASS Kryptenwache Ost health bar sits above the entire animated sprite
-PASS Kryptenwache Ost has a solid body collider
-PASS Kryptenwache Ost spawns clear of DungeonWalls
 PASS Wächter Ost has a rigidbody
 PASS Wächter Ost has an animation controller
 PASS Wächter Ost has a visible sprite reference
 PASS Wächter Ost health bar sits above the entire animated sprite
 PASS Wächter Ost has a solid body collider
 PASS Wächter Ost spawns clear of DungeonWalls
-PASS Kryptenwache West has a rigidbody
-PASS Kryptenwache West has an animation controller
-PASS Kryptenwache West has a visible sprite reference
-PASS Kryptenwache West health bar sits above the entire animated sprite
-PASS Kryptenwache West has a solid body collider
-PASS Kryptenwache West spawns clear of DungeonWalls
+PASS Kryptenwache West (1) has a rigidbody
+PASS Kryptenwache West (1) has an animation controller
+PASS Kryptenwache West (1) has a visible sprite reference
+PASS Kryptenwache West (1) health bar sits above the entire animated sprite
+PASS Kryptenwache West (1) has a solid body collider
+PASS Kryptenwache West (1) spawns clear of DungeonWalls
 PASS Scene contains no missing script references
 PASS Runtime uses the selected level scene
 PASS Removed footer does not block mouse attacks
 PASS Level 1 navigation starts with a clear player footprint
-  Navigation: level=1; spawn=(0.00, -6.00); raster=91x71; step=0,250; reachable=2178; bounds=Center: (0.00, 0.50, 0.00), Extents: (11.10, 8.60, 0.50)
-PASS Level 1 has a continuous walkable route to Nordtor · Interaktion
-PASS Level 1 has a continuous walkable route to Siegeltruhe Nord
-PASS Level 1 has a continuous walkable route to Siegeltruhe Ost
-PASS Level 1 has a continuous walkable route to Siegeltruhe West
+  Navigation: level=1; spawn=(0.00, -6.00); raster=91x78; step=0,250; reachable=1979; bounds=Center: (0.00, 1.33, 0.00), Extents: (11.10, 9.43, 0.50)
+PASS Level 1 has a continuous walkable route and clear interaction line to Nordtor
+PASS Level 1 has a continuous walkable route and clear interaction line to Siegeltruhe Nord
+PASS Level 1 has a continuous walkable route and clear interaction line to Siegeltruhe Ost
+PASS Level 1 has a continuous walkable route and clear interaction line to Siegeltruhe West
 PASS Fresh scene enters Menu
 PASS Fresh player starts with six health points
 PASS Fresh run resets seals, coins and defeated count
@@ -269,12 +287,17 @@ PASS Healing at full health returns false
 PASS Nonpositive damage does not alter health
 PASS Damage applies again after invulnerability expires
 PASS Scene contains exactly three seal chests
-PASS Scene contains the exit
+PASS Scene contains exactly one exit
+PASS Scene contains exactly one active exit gate
+PASS Exit owns the gate renderer and distinct closed/open sprites
+PASS Level 1 has a visible child gate sprite when approaching the exit
+PASS Gate prefab animation loops are disabled so the seal state controls its appearance
+PASS Level 1 gate displays its closed appearance with zero seals
 PASS Each seal chest references a living guardian
 PASS Every chest has its own guardian
-PASS Living guardian blocks chest Siegeltruhe Nord
-PASS Living guardian blocks chest Siegeltruhe West
 PASS Living guardian blocks chest Siegeltruhe Ost
+PASS Living guardian blocks chest Siegeltruhe West
+PASS Living guardian blocks chest Siegeltruhe Nord
 PASS Exit interaction rejects a run without all seals
 PASS Escape API rejects a run without all seals
 PASS Guardian 1 dies from lethal damage
@@ -298,6 +321,7 @@ PASS Repeated death and callback cannot duplicate rewards
 PASS Defeated guardian unlocks seal 3
 PASS Seal chest can only be collected once
 PASS Seal count and rewards are capped at three
+PASS Level 1 gate displays its open appearance with all three seals
 PASS Three seals allow exit and enter Won
 PASS Victory freezes the completed run
 PASS Fresh scene enters Playing
@@ -320,18 +344,12 @@ PASS Player has an animation controller
 PASS Player has a visible sprite reference
 PASS Player has a solid body collider
 PASS Player spawns clear of DungeonWalls
-PASS Wächter Nord has a rigidbody
-PASS Wächter Nord has an animation controller
-PASS Wächter Nord has a visible sprite reference
-PASS Wächter Nord health bar sits above the entire animated sprite
-PASS Wächter Nord has a solid body collider
-PASS Wächter Nord spawns clear of DungeonWalls
-PASS Kryptenwache West has a rigidbody
-PASS Kryptenwache West has an animation controller
-PASS Kryptenwache West has a visible sprite reference
-PASS Kryptenwache West health bar sits above the entire animated sprite
-PASS Kryptenwache West has a solid body collider
-PASS Kryptenwache West spawns clear of DungeonWalls
+PASS Kryptenwache West (1) has a rigidbody
+PASS Kryptenwache West (1) has an animation controller
+PASS Kryptenwache West (1) has a visible sprite reference
+PASS Kryptenwache West (1) health bar sits above the entire animated sprite
+PASS Kryptenwache West (1) has a solid body collider
+PASS Kryptenwache West (1) spawns clear of DungeonWalls
 PASS Wächter Ost has a rigidbody
 PASS Wächter Ost has an animation controller
 PASS Wächter Ost has a visible sprite reference
@@ -344,6 +362,18 @@ PASS Wächter West has a visible sprite reference
 PASS Wächter West health bar sits above the entire animated sprite
 PASS Wächter West has a solid body collider
 PASS Wächter West spawns clear of DungeonWalls
+PASS Wächter Nord has a rigidbody
+PASS Wächter Nord has an animation controller
+PASS Wächter Nord has a visible sprite reference
+PASS Wächter Nord health bar sits above the entire animated sprite
+PASS Wächter Nord has a solid body collider
+PASS Wächter Nord spawns clear of DungeonWalls
+PASS Kryptenwache West has a rigidbody
+PASS Kryptenwache West has an animation controller
+PASS Kryptenwache West has a visible sprite reference
+PASS Kryptenwache West health bar sits above the entire animated sprite
+PASS Kryptenwache West has a solid body collider
+PASS Kryptenwache West spawns clear of DungeonWalls
 PASS Kryptenwache Ost has a rigidbody
 PASS Kryptenwache Ost has an animation controller
 PASS Kryptenwache Ost has a visible sprite reference
@@ -381,45 +411,45 @@ PASS Player has an animation controller
 PASS Player has a visible sprite reference
 PASS Player has a solid body collider
 PASS Player spawns clear of DungeonWalls
-PASS Kryptenwache Ost has a rigidbody
-PASS Kryptenwache Ost has an animation controller
-PASS Kryptenwache Ost has a visible sprite reference
-PASS Kryptenwache Ost health bar sits above the entire animated sprite
-PASS Kryptenwache Ost has a solid body collider
-PASS Kryptenwache Ost spawns clear of DungeonWalls
-PASS Wächter West has a rigidbody
-PASS Wächter West has an animation controller
-PASS Wächter West has a visible sprite reference
-PASS Wächter West health bar sits above the entire animated sprite
-PASS Wächter West has a solid body collider
-PASS Wächter West spawns clear of DungeonWalls
 PASS Wächter Ost has a rigidbody
 PASS Wächter Ost has an animation controller
 PASS Wächter Ost has a visible sprite reference
 PASS Wächter Ost health bar sits above the entire animated sprite
 PASS Wächter Ost has a solid body collider
 PASS Wächter Ost spawns clear of DungeonWalls
-PASS Wächter Nord has a rigidbody
-PASS Wächter Nord has an animation controller
-PASS Wächter Nord has a visible sprite reference
-PASS Wächter Nord health bar sits above the entire animated sprite
-PASS Wächter Nord has a solid body collider
-PASS Wächter Nord spawns clear of DungeonWalls
 PASS Kryptenwache West has a rigidbody
 PASS Kryptenwache West has an animation controller
 PASS Kryptenwache West has a visible sprite reference
 PASS Kryptenwache West health bar sits above the entire animated sprite
 PASS Kryptenwache West has a solid body collider
 PASS Kryptenwache West spawns clear of DungeonWalls
+PASS Wächter West has a rigidbody
+PASS Wächter West has an animation controller
+PASS Wächter West has a visible sprite reference
+PASS Wächter West health bar sits above the entire animated sprite
+PASS Wächter West has a solid body collider
+PASS Wächter West spawns clear of DungeonWalls
+PASS Wächter Nord has a rigidbody
+PASS Wächter Nord has an animation controller
+PASS Wächter Nord has a visible sprite reference
+PASS Wächter Nord health bar sits above the entire animated sprite
+PASS Wächter Nord has a solid body collider
+PASS Wächter Nord spawns clear of DungeonWalls
+PASS Kryptenwache Ost has a rigidbody
+PASS Kryptenwache Ost has an animation controller
+PASS Kryptenwache Ost has a visible sprite reference
+PASS Kryptenwache Ost health bar sits above the entire animated sprite
+PASS Kryptenwache Ost has a solid body collider
+PASS Kryptenwache Ost spawns clear of DungeonWalls
 PASS Scene contains no missing script references
 PASS Runtime uses the selected level scene
 PASS Removed footer does not block mouse attacks
 PASS Level 2 navigation starts with a clear player footprint
   Navigation: level=2; spawn=(-8.00, -6.00); raster=95x71; step=0,250; reachable=2154; bounds=Center: (0.50, 0.50, 0.00), Extents: (11.60, 8.60, 0.50)
-PASS Level 2 has a continuous walkable route to Nordtor · Interaktion
-PASS Level 2 has a continuous walkable route to Siegeltruhe Nord
-PASS Level 2 has a continuous walkable route to Siegeltruhe Ost
-PASS Level 2 has a continuous walkable route to Siegeltruhe West
+PASS Level 2 has a continuous walkable route and clear interaction line to Nordtor
+PASS Level 2 has a continuous walkable route and clear interaction line to Siegeltruhe Nord
+PASS Level 2 has a continuous walkable route and clear interaction line to Siegeltruhe Ost
+PASS Level 2 has a continuous walkable route and clear interaction line to Siegeltruhe West
 PASS Fresh scene enters Menu
 PASS Fresh player starts with six health points
 PASS Fresh run resets seals, coins and defeated count
@@ -438,7 +468,7 @@ PASS Player spawn has room for an unobstructed melee test
 PASS Player accepts a ready melee attack
 PASS Immediate second melee attack is blocked by cooldown
   Attack sample: player=(-8.00, -6.00, 0.00); target=(-8.00, -5.20, 0.00); health=1; expected=1; facing=(0.00, 1.00)
-  Overlaps=Kryptenwache Ost:0,Player:0
+  Overlaps=Kryptenwache West:0,Player:0
   Wall=
   Target physics=(-8.00, -5.20); bounds=Center: (-8.00, -5.20, 0.00), Extents: (0.27, 0.27, 0.00); colliderEnabled=True; simulated=True
 PASS Player attack applies one point of damage through its delayed collider hit
@@ -449,12 +479,17 @@ PASS Healing at full health returns false
 PASS Nonpositive damage does not alter health
 PASS Damage applies again after invulnerability expires
 PASS Scene contains exactly three seal chests
-PASS Scene contains the exit
+PASS Scene contains exactly one exit
+PASS Scene contains exactly one active exit gate
+PASS Exit owns the gate renderer and distinct closed/open sprites
+PASS Level 2 has a visible child gate sprite when approaching the exit
+PASS Gate prefab animation loops are disabled so the seal state controls its appearance
+PASS Level 2 gate displays its closed appearance with zero seals
 PASS Each seal chest references a living guardian
 PASS Every chest has its own guardian
 PASS Living guardian blocks chest Siegeltruhe Nord
-PASS Living guardian blocks chest Siegeltruhe Ost
 PASS Living guardian blocks chest Siegeltruhe West
+PASS Living guardian blocks chest Siegeltruhe Ost
 PASS Exit interaction rejects a run without all seals
 PASS Escape API rejects a run without all seals
 PASS Guardian 1 dies from lethal damage
@@ -478,6 +513,7 @@ PASS Repeated death and callback cannot duplicate rewards
 PASS Defeated guardian unlocks seal 3
 PASS Seal chest can only be collected once
 PASS Seal count and rewards are capped at three
+PASS Level 2 gate displays its open appearance with all three seals
 PASS Three seals allow exit and enter Won
 PASS Victory freezes the completed run
 PASS Fresh scene enters Playing
@@ -500,18 +536,12 @@ PASS Player has an animation controller
 PASS Player has a visible sprite reference
 PASS Player has a solid body collider
 PASS Player spawns clear of DungeonWalls
-PASS Wächter Nord has a rigidbody
-PASS Wächter Nord has an animation controller
-PASS Wächter Nord has a visible sprite reference
-PASS Wächter Nord health bar sits above the entire animated sprite
-PASS Wächter Nord has a solid body collider
-PASS Wächter Nord spawns clear of DungeonWalls
-PASS Kryptenwache Ost has a rigidbody
-PASS Kryptenwache Ost has an animation controller
-PASS Kryptenwache Ost has a visible sprite reference
-PASS Kryptenwache Ost health bar sits above the entire animated sprite
-PASS Kryptenwache Ost has a solid body collider
-PASS Kryptenwache Ost spawns clear of DungeonWalls
+PASS Wächter Ost has a rigidbody
+PASS Wächter Ost has an animation controller
+PASS Wächter Ost has a visible sprite reference
+PASS Wächter Ost health bar sits above the entire animated sprite
+PASS Wächter Ost has a solid body collider
+PASS Wächter Ost spawns clear of DungeonWalls
 PASS Kryptenwache West has a rigidbody
 PASS Kryptenwache West has an animation controller
 PASS Kryptenwache West has a visible sprite reference
@@ -524,12 +554,18 @@ PASS Wächter West has a visible sprite reference
 PASS Wächter West health bar sits above the entire animated sprite
 PASS Wächter West has a solid body collider
 PASS Wächter West spawns clear of DungeonWalls
-PASS Wächter Ost has a rigidbody
-PASS Wächter Ost has an animation controller
-PASS Wächter Ost has a visible sprite reference
-PASS Wächter Ost health bar sits above the entire animated sprite
-PASS Wächter Ost has a solid body collider
-PASS Wächter Ost spawns clear of DungeonWalls
+PASS Kryptenwache Ost has a rigidbody
+PASS Kryptenwache Ost has an animation controller
+PASS Kryptenwache Ost has a visible sprite reference
+PASS Kryptenwache Ost health bar sits above the entire animated sprite
+PASS Kryptenwache Ost has a solid body collider
+PASS Kryptenwache Ost spawns clear of DungeonWalls
+PASS Wächter Nord has a rigidbody
+PASS Wächter Nord has an animation controller
+PASS Wächter Nord has a visible sprite reference
+PASS Wächter Nord health bar sits above the entire animated sprite
+PASS Wächter Nord has a solid body collider
+PASS Wächter Nord spawns clear of DungeonWalls
 PASS Scene contains no missing script references
 PASS Runtime uses the selected level scene
 PASS Removed footer does not block mouse attacks
@@ -549,7 +585,12 @@ PASS Return to menu stays in Menu with time frozen
 PASS Returned menu does not advance time
 PASS Level selection returns to the first level menu
 PASS Scene contains exactly three seal chests
-PASS Scene contains the exit
+PASS Scene contains exactly one exit
+PASS Scene contains exactly one active exit gate
+PASS Exit owns the gate renderer and distinct closed/open sprites
+PASS Level 0 has a visible child gate sprite when approaching the exit
+PASS Gate prefab animation loops are disabled so the seal state controls its appearance
+PASS Level 0 gate displays its closed appearance with zero seals
 PASS Each seal chest references a living guardian
 PASS Every chest has its own guardian
 PASS Living guardian blocks chest Siegeltruhe Nord
@@ -578,17 +619,23 @@ PASS Repeated death and callback cannot duplicate rewards
 PASS Defeated guardian unlocks seal 3
 PASS Seal chest can only be collected once
 PASS Seal count and rewards are capped at three
+PASS Level 0 gate displays its open appearance with all three seals
 PASS Three seals allow exit and enter Won
 PASS Victory freezes the completed run
 PASS Continue starts the next level directly
 PASS Next level resets seals and health
 PASS Scene contains exactly three seal chests
-PASS Scene contains the exit
+PASS Scene contains exactly one exit
+PASS Scene contains exactly one active exit gate
+PASS Exit owns the gate renderer and distinct closed/open sprites
+PASS Level 1 has a visible child gate sprite when approaching the exit
+PASS Gate prefab animation loops are disabled so the seal state controls its appearance
+PASS Level 1 gate displays its closed appearance with zero seals
 PASS Each seal chest references a living guardian
 PASS Every chest has its own guardian
 PASS Living guardian blocks chest Siegeltruhe Nord
-PASS Living guardian blocks chest Siegeltruhe West
 PASS Living guardian blocks chest Siegeltruhe Ost
+PASS Living guardian blocks chest Siegeltruhe West
 PASS Exit interaction rejects a run without all seals
 PASS Escape API rejects a run without all seals
 PASS Guardian 1 dies from lethal damage
@@ -612,17 +659,23 @@ PASS Repeated death and callback cannot duplicate rewards
 PASS Defeated guardian unlocks seal 3
 PASS Seal chest can only be collected once
 PASS Seal count and rewards are capped at three
+PASS Level 1 gate displays its open appearance with all three seals
 PASS Three seals allow exit and enter Won
 PASS Victory freezes the completed run
 PASS Continue starts the next level directly
 PASS Next level resets seals and health
 PASS Scene contains exactly three seal chests
-PASS Scene contains the exit
+PASS Scene contains exactly one exit
+PASS Scene contains exactly one active exit gate
+PASS Exit owns the gate renderer and distinct closed/open sprites
+PASS Level 2 has a visible child gate sprite when approaching the exit
+PASS Gate prefab animation loops are disabled so the seal state controls its appearance
+PASS Level 2 gate displays its closed appearance with zero seals
 PASS Each seal chest references a living guardian
 PASS Every chest has its own guardian
-PASS Living guardian blocks chest Siegeltruhe West
-PASS Living guardian blocks chest Siegeltruhe Nord
 PASS Living guardian blocks chest Siegeltruhe Ost
+PASS Living guardian blocks chest Siegeltruhe Nord
+PASS Living guardian blocks chest Siegeltruhe West
 PASS Exit interaction rejects a run without all seals
 PASS Escape API rejects a run without all seals
 PASS Guardian 1 dies from lethal damage
@@ -646,10 +699,11 @@ PASS Repeated death and callback cannot duplicate rewards
 PASS Defeated guardian unlocks seal 3
 PASS Seal chest can only be collected once
 PASS Seal count and rewards are capped at three
+PASS Level 2 gate displays its open appearance with all three seals
 PASS Three seals allow exit and enter Won
 PASS Victory freezes the completed run
 PASS Play mode produced no errors or exceptions (observed: 0)
 
 RESULT: PASS
-Assertions passed: 622; failed: 0
-Duration: 9,20 seconds
+Assertions passed: 675; failed: 0
+Duration: 9,04 seconds

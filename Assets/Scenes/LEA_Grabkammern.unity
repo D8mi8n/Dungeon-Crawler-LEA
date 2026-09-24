@@ -15934,8 +15934,12 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2116957537}
+    m_TransformParent: {fileID: 1435665679}
     m_Modifications:
+    - target: {fileID: 1232991348388853107, guid: 1fc7d655f9922964186a970354b1243c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3904894708843081311, guid: 1fc7d655f9922964186a970354b1243c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.65
@@ -15950,11 +15954,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904894708843081311, guid: 1fc7d655f9922964186a970354b1243c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3904894708843081311, guid: 1fc7d655f9922964186a970354b1243c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.65
+      value: 0.8499994
       objectReference: {fileID: 0}
     - target: {fileID: 3904894708843081311, guid: 1fc7d655f9922964186a970354b1243c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15966,15 +15970,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904894708843081311, guid: 1fc7d655f9922964186a970354b1243c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3904894708843081311, guid: 1fc7d655f9922964186a970354b1243c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3904894708843081311, guid: 1fc7d655f9922964186a970354b1243c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3904894708843081311, guid: 1fc7d655f9922964186a970354b1243c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15990,7 +15994,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5573405960503104150, guid: 1fc7d655f9922964186a970354b1243c, type: 3}
       propertyPath: m_SortingOrder
-      value: 300
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 8851925680955743440, guid: 1fc7d655f9922964186a970354b1243c, type: 3}
       propertyPath: m_Name
@@ -16004,6 +16008,11 @@ PrefabInstance:
 --- !u!4 &760956230 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3904894708843081311, guid: 1fc7d655f9922964186a970354b1243c, type: 3}
+  m_PrefabInstance: {fileID: 760956229}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &760956231 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5573405960503104150, guid: 1fc7d655f9922964186a970354b1243c, type: 3}
   m_PrefabInstance: {fileID: 760956229}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &762191010
@@ -32962,8 +32971,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1435665679}
   - component: {fileID: 1435665680}
+  - component: {fileID: 1435665681}
   m_Layer: 0
-  m_Name: "Nordtor \xB7 Interaktion"
+  m_Name: Nordtor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32977,11 +32987,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435665678}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 7.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 760956230}
   m_Father: {fileID: 2116957537}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1435665680
@@ -33000,6 +33011,21 @@ MonoBehaviour:
   guardian: {fileID: 0}
   openedSprite: {fileID: 0}
   amount: 2
+--- !u!114 &1435665681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435665678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c1029884f8482e8e09fce0b2a06b79, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::DungeonExitGate
+  gateRenderer: {fileID: 760956231}
+  closedSprite: {fileID: -3813957895643319183, guid: 12474815022704c4f8e4c5be8cc3a378, type: 3}
+  openSprite: {fileID: 1417397502, guid: 12474815022704c4f8e4c5be8cc3a378, type: 3}
 --- !u!1 &1438242247
 GameObject:
   m_ObjectHideFlags: 0
@@ -47624,7 +47650,6 @@ Transform:
   - {fileID: 563707034}
   - {fileID: 1704261781}
   - {fileID: 1573550578}
-  - {fileID: 760956230}
   - {fileID: 1435665679}
   - {fileID: 741690237}
   - {fileID: 444544639}
