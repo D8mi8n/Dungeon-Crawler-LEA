@@ -1652,7 +1652,7 @@ TextureImporter:
         width: 32
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1661,6 +1661,28 @@ TextureImporter:
       bones: []
       spriteID: 4c3b1d4b60396b343a6fcaf0dde609b5
       internalID: 1125802376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Line
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 366
+        width: 48
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540f7e04923970544ab0aa75433c93d6
+      internalID: -1693806456
       vertices: []
       indices: 
       edges: []
@@ -1702,6 +1724,7 @@ TextureImporter:
       Left_Side_Slab_4: 1815086580
       Left_Side_Slab_5: -284849151
       Left_Side_Slab_6: -2061328754
+      Line: -1693806456
       Piller_Back_1: -1688776405
       Piller_Back_2: -1953420418
       Piller_Back_3: 1824020762
