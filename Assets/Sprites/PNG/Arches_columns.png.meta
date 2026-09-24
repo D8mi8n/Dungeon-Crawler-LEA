@@ -138,7 +138,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 158
-        width: 193
+        width: 96
         height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -405,7 +405,7 @@ TextureImporter:
         width: 64
         height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -414,6 +414,50 @@ TextureImporter:
       bones: []
       spriteID: 5761476ff7212a54187ba78a52ff71c7
       internalID: -1088661138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arches_columns_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 164
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67236e8259dea342aed4e32e10fb17f
+      internalID: 1908848013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arches_columns_14
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 164
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3580bcfd2a42d94993fa75553d9ea66
+      internalID: -290217301
       vertices: []
       indices: 
       edges: []
@@ -437,6 +481,8 @@ TextureImporter:
       Arches_columns_10: -6818308714527396363
       Arches_columns_11: 3434136761850349279
       Arches_columns_12: -1088661138
+      Arches_columns_13: 1908848013
+      Arches_columns_14: -290217301
       Arches_columns_2: 1825568607432441255
       Arches_columns_3: 7058376677525072327
       Arches_columns_4: -1354753644207382178

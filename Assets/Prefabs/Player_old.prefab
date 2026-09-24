@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5293843979039709351}
   - component: {fileID: 2331738429535260905}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Player_old
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -194,6 +194,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f2be01bf014011af7de4f70d832b62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DungeonHUD
+  panelSprite: {fileID: 0}
+  buttonNormal: {fileID: 0}
+  buttonHover: {fileID: 0}
+  buttonPressed: {fileID: 0}
+  characterFrame: {fileID: 0}
+  actionPanel: {fileID: 0}
+  sealIcon: {fileID: 0}
+  coinIcon: {fileID: 0}
+  swordIcon: {fileID: 0}
+  healthIcon: {fileID: 0}
+  movementIcon: {fileID: 0}
+  soundOnIcon: {fileID: 0}
+  soundOffIcon: {fileID: 0}
+  starIcon: {fileID: 0}
+  defeatIcon: {fileID: 0}
+  playerPortrait: {fileID: 0}
 --- !u!70 &2331738429535260905
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
