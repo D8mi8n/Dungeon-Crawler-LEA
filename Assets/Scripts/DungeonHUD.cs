@@ -14,6 +14,21 @@ public sealed class DungeonHUD : MonoBehaviour
     private static readonly Color Green = new Color(.18f,.38f,.25f);
     private static readonly Color Cream = new Color(1,.91f,.70f);
     private GUIStyle label, centered, button;
+    private Font pixelFont, pixelButtonFont;
+
+    private void OnEnable() => Font.textureRebuilt += OnFontTextureRebuilt;
+    private void OnDisable() => Font.textureRebuilt -= OnFontTextureRebuilt;
+
+    private void OnFontTextureRebuilt(Font font)
+    {
+        if (font == pixelFont || font == pixelButtonFont) UsePointFiltering(font);
+    }
+
+    private static void UsePointFiltering(Font font)
+    {
+        if (font != null && font.material != null && font.material.mainTexture != null)
+            font.material.mainTexture.filterMode = FilterMode.Point;
+    }
 
     public static bool BlocksWorldPointer(Vector2 screenPosition)
     {
@@ -52,10 +67,13 @@ public sealed class DungeonHUD : MonoBehaviour
     private void EnsureStyles()
     {
         if (label != null) return;
-        Font font=Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-        label=new GUIStyle { font=font,fontSize=20,alignment=TextAnchor.MiddleLeft,wordWrap=true };
+        pixelFont=Resources.Load<Font>("Fonts/PixelifySans-Regular");
+        pixelButtonFont=Resources.Load<Font>("Fonts/PixelifySans-Bold");
+        UsePointFiltering(pixelFont);
+        UsePointFiltering(pixelButtonFont);
+        label=new GUIStyle { font=pixelFont,fontSize=20,alignment=TextAnchor.MiddleLeft,wordWrap=true };
         centered=new GUIStyle(label) { alignment=TextAnchor.MiddleCenter };
-        button=new GUIStyle(centered) { fontSize=23,fontStyle=FontStyle.Bold };
+        button=new GUIStyle(centered) { font=pixelButtonFont,fontSize=23,wordWrap=false };
         button.normal.textColor=button.hover.textColor=button.active.textColor=button.focused.textColor=Ink;
     }
 
@@ -90,7 +108,6 @@ public sealed class DungeonHUD : MonoBehaviour
         Fill(new Rect(124,44,124,9),new Color(.19f,.09f,.08f));
         Fill(new Rect(124,44,124*hp/Mathf.Max(1f,max),9),new Color(.84f,.28f,.22f));
         for(int i=1;i<max;i++) Fill(new Rect(124+124f*i/max,44,2,9),new Color(.24f,.16f,.09f));
-        Text(new Rect(123,56,130,27),hp+" / "+max,17,false,Cream);
         Metric(new Rect(735,21,169,83),sealIcon,"SIEGEL",g.SealCount+" / 3");
         Metric(new Rect(918,21,155,83),coinIcon,"MÜNZEN",g.CoinCount.ToString());
         Metric(new Rect(1087,21,171,83),swordIcon,"BESIEGT",g.DefeatedEnemies+" / "+g.TotalEnemies);

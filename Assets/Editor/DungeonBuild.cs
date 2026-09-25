@@ -181,7 +181,7 @@ public static class DungeonBuild
         hud.characterFrame = UiSprite("character_panel", 1);
         hud.playerPortrait = FirstSprite(2);
         hud.actionPanel = UiSprite("Action_panel", 0);
-        hud.sealIcon = UiSprite("Icons", 102);
+        hud.sealIcon = UiSprite("Circle_menu", 34);
         hud.coinIcon = UiSprite("Icons", 69);
         hud.swordIcon = UiSprite("Icons", 85);
         hud.movementIcon = UiSprite("Icons", 64);

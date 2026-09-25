@@ -8636,7 +8636,7 @@ MonoBehaviour:
   buttonPressed: {fileID: -1175416069785852829, guid: 8e19c768999fe5b458fabf1895e09141, type: 3}
   characterFrame: {fileID: -214830240826405523, guid: d12dd58ee1a81654a969826dbfe52202, type: 3}
   actionPanel: {fileID: 2678117307762808000, guid: 8df2e2a65ffbf204b8e2dfa5b0da8b15, type: 3}
-  sealIcon: {fileID: -6989001855597078397, guid: 7a192691b71a46c46b251c555338817d, type: 3}
+  sealIcon: {fileID: 5980551033734243631, guid: ebd199325c715f14190b36b36c766c1a, type: 3}
   coinIcon: {fileID: 1029129698335283115, guid: 7a192691b71a46c46b251c555338817d, type: 3}
   swordIcon: {fileID: 5594145062663716712, guid: 7a192691b71a46c46b251c555338817d, type: 3}
   healthIcon: {fileID: -8606722388723651808, guid: 7a192691b71a46c46b251c555338817d, type: 3}
