@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lever
+  m_Name: Lever_Zu
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -22,14 +22,6 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -5792843911637555209, guid: ee241d9124e9fc14eba72af2e47b15fd, type: 3}
-    - time: 0.083333336
-      value: {fileID: 7381882816502574587, guid: ee241d9124e9fc14eba72af2e47b15fd, type: 3}
-    - time: 0.16666667
-      value: {fileID: 6061573631059440154, guid: ee241d9124e9fc14eba72af2e47b15fd, type: 3}
-    - time: 0.25
-      value: {fileID: 3482305386878204432, guid: ee241d9124e9fc14eba72af2e47b15fd, type: 3}
-    - time: 0.33333334
-      value: {fileID: 5729546948166941228, guid: ee241d9124e9fc14eba72af2e47b15fd, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -53,16 +45,12 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
     - {fileID: -5792843911637555209, guid: ee241d9124e9fc14eba72af2e47b15fd, type: 3}
-    - {fileID: 7381882816502574587, guid: ee241d9124e9fc14eba72af2e47b15fd, type: 3}
-    - {fileID: 6061573631059440154, guid: ee241d9124e9fc14eba72af2e47b15fd, type: 3}
-    - {fileID: 3482305386878204432, guid: ee241d9124e9fc14eba72af2e47b15fd, type: 3}
-    - {fileID: 5729546948166941228, guid: ee241d9124e9fc14eba72af2e47b15fd, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.35000002
+    m_StopTime: 0.016666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

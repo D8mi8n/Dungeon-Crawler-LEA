@@ -2,23 +2,46 @@ using UnityEngine;
 
 public class LeverSwitch : MonoBehaviour
 {
+    [Header("Lever")]
     public Animator leverAnimator;
-    public Animator steelGridAnimator;
+
+    [Header("Steel Grid")]
     public GameObject steelGrid;
 
-    private Collider steelGridCollider;
+    private Animator steelGridAnimator;
+    private Collider2D steelGridCollider;
 
     private bool activated = false;
 
-    private void Start()
+    private void Awake()
     {
-        steelGridCollider = steelGrid.GetComponent<Collider>();
+        if (steelGrid == null)
+        {
+            Debug.LogError("Steel_Grid wurde im Inspector nicht zugewiesen!");
+            return;
+        }
+
+        // Animator des Steel_Grid suchen
+        steelGridAnimator = steelGrid.GetComponent<Animator>();
+
+        // Collider2D des Steel_Grid suchen
+        steelGridCollider = steelGrid.GetComponent<Collider2D>();
+
+        if (steelGridAnimator == null)
+        {
+            Debug.LogError("Kein Animator auf Steel_Grid gefunden!");
+        }
+
+        if (steelGridCollider == null)
+        {
+            Debug.LogError("Kein Collider2D auf Steel_Grid gefunden!");
+        }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         // Nur auf den Player reagieren
-        if (activated || !other.CompareTag("Player"))
+        if (!collision.gameObject.CompareTag("Player"))
             return;
 
         ActivateLever();
@@ -26,15 +49,26 @@ public class LeverSwitch : MonoBehaviour
 
     private void ActivateLever()
     {
+        if (activated)
+            return;
+
         activated = true;
 
-        // Lever-Animation abspielen
-        leverAnimator.Play("Lever");
+        Debug.Log("Lever wurde aktiviert!");
 
-        // Steel_Grid öffnen
-        steelGridAnimator.Play("Steel_Grid_Open");
+        // Lever Animation
+        if (leverAnimator != null)
+        {
+            leverAnimator.Play("Lever_Offen");
+        }
 
-        // Collider des Steel_Grid deaktivieren
+        // Steel Grid Animation
+        if (steelGridAnimator != null)
+        {
+            steelGridAnimator.Play("Steel_Grid_Open");
+        }
+
+        // Collider des Steel Grid deaktivieren
         if (steelGridCollider != null)
         {
             steelGridCollider.enabled = false;
