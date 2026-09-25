@@ -77,7 +77,7 @@ Die Oberfläche verwendet die Pixel-Art-Sprites aus `Assets/Sprites/PNG_UI` und 
 - Das Siegelsymbol verwendet `Circle_menu_34` aus `Circle_menu.png`.
 - Interaktionshinweise erscheinen in der Nähe von Truhen und Toren. Die Steuerungsübersicht steht im Hauptmenü.
 
-Die GUI-Sprites sind am Objekt **LEA Spielsteuerung → DungeonHUD** zugewiesen. Die Oberfläche skaliert ausgehend von 1280 × 720 auf die Fenstergröße; die Rahmen werden in neun Teilen gezeichnet.
+Die GUI-Sprites sind am Objekt **LEA Spielsteuerung → DungeonHUD** zugewiesen. Die Oberfläche skaliert ausgehend von 16:9 auf die Fenstergröße.
 
 ## Windows-Version erstellen
 
@@ -94,7 +94,7 @@ Die gespeicherten Szenen unter `Assets/Scenes` enthalten den aktuellen, manuell 
 
 Die älteren Erzeugungswerkzeuge sind weiterhin im Editor-Menü vorhanden:
 
-- **LEA → Spielszene vorbereiten** würde `LEA.unity` und die erzeugten LEA-Animator-Controller ersetzen. Es benötigt außerdem `Assets/Scenes/Dungeon.unity`, die im aktuellen Projekt nicht mehr vorhanden ist.
+- **LEA → Spielszene vorbereiten** würde `LEA.unity` und die erzeugten LEA-Animator-Controller ersetzen. 
 - **LEA → Zwei zusätzliche Level erzeugen** ersetzt Zisterne und Grabkammern durch die Generatorlayouts. Dabei gehen die manuellen Erweiterungen und die dort eingerichteten Drachenfallen verloren.
 - **LEA → GUI-Sprites zuweisen** setzt die vorgesehenen UI-Referenzen in `LEA.unity` neu. Es aktualisiert nicht automatisch die beiden anderen Szenen.
 
