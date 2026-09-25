@@ -48,7 +48,7 @@ public sealed class DungeonGame : MonoBehaviour
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.playOnAwake = false;
         audioSource.spatialBlend = 0;
-        audioSource.volume = 0.17f;
+        audioSource.volume = 0.55f;
     }
 
     private void Start()
@@ -228,34 +228,76 @@ public sealed class DungeonGame : MonoBehaviour
         if (Muted || audioSource == null) return;
         if (!sounds.TryGetValue(cue, out AudioClip clip))
         {
-            float frequency = 280, duration = 0.13f;
-            switch (cue)
-            {
-                case "attack": frequency = 180; break;
-                case "enemyAttack": frequency = 120; break;
-                case "hurt": frequency = 90; duration = 0.22f; break;
-                case "enemyHit": frequency = 140; break;
-                case "enemyDeath": frequency = 110; duration = 0.35f; break;
-                case "heal": frequency = 520; duration = 0.32f; break;
-                case "coin": frequency = 880; break;
-                case "seal": frequency = 660; duration = 0.5f; break;
-                case "win": frequency = 740; duration = 0.9f; break;
-                case "death": frequency = 160; duration = 0.7f; break;
-                case "start": frequency = 440; duration = 0.35f; break;
-            }
-            const int rate = 22050;
-            float[] samples = new float[Mathf.CeilToInt(rate * duration)];
-            for (int i = 0; i < samples.Length; i++)
-            {
-                float t = i / (float)rate, progress = t / duration;
-                float envelope = Mathf.Min(t * 80, 1) * (1 - progress) * (1 - progress);
-                samples[i] = Mathf.Sin(2 * Mathf.PI * frequency * t * (1 + progress * 0.22f)) * envelope;
-            }
-            clip = AudioClip.Create("LEA " + cue, samples.Length, 1, rate, false);
-            clip.SetData(samples, 0);
+            clip = CreateSound(cue);
             sounds.Add(cue, clip);
         }
         audioSource.PlayOneShot(clip);
+    }
+
+    private static AudioClip CreateSound(string cue)
+    {
+        float startFrequency = 440, endFrequency = 440, duration = 0.25f, noiseAmount = 0;
+        float[] notes = null;
+        switch (cue)
+        {
+            case "attack": startFrequency = 360; endFrequency = 180; duration = 0.23f; noiseAmount = 0.75f; break;
+            case "enemyAttack": startFrequency = 300; endFrequency = 160; duration = 0.27f; noiseAmount = 0.55f; break;
+            case "hurt": startFrequency = 400; endFrequency = 180; duration = 0.32f; noiseAmount = 0.45f; break;
+            case "enemyHit": startFrequency = 540; endFrequency = 220; duration = 0.23f; noiseAmount = 0.6f; break;
+            case "enemyDeath": startFrequency = 350; endFrequency = 120; duration = 0.48f; noiseAmount = 0.5f; break;
+            case "death": startFrequency = 440; endFrequency = 120; duration = 0.8f; noiseAmount = 0.25f; break;
+            case "heal": notes = new[] { 660f, 825f, 990f }; duration = 0.48f; break;
+            case "coin": notes = new[] { 1046f, 1568f }; duration = 0.23f; break;
+            case "seal": notes = new[] { 660f, 825f, 990f }; duration = 0.6f; break;
+            case "win": notes = new[] { 523.25f, 659.25f, 784f, 1046.5f }; duration = 0.95f; break;
+            case "start": notes = new[] { 440f, 550f, 660f }; duration = 0.42f; break;
+        }
+
+        const int rate = 44100;
+        float[] samples = new float[Mathf.CeilToInt(rate * duration)];
+        // Local noise keeps sound synthesis independent of gameplay's random state.
+        var noise = new System.Random(173);
+        float phase = 0, filteredNoise = 0, peak = 0;
+        double energy = 0;
+        for (int i = 0; i < samples.Length; i++)
+        {
+            float t = i / (float)rate, progress = i / (float)(samples.Length - 1);
+            float frequency = Mathf.Lerp(startFrequency, endFrequency, progress);
+            float envelope;
+            if (notes != null)
+            {
+                float notePosition = progress * notes.Length;
+                int note = Mathf.Min(Mathf.FloorToInt(notePosition), notes.Length - 1);
+                float noteTime = (notePosition - note) * duration / notes.Length;
+                float noteLength = duration / notes.Length;
+                frequency = notes[note];
+                // Fade each note at its boundary to avoid clicks between pitches.
+                envelope = Mathf.Clamp01(Mathf.Min(noteTime / 0.008f, (noteLength - noteTime) / 0.025f))
+                    * Mathf.Lerp(1f, 0.6f, noteTime / noteLength);
+            }
+            else
+                envelope = Mathf.Min(t / 0.012f, 1f) * Mathf.Pow(1f - progress, 0.8f);
+
+            phase = Mathf.Repeat(phase + 2f * Mathf.PI * frequency / rate, 2f * Mathf.PI);
+            // Midrange harmonics remain audible on small speakers; filtered noise adds a swing/impact.
+            float tone = Mathf.Sin(phase) + 0.4f * Mathf.Sin(2f * phase) + 0.2f * Mathf.Sin(3f * phase);
+            filteredNoise = Mathf.Lerp(filteredNoise, (float)noise.NextDouble() * 2f - 1f, 0.35f);
+            float signal = tone * (1f - noiseAmount) + filteredNoise * noiseAmount * 2f;
+            // Soften isolated noise peaks so they do not force the entire impact to be quiet.
+            if (noiseAmount > 0f) signal /= 1f + Mathf.Abs(signal);
+            float sample = signal * envelope;
+            samples[i] = sample;
+            peak = Mathf.Max(peak, Mathf.Abs(sample));
+            energy += sample * sample;
+        }
+
+        // Balance perceived levels without clipping individual effects; leave headroom for overlapping hits.
+        float rms = Mathf.Sqrt((float)(energy / samples.Length));
+        float gain = Mathf.Min(0.24f / Mathf.Max(rms, 0.0001f), 0.65f / Mathf.Max(peak, 0.0001f));
+        for (int i = 0; i < samples.Length; i++) samples[i] *= gain;
+        AudioClip clip = AudioClip.Create("LEA " + cue, samples.Length, 1, rate, false);
+        clip.SetData(samples, 0);
+        return clip;
     }
 
     public void QuitGame()
